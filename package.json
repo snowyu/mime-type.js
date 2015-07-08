@@ -1,7 +1,7 @@
 {
   "name": "mime-type",
   "description": "the custom content-type utility can work with mime-db.",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "contributors": [
     "Riceball LEE https://github.com/snowyu",
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
@@ -36,6 +36,7 @@
     "LICENSE",
     "lib",
     "src",
+    "with-db.js",
     "index.js"
   ],
   "engines": {
