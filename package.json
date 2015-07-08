@@ -27,7 +27,7 @@
     "mocha": "~1.21.5",
     "pre-commit": "^1.0.10"
   },
-  "pre-commit": "test",
+  "pre-commit": ["pretest", "test"],
   "files": [
     "HISTORY.md",
     "LICENSE",
