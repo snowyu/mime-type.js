@@ -1,9 +1,21 @@
 
 var assert = require('assert')
 var mimeType = require('../with-db')
+var MimeType = require('../')
 var db = require('mime-db')
 
 describe('mimeType', function () {
+  describe('constructor', function () {
+    it('should set the global duplicationProcessWay on constructor', function () {
+      var m = MimeType(null, MimeType.prototype.dupOverwrite)
+      assert.equal(m.dup, MimeType.prototype.dupOverwrite)
+    })
+  })
+  describe('.extensions', function () {
+    it('should get the extensions', function () {
+      assert.equal(Object.keys(mimeType.extensions).length, Object.keys(mimeType).length)
+    })
+  })
   describe('.clear(filter)', function () {
     it('should clear all types', function () {
       mimeType.clear()
@@ -37,8 +49,34 @@ describe('mimeType', function () {
       assert.ok(!mimeType.hasOwnProperty('1sas/ss'))
       assert.ok(!mimeType.types.hasOwnProperty('ss'))
     })
+    it('should delete a mime type with crosslink extensions', function () {
+      var t
+      assert.ok(mimeType.define('1sas/ss', {extensions:['ss', 'as']}))
+      assert.ok(mimeType.define('2sas/ss', {extensions:['ss', 'as']}, mimeType.dupAppend))
+      assert.ok(mimeType.define('3sas/ss', {extensions:['ss']}, mimeType.dupAppend))
+      assert.ok(mimeType.delete('1sas/ss'))
+      assert.ok(!mimeType.hasOwnProperty('1sas/ss'))
+      t = mimeType.types['ss']
+      assert.deepEqual(t, ['2sas/ss', '3sas/ss'])
+      t = mimeType.types['as']
+      assert.ok(t === '2sas/ss')
+      assert.ok(mimeType.delete('2sas/ss'))
+      assert.ok(!mimeType.hasOwnProperty('2sas/ss'))
+      t = mimeType.types['ss']
+      assert.ok(t === '3sas/ss')
+      assert.ok(!mimeType.types.hasOwnProperty('as'))
+      assert.ok(mimeType.delete('3sas/ss'))
+      assert.ok(!mimeType.hasOwnProperty('3sas/ss'))
+      assert.ok(!mimeType.types.hasOwnProperty('ss'))
+    })
   })
   describe('.define(type, object)', function () {
+    it('should define a mime type with single extension', function () {
+      assert.equal(mimeType.exist('1sas/ss'), false)
+      assert.ok(mimeType.define('1sas/ss', {extensions:'ss'}))
+      assert.equal(mimeType.exist('1sas/ss'), true)
+      assert.ok(mimeType.delete('1sas/ss'))
+    })
     it('should define a mime type', function () {
       assert.equal(mimeType.exist('1sas/ss'), false)
       assert.ok(mimeType.define('1sas/ss', {extensions:['ss']}))
@@ -52,9 +90,14 @@ describe('mimeType', function () {
     })
     it('should define a mime type and default duplcation process to the new type', function () {
       assert.equal(mimeType.exist('3das/ss'), false)
-      assert.ok(mimeType.define('3das/ss', {extensions:['ss']}, mimeType.dd))
+      assert.ok(mimeType.define('3das/ss', {extensions:['ss']}, mimeType.dupDefault))
       assert.equal(mimeType.exist('3das/ss'), true)
       assert.deepEqual(mimeType.types['ss'], '3das/ss')
+    })
+    it('should define a mime type and skip duplication extension to the new type', function () {
+      assert.equal(mimeType.exist('2das/ss'), false)
+      assert.ok(mimeType.define('2das/ss', {extensions:['ss']}, mimeType.dupSkip))
+      assert.equal(mimeType.exist('2das/ss'), false)
     })
     it('should define a mime type and overwrite duplication extension to the new type', function () {
       assert.equal(mimeType.exist('2das/ss'), false)
