@@ -18,6 +18,7 @@
   "dependencies": {
     "media-typer": "^0.3.0",
     "minimatch": "^2.0.8",
+    "path-ex": "0.0.1",
     "util-ex": "^0.3.4"
   },
   "devDependencies": {
@@ -27,7 +28,9 @@
     "mocha": "~1.21.5",
     "pre-commit": "^1.0.10"
   },
-  "pre-commit": ["test"],
+  "pre-commit": [
+    "test"
+  ],
   "files": [
     "HISTORY.md",
     "LICENSE",

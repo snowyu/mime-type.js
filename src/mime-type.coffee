@@ -8,7 +8,7 @@ isArray         = require('util-ex/lib/is/type/array')
 isString        = require('util-ex/lib/is/type/string')
 isFunction      = require('util-ex/lib/is/type/function')
 defineProperty  = require('util-ex/lib/defineProperty')
-extname         = require('path').extname
+extname         = require('path-ex').extname
 
 extractTypeRegExp = /^\s*([^;\s]*)(?:;|\s|$)/
 textTypeRegExp = /^text\//i
