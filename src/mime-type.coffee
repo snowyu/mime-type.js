@@ -2,12 +2,13 @@
 # Module variables.
 # @private
 ###
-mediaTyper  = require('media-typer')
-minimatch   = require('minimatch')
-isArray     = require('util-ex/lib/is/type/array')
-isString    = require('util-ex/lib/is/type/string')
-defineProperty = require('util-ex/lib/defineProperty')
-extname     = require('path').extname
+mediaTyper      = require('media-typer')
+minimatch       = require('minimatch')
+isArray         = require('util-ex/lib/is/type/array')
+isString        = require('util-ex/lib/is/type/string')
+isFunction      = require('util-ex/lib/is/type/function')
+defineProperty  = require('util-ex/lib/defineProperty')
+extname         = require('path').extname
 
 extractTypeRegExp = /^\s*([^;\s]*)(?:;|\s|$)/
 textTypeRegExp = /^text\//i
@@ -20,18 +21,24 @@ module.exports = class MimeTypes
   'use strict'
 
   constructor: (db, duplicationProcessWay)->
-    return new MimeTypes db if not (this instanceof MimeTypes)
+    return new MimeTypes db, duplicationProcessWay if not (this instanceof MimeTypes)
     defineProperty @, 'types', {}
-    defineProperty @, 'mimes', {}
 
     defineProperty @, 'dupDefault', 0
     defineProperty @, 'dupSkip', 1
     defineProperty @, 'dupOverwrite', 2
     defineProperty @, 'dupAppend', 3
     defineProperty @, 'dup', @dupDefault
+    defineProperty @, 'extensions', undefined, get: ->
+      result = {}
+      for k in Object.keys(@)
+        mime = @[k]
+        result[k] = mime.extensions
+      result
+        
     if duplicationProcessWay and duplicationProcessWay in [0..3]
       @dup = duplicationProcessWay
-    @_load(db) if db
+    @load(db) if db
 
   ###
   # Get the default charset for a MIME type.
@@ -47,7 +54,7 @@ module.exports = class MimeTypes
         if not result
           obj.parameters = undefined
           type = mediaTyper.format(obj)
-          result = @mimes[type] and @mimes[type].charset
+          result = @[type] and @[type].charset
         # default text/* to utf-8
         result = 'utf-8' if !result and obj.type is 'text'
     result
@@ -82,7 +89,7 @@ module.exports = class MimeTypes
       # TODO: use media-typer
       result = extractTypeRegExp.exec(type)
       # get extensions
-      result = result and @mimes[result[1].toLowerCase()]
+      result = result and @[result[1].toLowerCase()]
       if result
         result = result.defaultExtension or result.extensions[0]
     result
@@ -107,7 +114,7 @@ module.exports = class MimeTypes
   ###
   glob: (pattern)->
     return [ 'application/octet-stream' ] if pattern == '*/*'
-    result = Object.keys(@mimes).filter (name)->
+    result = Object.keys(@).filter (name)->
       minimatch(name, pattern)
     result
 
@@ -116,7 +123,7 @@ module.exports = class MimeTypes
   # @param {string} type the mime type
   # @return {boolean}
   ###
-  exist: (type)-> @mimes.hasOwnProperty type
+  exist: Object::hasOwnProperty #(type)-> @hasOwnProperty type
 
   # source preference (least -> most)
   refSources = [
@@ -134,10 +141,11 @@ module.exports = class MimeTypes
   #  * "charset": "UTF-8",
   #  * "compressible": true,
   #  * "extensions": ["js"]
+  # @return {array}: the added extensions
   ###
   define: (type, mime, dup)->
     return unless type and mime and mime.extensions and
-      !@mimes.hasOwnProperty type
+      !@hasOwnProperty type
     dup = @dup unless dup?
     exts = mime.extensions
     mime.extensions = [exts] unless isArray exts
@@ -156,7 +164,7 @@ module.exports = class MimeTypes
             t = type
           when @dupDefault
             t = t[0] if isArray t
-            from = refSources.indexOf(@mimes[t].source)
+            from = refSources.indexOf(@[t].source)
             to = refSources.indexOf(mime.source)
             # skip the remapping
             if t != 'application/octet-stream' and
@@ -176,12 +184,51 @@ module.exports = class MimeTypes
       exts.push extension
     if exts.length
       mime.extensions = exts
-      @mimes[type] = mime
+      @[type] = mime
     exts
   ###
-  # Populate the extensions and types maps from db.
-  # @private
+  # load mime-types from db.
   ###
-  _load: (db) ->
-    Object.keys(db).forEach (type) =>
-      @define type, db[type]
+  load: (mimes, duplicationProcessWay) ->
+    result = 0
+    Object.keys(mimes).forEach (type) =>
+      t = @define(type, mimes[type], duplicationProcessWay)
+      result++ if t and t.length
+    result
+  ###
+  # remove the specified mime-type.
+  ###
+  delete: (type)->
+    result = @exist type
+    if result
+      # remove from the index of extension.
+      for k, v of @types
+        if isArray(v)
+          i = v.indexOf type
+          if i isnt -1
+            v.splice(i, 1)
+        else if type is v
+          delete @types[k]
+      delete @[type]
+    result
+  ###
+  # clear the mime-types.
+  ###
+  clear: (filter) ->
+    result = 0
+    for k, v of @
+      if @hasOwnProperty(k)
+        if isFunction filter
+          if filter(k,v)
+            @delete(k)
+            result++
+        else if isString filter
+          if minimatch(k, filter)
+            @delete(k)
+            result++
+        else
+          @delete(k)
+          result++
+    result
+          
+          

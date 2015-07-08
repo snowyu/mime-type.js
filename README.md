@@ -1,4 +1,4 @@
-# mime-types
+# mime-type
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -6,36 +6,40 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-The ultimate javascript content-type utility.
+The custom mime-typs utility can work with [mime-db](https://github.com/jshttp/mime-db).
 
-Similar to [node-mime](https://github.com/broofa/node-mime), except:
+fork from [mime-types](https://github.com/jshttp/mime-types), except:
 
-- __No fallbacks.__ Instead of naively returning the first available type, `mime-types` simply returns `false`,
-  so do `var type = mime.lookup('unrecognized') || 'application/octet-stream'`.
-- No `new Mime()` business, so you could do `var lookup = require('mime-types').lookup`.
-- Additional mime types are added such as jade and stylus via [mime-db](https://github.com/jshttp/mime-db)
-- No `.define()` functionality
+- you can load mime-types via [mime-db](https://github.com/jshttp/mime-db) `mime = new Mime(require('mime-db'))`
+  - or use `mime = require('mime-type/with-db')` directly, but first
+  - you need `npm install mime-db`
+- `mime = new Mime()` business, so you could do `lookup = mime.lookup.bind(mime)`.
+- you can add the mime-type via `.define(type, mime)` functionality
+- you can add many mime-type via `.load(mimes)` functionality
+- you can search the mime-type via `.glob(pattern)` functionality
+- you can remove a mime-type via `.delete(type)` functionality
+- you can clear mime-types via `.clear(filter)` functionality
+- `.exist(type)` functionality to check whether a mime-type is exist.
+- `.extensions` will be deprecated, use `mime[type].extensions` instead.
+- All functions return `undefined` if input is invalid or not found.
 
 Otherwise, the API is compatible.
 
 ## Install
 
 ```sh
-$ npm install mime-types
+$ npm install mime-type
 ```
-
-## Adding Types
-
-All mime types are based on [mime-db](https://github.com/jshttp/mime-db),
-so open a PR there if you'd like to add mime types.
 
 ## API
 
 ```js
-var mime = require('mime-types')
+var mime = require('mime-type')()
+//or create an instance and load mime-db. you need `npm install mime-db`
+var mime = require('mime-type/with-db')
 ```
 
-All functions return `false` if input is invalid or not found.
+All functions return `undefined` if input is invalid or not found.
 
 ### mime.lookup(path)
 
@@ -49,6 +53,90 @@ mime.lookup('folder/file.js')   // 'application/javascript'
 mime.lookup('folder/.htaccess') // false
 
 mime.lookup('cats') // false
+```
+
+### mime.glob(pattern)
+
+Return all MIME types which matching a pattern
+
+```js
+mime.glob('*/*')             // ['application/octet-stream']
+mime.glob('*/*markdown')     // ['text/x-markdown']
+mime.glob('text/j*')         // ['text/jade', 'text/jsx']
+mime.glob('unknown/x')       // []
+```
+
+### mime.exist(type)
+
+test whether a mime-type is exist.
+It is an alias for `mime.hasOwnProperty`
+
+```js
+mime.exist('text/x-markdown') // true
+mime.exist('unknown/xxx')     // false
+```
+
+### mime.define(type, object, duplicationWay)
+
+define a new mime-type. the duplicationWay is the process way of duplication extensions:
+
+* mime.dupDefault: the default process way.
+* mime.dupOverwrite: the news overwrite the olds
+* mime.dupSkip: just skip it.
+* mime.dupAppend: append the news to the exist extensions.
+
+return the added extensions list if successful or `undefined`.
+
+```js
+mime.define('script/coffee', {
+  extensions: ['coffee', 'litcoffee', 'coffee.md']
+}, mime.dupAppend)
+mime.lookup ('coffee') //[ 'text/coffeescript', 'script/coffee' ]
+```
+
+### mime.delete(type)
+
+remove a specified mime-type
+
+```js
+mime.delete('script/coffee') //true
+```
+
+### mime.clear(filter)
+
+clear all or specified mime-types
+
+the filter could be a string pattern or a function
+
+return the count of deleted mime-types.
+
+```js
+mime.clear() //clear all mime-types
+mime.clear('text/*') //clear the specified mime-types
+mime.clear(function(type, mime){
+  return type.substr(0,5) === 'text/'
+})
+```
+
+### mime.load(mimes)
+
+load a lot of mime-types. return the count of loaded mime-types.
+
+```js
+mime.clear() //clear all mime-types
+mime.load({
+  'script/coffee': {
+    extensions: ['coffee', 'coffee.md', 'litcoffee'],
+    compressible: true,
+    charset: 'utf-8',
+    defaultExtension: 'coffee.md'
+  },
+  'script/python': {
+    extensions: ['py', 'py.md', 'litpy'],
+    compressible: true,
+    charset: 'utf-8'
+  }
+})
 ```
 
 ### mime.contentType(type)
@@ -91,13 +179,13 @@ A map of extensions by content-type.
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/mime-types.svg
-[npm-url]: https://npmjs.org/package/mime-types
-[node-version-image]: https://img.shields.io/node/v/mime-types.svg
+[npm-image]: https://img.shields.io/npm/v/mime-type.svg
+[npm-url]: https://npmjs.org/package/mime-type
+[node-version-image]: https://img.shields.io/node/v/mime-type.svg
 [node-version-url]: http://nodejs.org/download/
-[travis-image]: https://img.shields.io/travis/jshttp/mime-types/master.svg
-[travis-url]: https://travis-ci.org/jshttp/mime-types
-[coveralls-image]: https://img.shields.io/coveralls/jshttp/mime-types/master.svg
-[coveralls-url]: https://coveralls.io/r/jshttp/mime-types
-[downloads-image]: https://img.shields.io/npm/dm/mime-types.svg
-[downloads-url]: https://npmjs.org/package/mime-types
+[travis-image]: https://img.shields.io/travis/snowyu/mime-type.js/master.svg
+[travis-url]: https://travis-ci.org/snowyu/mime-type.js
+[coveralls-image]: https://img.shields.io/coveralls/snowyu/mime-type.js/master.svg
+[coveralls-url]: https://coveralls.io/r/snowyu/mime-type.js
+[downloads-image]: https://img.shields.io/npm/dm/mime-type.svg
+[downloads-url]: https://npmjs.org/package/mime-type
