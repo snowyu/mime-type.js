@@ -20,14 +20,15 @@ textTypeRegExp = /^text\//i
 module.exports = class MimeTypes
   'use strict'
 
+  dupDefault: 0
+  dupSkip: 1
+  dupOverwrite: 2
+  dupAppend: 3
+
   constructor: (db, duplicationProcessWay)->
     return new MimeTypes db, duplicationProcessWay if not (this instanceof MimeTypes)
     defineProperty @, 'types', {}
 
-    defineProperty @, 'dupDefault', 0
-    defineProperty @, 'dupSkip', 1
-    defineProperty @, 'dupOverwrite', 2
-    defineProperty @, 'dupAppend', 3
     defineProperty @, 'dup', @dupDefault
     defineProperty @, 'extensions', undefined, get: ->
       result = {}
@@ -35,7 +36,7 @@ module.exports = class MimeTypes
         mime = @[k]
         result[k] = mime.extensions
       result
-        
+
     if duplicationProcessWay and duplicationProcessWay in [0..3]
       @dup = duplicationProcessWay
     @load(db) if db
@@ -207,6 +208,7 @@ module.exports = class MimeTypes
           i = v.indexOf type
           if i isnt -1
             v.splice(i, 1)
+            @types[k] = v[0] if v.length is 1
         else if type is v
           delete @types[k]
       delete @[type]
