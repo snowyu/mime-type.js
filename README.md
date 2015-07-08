@@ -34,9 +34,13 @@ $ npm install mime-type
 ## API
 
 ```js
+//create an empty mime-type:
 var mime = require('mime-type')()
 //or create an instance and load mime-db. you need `npm install mime-db`
 var mime = require('mime-type/with-db')
+//it equals to:
+var db = require('mime-db')
+var mime = require('mime-type')(db)
 ```
 
 All functions return `undefined` if input is invalid or not found.
