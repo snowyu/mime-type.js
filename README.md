@@ -6,9 +6,9 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-The custom mime-typs utility can work with [mime-db](https://github.com/jshttp/mime-db).
+The custom more powerful mime-type utility can work with [mime-db](https://github.com/jshttp/mime-db).
 
-fork from [mime-types](https://github.com/jshttp/mime-types), except:
+fork from [mime-types](https://github.com/jshttp/mime-types), these features added:
 
 - you can load mime-types via [mime-db](https://github.com/jshttp/mime-db) `mime = new Mime(require('mime-db'))`
   - or use `mime = require('mime-type/with-db')` directly, but first
