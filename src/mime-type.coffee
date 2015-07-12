@@ -8,7 +8,7 @@ isArray         = require('util-ex/lib/is/type/array')
 isString        = require('util-ex/lib/is/type/string')
 isFunction      = require('util-ex/lib/is/type/function')
 defineProperty  = require('util-ex/lib/defineProperty')
-extname         = require('path-ex').extname
+path            = require('path.js')
 
 extractTypeRegExp = /^\s*([^;\s]*)(?:;|\s|$)/
 textTypeRegExp = /^text\//i
@@ -101,10 +101,10 @@ module.exports = class MimeTypes
   # @param {string} path
   # @return {undefined|string|array}
   ###
-  lookup: (path) ->
-    if path and isString path
+  lookup: (aPath) ->
+    if aPath and isString aPath
       # get the extension ("ext" or ".ext" or full path)
-      extension = extname('x.' + path).toLowerCase().substr(1)
+      extension = path.extname('x.' + aPath).toLowerCase().substr(1)
       result = @types[extension] if extension
     result
   ###
