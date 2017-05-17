@@ -17,16 +17,16 @@
   "repository": "snowyu/mime-type.js",
   "dependencies": {
     "media-typer": "^0.3.0",
-    "minimatch": "^2.0.8",
-    "path.js": "^1.0.4",
-    "util-ex": "^0.3.4"
+    "minimatch": "^3.0.4",
+    "path.js": "^1.0.7",
+    "util-ex": "^0.3.15"
   },
   "devDependencies": {
-    "coffee-script": "^1.9.3",
-    "istanbul": "0.3.16",
-    "mime-db": "^1.14.0",
-    "mocha": "~1.21.5",
-    "pre-commit": "^1.0.10"
+    "coffee-script": "^1.12.6",
+    "istanbul": "0.4.5",
+    "mime-db": "^1.28.0",
+    "mocha": "~3.4.1",
+    "pre-commit": "^1.2.2"
   },
   "pre-commit": [
     "test"
