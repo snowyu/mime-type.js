@@ -119,7 +119,7 @@ describe('mimeType', function () {
       assert.equal(mimeType.glob('application/*').length > 1, true);
       assert.deepEqual([], mimeType.glob('qwerty/*'));
       assert.deepEqual([], mimeType.glob('qwerty/qwerty'));
-      assert.deepEqual([], mimeType.glob('*/markdown'));
+      assert.deepEqual(['text/markdown'], mimeType.glob('*/markdown'));
       assert.deepEqual(['text/x-markdown'], mimeType.glob('*/x-markdown'));
     })
   })
