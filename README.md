@@ -56,7 +56,7 @@ mime.lookup('file.html')        // 'text/html'
 mime.lookup('folder/file.js')   // 'application/javascript'
 mime.lookup('folder/.htaccess') // false
 
-mime.lookup('cats') // false
+mime.lookup('cats') // true
 ```
 
 ### mime.glob(pattern)
