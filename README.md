@@ -80,9 +80,9 @@ mime.exist('text/x-markdown') // true
 mime.exist('unknown/xxx')     // false
 ```
 
-### mime.define(type, object, duplicationWay)
+### mime.define(type, object, duplicationWay?)
 
-define a new mime-type. the duplicationWay is the process way of duplication extensions:
+define a new mime-type. the duplicationWay is optional the process way of duplication extensions:
 
 * mime.dupDefault: the default process way.
 * mime.dupOverwrite: the news overwrite the olds
