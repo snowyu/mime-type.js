@@ -61,7 +61,7 @@ mime.lookup('cats') // false
 
 ### mime.glob(pattern)
 
-Return all MIME types which matching a pattern
+Return all MIME types which matching a pattern(See [Minimatch](https://github.com/isaacs/minimatch)).
 
 ```js
 mime.glob('*/*')             // ['application/octet-stream']
