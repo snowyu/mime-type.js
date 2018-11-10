@@ -15,6 +15,7 @@ textTypeRegExp = /^text\//i
 
 ###
 # Module exports.
+# TODO: will deprecate this to use the ES6 module.
 # @public
 ###
 module.exports = class MimeTypes
@@ -232,5 +233,7 @@ module.exports = class MimeTypes
           @delete(k)
           result++
     result
-          
-          
+
+# the ES6 Module import default:
+defineProperty module.exports, 'default', MimeTypes
+
