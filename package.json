@@ -31,12 +31,14 @@
   "pre-commit": [
     "test"
   ],
+  "typings": "./index.d.ts",
   "files": [
     "HISTORY.md",
     "LICENSE",
     "lib",
     "src",
     "with-db.js",
+    "index.d.ts",
     "index.js"
   ],
   "engines": {
