@@ -179,6 +179,25 @@ A map of content-types by extension.
 
 A map of extensions by content-type.
 
+### var mimeObject = mime[type]
+
+A map of mime object(IMimeType) by content-type.
+
+```ts
+export interface IMimeType {
+  source: string;
+  charset?: string;
+  compressible?: boolean;
+  extensions: string[]|string;
+}
+```
+
+### mime.dup: DuplicationProcessWay
+
+the default duplicationo process way.
+
+See `mime.define`.
+
 ## License
 
 [MIT](LICENSE)
