@@ -37,6 +37,7 @@
     "LICENSE",
     "lib",
     "src",
+    "with-db.d.ts",
     "with-db.js",
     "index.d.ts",
     "index.js"
