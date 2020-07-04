@@ -14,6 +14,7 @@ fork from [mime-types](https://github.com/jshttp/mime-types), these features add
   - or use `mime = require('mime-type/with-db')` directly, but first
   - you need `npm install mime-db`
 - `mime = new Mime()` business, so you could do `lookup = mime.lookup.bind(mime)`.
+- you can lookup the extension with glob match via `.lookup(extention)` functionality
 - you can add the mime-type via `.define(type, mime)` functionality
 - you can add many mime-type via `.load(mimes)` functionality
 - you can search the mime-type via `.glob(pattern)` functionality
@@ -56,6 +57,7 @@ mime.lookup('file.html')        // 'text/html'
 mime.lookup('folder/file.js')   // 'application/javascript'
 mime.lookup('folder/.htaccess') // false
 
+mime.lookup('.og?')  // [ 'application/ogg', 'audio/ogg', 'audio/ogg', 'video/ogg' ]
 mime.lookup('cats') // false
 ```
 
