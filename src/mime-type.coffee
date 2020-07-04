@@ -2,7 +2,6 @@
 # Module variables.
 # @private
 ###
-mediaTyper      = require('media-typer')
 minimatch       = require('minimatch')
 isArray         = require('util-ex/lib/is/type/array')
 isString        = require('util-ex/lib/is/type/string')
@@ -50,6 +49,12 @@ module.exports = class MimeTypes
   ###
   charset: (type) ->
     if type and isString type
+      match = extractTypeRegExp.exec(type)
+      mime = match && @[match[1].toLowerCase()]
+      result = mime.charset if mime
+      # default text/* to utf-8
+      result = 'utf-8' if !result and textTypeRegExp.test(match[1])
+      ###
       try
         obj = mediaTyper.parse(type)
         result = obj.parameters.charset
@@ -59,6 +64,7 @@ module.exports = class MimeTypes
           result = @[type] and @[type].charset
         # default text/* to utf-8
         result = 'utf-8' if !result and obj.type is 'text'
+      ###
     result
 
   ###
