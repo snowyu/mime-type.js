@@ -106,7 +106,13 @@ module.exports = class MimeTypes
     if aPath and isString aPath
       # get the extension ("ext" or ".ext" or full path)
       extension = path.extname('x.' + aPath).toLowerCase().substr(1)
-      result = @types[extension] if extension
+      if extension
+        if /[*?!+|{]/.test extension
+          result = Object.keys(@types).filter (name)->
+            minimatch(name, extension)
+          result = if result.length then (result.map (ext) => @types[ext]) else undefined
+        else
+          result = @types[extension]
     result
   ###
   # Return all MIME types which matching a pattern

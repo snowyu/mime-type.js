@@ -300,6 +300,11 @@ describe('mimeType', function () {
       assert.strictEqual(mimeType.lookup(42), undefined)
       assert.strictEqual(mimeType.lookup({}), undefined)
     })
+
+    it('should return mime types for search "og?"', function () {
+      assert.deepEqual(mimeType.lookup('og?'), [ 'application/ogg', 'audio/ogg', 'audio/ogg', 'video/ogg' ])
+    })
+
   })
 
   describe('.lookup(path)', function () {
