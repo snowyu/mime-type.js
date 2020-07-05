@@ -2,7 +2,7 @@
 # Module variables.
 # @private
 ###
-minimatch       = require('minimatch')
+micromatch      = require('micromatch')
 isArray         = require('util-ex/lib/is/type/array')
 isString        = require('util-ex/lib/is/type/string')
 isFunction      = require('util-ex/lib/is/type/function')
@@ -115,7 +115,7 @@ module.exports = class MimeTypes
       if extension
         if /[*?!+|{]/.test extension
           result = Object.keys(@types).filter (name)->
-            minimatch(name, extension)
+            micromatch.isMatch(name, extension)
           result = if result.length then (result.map (ext) => @types[ext]) else undefined
         else
           result = @types[extension]
@@ -129,7 +129,7 @@ module.exports = class MimeTypes
   glob: (pattern)->
     return [ 'application/octet-stream' ] if pattern == '*/*'
     result = Object.keys(@).filter (name)->
-      minimatch(name, pattern)
+      micromatch.isMatch(name, pattern)
     result
 
   ###
@@ -238,7 +238,7 @@ module.exports = class MimeTypes
             @delete(k)
             result++
         else if isString filter
-          if minimatch(k, filter)
+          if micromatch.isMatch(k, filter)
             @delete(k)
             result++
         else

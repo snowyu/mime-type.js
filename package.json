@@ -16,7 +16,7 @@
   ],
   "repository": "snowyu/mime-type.js",
   "dependencies": {
-    "minimatch": "^3.0.4",
+    "micromatch": "^4.0.2",
     "path.js": "^1.0.7",
     "util-ex": "^0.3.15"
   },
