@@ -200,6 +200,12 @@ the default duplicationo process way.
 
 See `mime.define`.
 
+## Notes
+
+* 4.0.0: nodejs >= 8.6
+  * use micromatch instead of minimatch. It supports nodejs@8.6 above only.
+* 3.0.0: nodejs <  8.6
+
 ## License
 
 [MIT](LICENSE)
