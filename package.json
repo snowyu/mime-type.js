@@ -42,7 +42,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">= 0.6"
+    "node": ">= 8.6"
   },
   "scripts": {
     "pretest": "node_modules/.bin/coffee -o lib -c src/*.coffee",
