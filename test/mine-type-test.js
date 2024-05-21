@@ -1,8 +1,7 @@
-
-var assert = require('assert')
-var mimeType = require('../with-db')
-var MimeType = require('../')
-var db = require('mime-db')
+import assert from 'assert'
+import mimeType from '../src/with-db'
+import MimeType from '../src'
+import db from 'mime-db'
 
 describe('mimeType', function () {
   describe('constructor', function () {

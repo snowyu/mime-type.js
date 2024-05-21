@@ -14,18 +14,43 @@
     "mime-db",
     "types"
   ],
+  "main": "./lib/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "require": "./lib/index.js",
+      "import": "./src/index.js"
+    },
+    "./with-db": {
+      "types": "./src/with-db.d.ts",
+      "require": "./lib/with-db.js",
+      "import": "./src/with-db.js"
+    }
+  },
   "repository": "snowyu/mime-type.js",
   "dependencies": {
-    "micromatch": "^4.0.2",
-    "path.js": "^1.0.7",
-    "util-ex": "^0.3.15"
+    "micromatch": "^4.0.5",
+    "path.js": "^2.0.0-alpha.1",
+    "util-ex": "^2.0.0-alpha.18"
   },
   "devDependencies": {
-    "coffee-script": "^1.12.6",
-    "istanbul": "0.4.5",
-    "mime-db": "^1.28.0",
-    "mocha": "~3.4.1",
-    "pre-commit": "^1.2.2"
+    "@antfu/eslint-config": "^2.18.1",
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.1",
+    "@babel/register": "^7.23.7",
+    "chai": "~5.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "mime-db": "^1.52.0",
+    "mocha": "~10.4.0",
+    "prettier": "^3.2.5",
+    "sinon": "~18.0.0",
+    "typedoc": "^0.25.13",
+    "typedoc-plugin-markdown": "^4.0.2",
+    "typescript": "^5.4.5"
   },
   "pre-commit": [
     "test"
@@ -35,19 +60,25 @@
     "HISTORY.md",
     "LICENSE",
     "lib",
-    "src",
-    "with-db.d.ts",
-    "with-db.js",
-    "index.d.ts",
-    "index.js"
+    "src"
   ],
   "engines": {
     "node": ">= 8.6"
   },
   "scripts": {
-    "pretest": "node_modules/.bin/coffee -o lib -c src/*.coffee",
-    "test": "mocha --reporter spec test/test.js",
-    "test-cov": "npm run pretest; istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js",
-    "test-travis": "npm run pretest; istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js"
+    "build": "npm run build.cjs && npm run build.ts && npm run doc.md",
+    "build.cjs": "babel src --out-dir lib --config-file ./.babelrc",
+    "build.ts": "tsc --declaration --emitDeclarationOnly --outDir lib",
+    "clean": "rm -fr web docs lib",
+    "clean.doc": "rm -fr web docs",
+    "clean.ts": "rm -fr lib/*.d.ts",
+    "clean.lib": "rm -fr lib",
+    "doc": "typedoc --plugin none --out web ./src",
+    "doc.md": "typedoc --plugin typedoc-plugin-markdown --out docs ./src",
+    "lint": "npx eslint --config .eslintrc.yml src",
+    "lint.fix": "npm run lint -- --fix",
+    "release": "npm run clean && npm run build && git add docs && git ci -m 'docs: update API docs' && npx commit-and-tag-version -s",
+    "release.alpha": "npm run release -- --prerelease alpha",
+    "test": "mocha"
   }
 }

@@ -36,12 +36,13 @@ $ npm install mime-type
 
 ```js
 //create an empty mime-type:
-var mime = require('mime-type')()
-//or create an instance and load mime-db. you need `npm install mime-db`
-var mime = require('mime-type/with-db')
+import { MimeType } from 'mime-type'
+const mime = new MimeType()
+//or using mimeType which create an instance and load mime-db directly. you need `npm install mime-db` first
+import {mimeType} from 'mime-type/with-db'
 //it equals to:
-var db = require('mime-db')
-var mime = require('mime-type')(db)
+import db from 'mime-db'
+const mime = new MimeType(db)
 ```
 
 All functions return `undefined` if input is invalid or not found.
@@ -196,7 +197,7 @@ export interface IMimeType {
 
 ### mime.dup: DuplicationProcessWay
 
-the default duplicationo process way.
+the default duplication process way.
 
 See `mime.define`.
 
