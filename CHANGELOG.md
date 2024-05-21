@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.0.0-alpha.0](https://github.com/snowyu/mime-type.js/compare/v4.0.1-alpha.0...v5.0.0-alpha.0) (2024-05-21)
+
 ## [4.0.1-alpha.0](https://github.com/snowyu/mime-type.js/compare/v4.0.0...v4.0.1-alpha.0) (2024-05-21)
 
 

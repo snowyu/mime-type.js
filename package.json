@@ -1,7 +1,7 @@
 {
   "name": "mime-type",
   "description": "the custom more powerful mime-type utility can work with mime-db.",
-  "version": "4.0.1-alpha.0",
+  "version": "5.0.0-alpha.0",
   "contributors": [
     "Riceball LEE https://github.com/snowyu",
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
