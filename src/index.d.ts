@@ -19,9 +19,27 @@ export interface IMimeTypes {
 export type FilterFunctionType = (type: string, mime: IMimeType) => number;
 
 export class MimeType {
+  /**
+   * Uses a default strategy where:
+   *   - If the existing MIME type is 'application/octet-stream', it is not overwritten.
+   *   - If sources are equal and the existing type starts with 'application/', it is retained.
+   *   - Otherwise, if the new source is considered more authoritative (appears earlier in `refSources`),
+   *     the new type will overwrite the old one. The `refSources` array includes server configurations
+   *     and standards bodies, e.g., ['nginx', 'apache', undefined, 'iana'], with `undefined` marking
+   *     an unspecified or less authoritative source.
+   */
   dupDefault: 0;
+  /**
+   * Skip the existing mapping.
+   */
   dupSkip: 1;
+  /**
+   * Overwrite the existing mapping.
+   */
   dupOverwrite: 2;
+  /**
+   * Append the extension to the existing mapping.
+   */
   dupAppend: 3;
 
   /**
@@ -39,6 +57,25 @@ export class MimeType {
   [mimetype: string]: string|number|object|IMimeType;
 
 
+  /**
+   * Constructs a MimeType object to manage MIME types and their associated extensions.
+   * @param {Object} db - An initial database containing MIME type mappings.
+   * @param {number} [duplicationProcessWay] - A flag specifying how to handle duplicate MIME type entries.
+   *     If provided, it should be one of:
+   *       - `dupDefault: 0`: Default strategy that resolves duplicates based on source priority.
+   *         See the description for details on this strategy.
+   *       - `dupSkip: 1`: Skip adding the new MIME type if a duplicate entry already exists.
+   *       - `dupOverwrite: 2`: Replace the existing MIME type with the new one if a duplicate is found.
+   *       - `dupAppend: 3`: Add the new MIME type to the end of the existing ones if a duplicate is encountered.
+   *     If not specified, it defaults to the `dupDefault` strategy,
+   *     The `dupDefault` strategy works as follows:
+   *       - If the existing MIME type is 'application/octet-stream', it's not overwritten.
+   *       - If sources are equal and the existing type starts with 'application/', it's preserved.
+   *       - Otherwise, if the new source is considered more authoritative (earlier in the `refSources` array),
+   *         the new type overwrites the old one. The `refSources` array may include server configurations
+   *         and standards bodies, such as ['nginx', 'apache', undefined, 'iana'], with `undefined` representing
+   *         an unspecified or less authoritative source.
+   */
   constructor (db: IMimeTypes, duplicationProcessWay: DuplicationProcessWay);
   /**
    * Get the default charset for a MIME type.
@@ -79,7 +116,18 @@ export class MimeType {
    *  * "charset": "UTF-8",
    *  * "compressible": true,
    *  * "extensions": ["js"]
-   * @param dup optional duplication process way, defaults to the this.dup.
+   * @param {number} [dup=this.dup] - The optional conflict resolution strategy, defaults to the this.dup. Can be one of:
+   *   - `this.dupSkip`: Skip the existing mapping.
+   *   - `this.dupAppend`: Append the new type to the existing mapping.
+   *   - `this.dupOverwrite`: Overwrite the existing mapping.
+   *   - `this.dupDefault`: Uses a default strategy where:
+   *       - If the existing MIME type is 'application/octet-stream', it is not overwritten.
+   *       - If sources are equal and the existing type starts with 'application/', it is retained.
+   *       - Otherwise, if the new source is considered more authoritative (appears earlier in `refSources`),
+   *         the new type will overwrite the old one. The `refSources` array includes server configurations
+   *         and standards bodies, e.g., ['nginx', 'apache', undefined, 'iana'], with `undefined` marking
+   *         an unspecified or less authoritative source.
+   *
    * @returns the added extensions
    */
   define(type: string, mime: IMimeType, dup?: DuplicationProcessWay): string[];
