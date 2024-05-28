@@ -10,4 +10,4 @@
 
 ## Source
 
-src/with-db.mjs:4
+[src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/with-db.js#L4)

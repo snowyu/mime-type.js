@@ -48,7 +48,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.d.ts:79](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L79)
+[src/index.d.ts:79](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L79)
 
 ## Properties
 
@@ -60,7 +60,7 @@ the default duplication process way
 
 #### Source
 
-[src/index.d.ts:52](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L52)
+[src/index.d.ts:52](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L52)
 
 ***
 
@@ -72,7 +72,7 @@ Append the extension to the existing mapping.
 
 #### Source
 
-[src/index.d.ts:43](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L43)
+[src/index.d.ts:43](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L43)
 
 ***
 
@@ -90,7 +90,7 @@ Uses a default strategy where:
 
 #### Source
 
-[src/index.d.ts:31](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L31)
+[src/index.d.ts:31](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L31)
 
 ***
 
@@ -102,7 +102,7 @@ Overwrite the existing mapping.
 
 #### Source
 
-[src/index.d.ts:39](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L39)
+[src/index.d.ts:39](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L39)
 
 ***
 
@@ -114,7 +114,7 @@ Skip the existing mapping.
 
 #### Source
 
-[src/index.d.ts:35](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L35)
+[src/index.d.ts:35](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L35)
 
 ***
 
@@ -130,7 +130,7 @@ A map of extensions by content-type.
 
 #### Source
 
-[src/index.d.ts:56](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L56)
+[src/index.d.ts:56](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L56)
 
 ***
 
@@ -146,7 +146,7 @@ A map of types by extension.
 
 #### Source
 
-[src/index.d.ts:48](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L48)
+[src/index.d.ts:48](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L48)
 
 ## Methods
 
@@ -168,7 +168,7 @@ a MIME type
 
 #### Source
 
-[src/index.d.ts:84](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L84)
+[src/index.d.ts:84](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L84)
 
 ***
 
@@ -192,7 +192,7 @@ the removed items count.
 
 #### Source
 
-[src/index.d.ts:152](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L152)
+[src/index.d.ts:152](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L152)
 
 ***
 
@@ -214,7 +214,7 @@ a MIME type or extension
 
 #### Source
 
-[src/index.d.ts:89](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L89)
+[src/index.d.ts:89](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L89)
 
 ***
 
@@ -260,7 +260,7 @@ the added extensions
 
 #### Source
 
-[src/index.d.ts:133](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L133)
+[src/index.d.ts:133](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L133)
 
 ***
 
@@ -284,7 +284,7 @@ return true if removed successful.
 
 #### Source
 
-[src/index.d.ts:146](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L146)
+[src/index.d.ts:146](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L146)
 
 ***
 
@@ -306,7 +306,7 @@ the mime type
 
 #### Source
 
-[src/index.d.ts:110](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L110)
+[src/index.d.ts:110](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L110)
 
 ***
 
@@ -328,7 +328,7 @@ a MIME type
 
 #### Source
 
-[src/index.d.ts:94](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L94)
+[src/index.d.ts:94](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L94)
 
 ***
 
@@ -351,7 +351,7 @@ the mime type pattern, For example "video/*", "audio/*", ..
 
 #### Source
 
-[src/index.d.ts:105](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L105)
+[src/index.d.ts:105](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L105)
 
 ***
 
@@ -379,7 +379,7 @@ the count of added items.
 
 #### Source
 
-[src/index.d.ts:140](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L140)
+[src/index.d.ts:140](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L140)
 
 ***
 
@@ -401,4 +401,4 @@ a file path/extension.
 
 #### Source
 
-[src/index.d.ts:99](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L99)
+[src/index.d.ts:99](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/index.d.ts#L99)
