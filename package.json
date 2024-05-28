@@ -68,7 +68,7 @@
   "scripts": {
     "build": "npm run build.cjs && npm run build.ts && npm run doc.md",
     "build.cjs": "babel src --out-dir lib --config-file ./.babelrc",
-    "build.ts": "tsc --declaration --emitDeclarationOnly --outDir lib",
+    "build.ts": "cp src/*.d.ts lib",
     "clean": "rm -fr web docs lib",
     "clean.doc": "rm -fr web docs",
     "clean.ts": "rm -fr lib/*.d.ts",

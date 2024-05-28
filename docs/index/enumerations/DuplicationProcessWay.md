@@ -14,7 +14,7 @@
 
 #### Source
 
-[src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.d.ts#L5)
+[src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L5)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Source
 
-[src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.d.ts#L2)
+[src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L2)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Source
 
-[src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.d.ts#L4)
+[src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L4)
 
 ***
 
@@ -44,4 +44,4 @@
 
 #### Source
 
-[src/index.d.ts:3](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.d.ts#L3)
+[src/index.d.ts:3](https://github.com/snowyu/mime-type.js/blob/7faf7aa6db66357a5627f4d344a77bd868fe4a78/src/index.d.ts#L3)

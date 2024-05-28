@@ -68,7 +68,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.js:35](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L35)
+src/index.mjs:35
 
 ## Properties
 
@@ -78,7 +78,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.js:55](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L55)
+src/index.mjs:55
 
 ***
 
@@ -88,7 +88,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.js:14](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L14)
+src/index.mjs:14
 
 ***
 
@@ -98,7 +98,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.js:11](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L11)
+src/index.mjs:11
 
 ***
 
@@ -108,7 +108,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.js:13](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L13)
+src/index.mjs:13
 
 ***
 
@@ -118,7 +118,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 #### Source
 
-[src/index.js:12](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L12)
+src/index.mjs:12
 
 ***
 
@@ -140,7 +140,7 @@ A property name.
 
 #### Source
 
-[src/index.js:178](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L178)
+src/index.mjs:178
 
 ## Methods
 
@@ -158,7 +158,7 @@ A property name.
 
 #### Source
 
-[src/index.js:69](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L69)
+src/index.mjs:69
 
 ***
 
@@ -176,7 +176,7 @@ A property name.
 
 #### Source
 
-[src/index.js:316](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L316)
+src/index.mjs:316
 
 ***
 
@@ -194,7 +194,7 @@ A property name.
 
 #### Source
 
-[src/index.js:94](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L94)
+src/index.mjs:94
 
 ***
 
@@ -216,7 +216,7 @@ A property name.
 
 #### Source
 
-[src/index.js:202](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L202)
+src/index.mjs:202
 
 ***
 
@@ -234,7 +234,7 @@ A property name.
 
 #### Source
 
-[src/index.js:288](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L288)
+src/index.mjs:288
 
 ***
 
@@ -252,7 +252,7 @@ A property name.
 
 #### Source
 
-[src/index.js:118](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L118)
+src/index.mjs:118
 
 ***
 
@@ -270,7 +270,7 @@ A property name.
 
 #### Source
 
-[src/index.js:161](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L161)
+src/index.mjs:161
 
 ***
 
@@ -290,7 +290,7 @@ A property name.
 
 #### Source
 
-[src/index.js:269](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L269)
+src/index.mjs:269
 
 ***
 
@@ -308,4 +308,4 @@ A property name.
 
 #### Source
 
-[src/index.js:137](https://github.com/snowyu/mime-type.js/blob/1c1aa7c4e9a1df1facf3e42a5246849918661de9/src/index.js#L137)
+src/index.mjs:137
