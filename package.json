@@ -20,12 +20,12 @@
     ".": {
       "types": "./src/index.d.ts",
       "require": "./lib/index.js",
-      "import": "./src/index.js"
+      "import": "./lib/index.js"
     },
     "./with-db": {
       "types": "./src/with-db.d.ts",
       "require": "./lib/with-db.js",
-      "import": "./src/with-db.js"
+      "import": "./lib/with-db.js"
     }
   },
   "repository": "snowyu/mime-type.js",
