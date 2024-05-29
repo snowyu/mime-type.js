@@ -10,4 +10,4 @@
 
 ## Source
 
-[src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/c0a55571f1328e6897811c459cdccf557dee4c6f/src/with-db.js#L4)
+[src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/993710d692f105a532366fda656e1c006bb9b805/src/with-db.js#L4)
