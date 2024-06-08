@@ -1,7 +1,7 @@
 import assert from 'assert'
 import mimeType from '../src/with-db'
 import MimeType from '../src'
-import db from 'mime-db'
+import mimeDb from '../src/mime-db'
 
 describe('mimeType', function () {
   describe('constructor', function () {
@@ -20,7 +20,7 @@ describe('mimeType', function () {
       mimeType.clear()
       assert.equal(Object.keys(mimeType).length, 0)
       assert.equal(Object.keys(mimeType.types).length, 0)
-      mimeType.load(db)
+      mimeType.load(mimeDb)
     })
     it('should clear specifiled types via filter function', function () {
       var count = Object.keys(mimeType).length
@@ -30,7 +30,7 @@ describe('mimeType', function () {
       assert.ok(result > 0)
       assert.equal(Object.keys(mimeType).length+result, count)
       mimeType.clear()
-      mimeType.load(db)
+      mimeType.load(mimeDb)
     })
     it('should clear specifiled types via filter string', function () {
       var count = Object.keys(mimeType).length
@@ -38,7 +38,7 @@ describe('mimeType', function () {
       assert.ok(result > 0)
       assert.equal(Object.keys(mimeType).length+result, count)
       mimeType.clear()
-      mimeType.load(db)
+      mimeType.load(mimeDb)
     })
   })
   describe('.delete(type)', function () {

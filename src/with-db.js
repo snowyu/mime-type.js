@@ -1,6 +1,6 @@
-import db from 'mime-db'
+import mimeDb from './mime-db'
 import { MimeType } from '.'
 
-export const mimeType = new MimeType(db)
+export const mimeType = new MimeType(mimeDb)
 export default mimeType
 export { MimeType }

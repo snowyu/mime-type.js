@@ -6,13 +6,11 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-The custom more powerful mime-type utility can work with [mime-db](https://github.com/jshttp/mime-db).
+The custom more powerful mime-type utility and built-in [mime-db](https://github.com/jshttp/mime-db).
 
 fork from [mime-types](https://github.com/jshttp/mime-types), these features added:
 
-- you can load mime-types via [mime-db](https://github.com/jshttp/mime-db) `mime = new Mime(require('mime-db'))`
-  - or use `mime = require('mime-type/with-db')` directly, but first
-  - you need `npm install mime-db`
+- you can load mime-types via `mime = require('mime-type/with-db')` directly
 - `mime = new Mime()` business, so you could do `lookup = mime.lookup.bind(mime)`.
 - you can lookup the extension with glob match via `.lookup(extention)` functionality
 - you can add the mime-type via `.define(type, mime)` functionality
@@ -38,9 +36,9 @@ $ npm install mime-type
 //create an empty mime-type:
 import { MimeType } from 'mime-type'
 const mime = new MimeType()
-//or using mimeType which create an instance and load mime-db directly. you need `npm install mime-db` first
+//or using mimeType which create an instance and load builtin mime-db directly.
 import {mimeType} from 'mime-type/with-db'
-//it equals to:
+//it equals to (you need `npm install mime-db` first):
 import db from 'mime-db'
 const mime = new MimeType(db)
 ```

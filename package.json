@@ -44,7 +44,6 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tsdoc": "^0.2.17",
-    "mime-db": "^1.52.0",
     "mocha": "~10.4.0",
     "prettier": "^3.2.5",
     "sinon": "~18.0.0",
