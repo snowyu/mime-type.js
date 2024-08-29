@@ -6,9 +6,29 @@
 
 # Class: MimeType
 
-## Indexable
+Constructs a MimeType object to manage MIME types and their associated extensions.
 
- \[`mimetype`: `string`\]: `string` \| `number` \| `object` \| [`IMimeType`](../interfaces/IMimeType.md)
+## Param
+
+An initial database containing MIME type mappings.
+
+## Param
+
+A flag specifying how to handle duplicate MIME type entries.
+    If provided, it should be one of:
+      - `dupDefault: 0`: Default strategy that resolves duplicates based on source priority.
+        See the description for details on this strategy.
+      - `dupSkip: 1`: Skip adding the new MIME type if a duplicate entry already exists.
+      - `dupOverwrite: 2`: Replace the existing MIME type with the new one if a duplicate is found.
+      - `dupAppend: 3`: Add the new MIME type to the end of the existing ones if a duplicate is encountered.
+    If not specified, it defaults to the `dupDefault` strategy,
+    The `dupDefault` strategy works as follows:
+      - If the existing MIME type is 'application/octet-stream', it's not overwritten.
+      - If sources are equal and the existing type starts with 'application/', it's preserved.
+      - Otherwise, if the new source is considered more authoritative (earlier in the `refSources` array),
+        the new type overwrites the old one. The `refSources` array may include server configurations
+        and standards bodies, such as ['nginx', 'apache', undefined, 'iana'], with `undefined` representing
+        an unspecified or less authoritative source.
 
 ## Constructors
 
@@ -20,11 +40,11 @@ Constructs a MimeType object to manage MIME types and their associated extension
 
 #### Parameters
 
-• **db**: [`IMimeTypes`](../interfaces/IMimeTypes.md)
+• **db**: `any`
 
 An initial database containing MIME type mappings.
 
-• **duplicationProcessWay?**: [`DuplicationProcessWay`](../enumerations/DuplicationProcessWay.md)
+• **duplicationProcessWay?**: `number`
 
 A flag specifying how to handle duplicate MIME type entries.
     If provided, it should be one of:
@@ -46,221 +66,157 @@ A flag specifying how to handle duplicate MIME type entries.
 
 [`MimeType`](MimeType.md)
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:79](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L79)
+[src/index.js:35](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L35)
 
 ## Properties
 
 ### dup
 
-> **dup**: [`DuplicationProcessWay`](../enumerations/DuplicationProcessWay.md)
+> **dup**: `number`
 
-the default duplication process way
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:52](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L52)
+[src/index.js:55](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L55)
 
 ***
 
 ### dupAppend
 
-> **dupAppend**: `3`
+> **dupAppend**: `number`
 
-Append the extension to the existing mapping.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:43](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L43)
+[src/index.js:14](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L14)
 
 ***
 
 ### dupDefault
 
-> **dupDefault**: `0`
+> **dupDefault**: `number`
 
-Uses a default strategy where:
-  - If the existing MIME type is 'application/octet-stream', it is not overwritten.
-  - If sources are equal and the existing type starts with 'application/', it is retained.
-  - Otherwise, if the new source is considered more authoritative (appears earlier in `refSources`),
-    the new type will overwrite the old one. The `refSources` array includes server configurations
-    and standards bodies, e.g., ['nginx', 'apache', undefined, 'iana'], with `undefined` marking
-    an unspecified or less authoritative source.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:31](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L31)
+[src/index.js:11](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L11)
 
 ***
 
 ### dupOverwrite
 
-> **dupOverwrite**: `2`
+> **dupOverwrite**: `number`
 
-Overwrite the existing mapping.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:39](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L39)
+[src/index.js:13](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L13)
 
 ***
 
 ### dupSkip
 
-> **dupSkip**: `1`
+> **dupSkip**: `number`
 
-Skip the existing mapping.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:35](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L35)
+[src/index.js:12](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L12)
 
 ***
 
-### extensions
+### exist()
 
-> `readonly` **extensions**: `object`
+> **exist**: (`v`) => `boolean`
 
-A map of extensions by content-type.
+Determines whether an object has a property with the specified name.
 
-#### Index signature
+#### Parameters
 
- \[`mimetype`: `string`\]: `string`
+• **v**: `PropertyKey`
 
-#### Source
+A property name.
 
-[src/index.d.ts:56](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L56)
+#### Returns
 
-***
+`boolean`
 
-### types
+#### Defined in
 
-> **types**: `object`
-
-A map of types by extension.
-
-#### Index signature
-
- \[`extension`: `string`\]: `string`
-
-#### Source
-
-[src/index.d.ts:48](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L48)
+[src/index.js:178](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L178)
 
 ## Methods
 
 ### charset()
 
-> **charset**(`type`): `string` \| `boolean`
-
-Get the default charset for a MIME type.
+> **charset**(`type`): `any`
 
 #### Parameters
 
-• **type**: `string`
-
-a MIME type
+• **type**: `any`
 
 #### Returns
 
-`string` \| `boolean`
+`any`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:84](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L84)
+[src/index.js:69](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L69)
 
 ***
 
 ### clear()
 
-> **clear**(`filter`?): `number`
-
-clear the mime-types.
+> **clear**(`filter`): `number`
 
 #### Parameters
 
-• **filter?**: `string` \| [`FilterFunctionType`](../type-aliases/FilterFunctionType.md)
-
-optional glob or function to remove items. defaults to clear all.
+• **filter**: `any`
 
 #### Returns
 
 `number`
 
-the removed items count.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:152](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L152)
+[src/index.js:316](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L316)
 
 ***
 
 ### contentType()
 
-> **contentType**(`str`): `string` \| `boolean`
-
-Create a full Content-Type header given a MIME type or extension.
+> **contentType**(`str`): `any`
 
 #### Parameters
 
-• **str**: `string`
-
-a MIME type or extension
+• **str**: `any`
 
 #### Returns
 
-`string` \| `boolean`
+`any`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:89](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L89)
+[src/index.js:94](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L94)
 
 ***
 
 ### define()
 
-> **define**(`type`, `mime`, `dup`?): `string`[]
-
-Add a custom mime/extension mapping
+> **define**(`type`, `mime`, `dup`): `any`[]
 
 #### Parameters
 
-• **type**: `string`
+• **type**: `any`
 
-mime type
+• **mime**: `any`
 
-• **mime**: [`IMimeType`](../interfaces/IMimeType.md)
-
-mime object
- * "source": "iana",
- * "charset": "UTF-8",
- * "compressible": true,
- * "extensions": ["js"]
-
-• **dup?**: [`DuplicationProcessWay`](../enumerations/DuplicationProcessWay.md)
-
-The optional conflict resolution strategy, defaults to the this.dup. Can be one of:
-  - `this.dupSkip`: Skip the existing mapping.
-  - `this.dupAppend`: Append the new type to the existing mapping.
-  - `this.dupOverwrite`: Overwrite the existing mapping.
-  - `this.dupDefault`: Uses a default strategy where:
-      - If the existing MIME type is 'application/octet-stream', it is not overwritten.
-      - If sources are equal and the existing type starts with 'application/', it is retained.
-      - Otherwise, if the new source is considered more authoritative (appears earlier in `refSources`),
-        the new type will overwrite the old one. The `refSources` array includes server configurations
-        and standards bodies, e.g., ['nginx', 'apache', undefined, 'iana'], with `undefined` marking
-        an unspecified or less authoritative source.
+• **dup**: `any`
 
 #### Returns
 
-`string`[]
+`any`[]
 
-the added extensions
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:133](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L133)
+[src/index.js:202](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L202)
 
 ***
 
@@ -268,67 +224,35 @@ the added extensions
 
 > **delete**(`type`): `boolean`
 
-remove the specified mime-type.
-
 #### Parameters
 
-• **type**: `string`
-
-the mime type.
+• **type**: `any`
 
 #### Returns
 
 `boolean`
 
-return true if removed successful.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:146](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L146)
-
-***
-
-### exist()
-
-> **exist**(`type`): `boolean`
-
-Whether the mime type is exist.
-
-#### Parameters
-
-• **type**: `string`
-
-the mime type
-
-#### Returns
-
-`boolean`
-
-#### Source
-
-[src/index.d.ts:110](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L110)
+[src/index.js:288](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L288)
 
 ***
 
 ### extension()
 
-> **extension**(`type`): `string` \| `boolean`
-
-Get the default extension for a MIME type.
+> **extension**(`type`): `any`
 
 #### Parameters
 
-• **type**: `string`
-
-a MIME type
+• **type**: `any`
 
 #### Returns
 
-`string` \| `boolean`
+`any`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:94](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L94)
+[src/index.js:118](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L118)
 
 ***
 
@@ -336,69 +260,52 @@ a MIME type
 
 > **glob**(`pattern`): `string`[]
 
-Return all MIME types which matching a pattern
-   [spec](http://tools.ietf.org/html/rfc2616#section-14.1)
-
 #### Parameters
 
-• **pattern**: `string`
-
-the mime type pattern, For example "video/*", "audio/*", ..
+• **pattern**: `any`
 
 #### Returns
 
 `string`[]
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:105](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L105)
+[src/index.js:161](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L161)
 
 ***
 
 ### load()
 
-> **load**(`mimes`, `duplicationProcessWay`?): `number`
-
-load mime-types from db.
+> **load**(`mimes`, `duplicationProcessWay`): `number`
 
 #### Parameters
 
-• **mimes**: [`IMimeTypes`](../interfaces/IMimeTypes.md)
+• **mimes**: `any`
 
-the mimes to add
-
-• **duplicationProcessWay?**: [`DuplicationProcessWay`](../enumerations/DuplicationProcessWay.md)
-
-optional duplication process way, defaults to the this.dup.
+• **duplicationProcessWay**: `any`
 
 #### Returns
 
 `number`
 
-the count of added items.
+#### Defined in
 
-#### Source
-
-[src/index.d.ts:140](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L140)
+[src/index.js:269](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L269)
 
 ***
 
 ### lookup()
 
-> **lookup**(`aPath`): `string` \| `string`[]
-
-Lookup the MIME types for a file path/extension.
+> **lookup**(`aPath`): `any`
 
 #### Parameters
 
-• **aPath**: `string`
-
-a file path/extension.
+• **aPath**: `any`
 
 #### Returns
 
-`string` \| `string`[]
+`any`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:99](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L99)
+[src/index.js:137](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.js#L137)

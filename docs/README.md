@@ -211,7 +211,7 @@ See `mime.define`.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](_media/LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/mime-type.svg
 [npm-url]: https://npmjs.org/package/mime-type

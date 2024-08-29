@@ -1304,7 +1304,7 @@
 
 ### application/emergencycalldata.cap+xml
 
-> **application/emergencycalldata.cap+xml**: `object`
+> **cap+xml**: `object`
 
 ### application/emergencycalldata.cap+xml.charset
 
@@ -1320,7 +1320,7 @@
 
 ### application/emergencycalldata.comment+xml
 
-> **application/emergencycalldata.comment+xml**: `object`
+> **comment+xml**: `object`
 
 ### application/emergencycalldata.comment+xml.compressible
 
@@ -1332,7 +1332,7 @@
 
 ### application/emergencycalldata.control+xml
 
-> **application/emergencycalldata.control+xml**: `object`
+> **control+xml**: `object`
 
 ### application/emergencycalldata.control+xml.compressible
 
@@ -1344,7 +1344,7 @@
 
 ### application/emergencycalldata.deviceinfo+xml
 
-> **application/emergencycalldata.deviceinfo+xml**: `object`
+> **deviceinfo+xml**: `object`
 
 ### application/emergencycalldata.deviceinfo+xml.compressible
 
@@ -1356,7 +1356,7 @@
 
 ### application/emergencycalldata.ecall.msd
 
-> **application/emergencycalldata.ecall.msd**: `object`
+> **msd**: `object`
 
 ### application/emergencycalldata.ecall.msd.source
 
@@ -1364,7 +1364,7 @@
 
 ### application/emergencycalldata.providerinfo+xml
 
-> **application/emergencycalldata.providerinfo+xml**: `object`
+> **providerinfo+xml**: `object`
 
 ### application/emergencycalldata.providerinfo+xml.compressible
 
@@ -1376,7 +1376,7 @@
 
 ### application/emergencycalldata.serviceinfo+xml
 
-> **application/emergencycalldata.serviceinfo+xml**: `object`
+> **serviceinfo+xml**: `object`
 
 ### application/emergencycalldata.serviceinfo+xml.compressible
 
@@ -1388,7 +1388,7 @@
 
 ### application/emergencycalldata.subscriberinfo+xml
 
-> **application/emergencycalldata.subscriberinfo+xml**: `object`
+> **subscriberinfo+xml**: `object`
 
 ### application/emergencycalldata.subscriberinfo+xml.compressible
 
@@ -1400,7 +1400,7 @@
 
 ### application/emergencycalldata.veds+xml
 
-> **application/emergencycalldata.veds+xml**: `object`
+> **veds+xml**: `object`
 
 ### application/emergencycalldata.veds+xml.compressible
 
@@ -1588,7 +1588,7 @@
 
 ### application/fido.trusted-apps+json
 
-> **application/fido.trusted-apps+json**: `object`
+> **trusted-apps+json**: `object`
 
 ### application/fido.trusted-apps+json.compressible
 
@@ -1880,7 +1880,7 @@
 
 ### application/index.cmd
 
-> **application/index.cmd**: `object`
+> **cmd**: `object`
 
 ### application/index.cmd.source
 
@@ -1888,7 +1888,7 @@
 
 ### application/index.obj
 
-> **application/index.obj**: `object`
+> **obj**: `object`
 
 ### application/index.obj.source
 
@@ -1896,7 +1896,7 @@
 
 ### application/index.response
 
-> **application/index.response**: `object`
+> **response**: `object`
 
 ### application/index.response.source
 
@@ -1904,7 +1904,7 @@
 
 ### application/index.vnd
 
-> **application/index.vnd**: `object`
+> **vnd**: `object`
 
 ### application/index.vnd.source
 
@@ -3660,7 +3660,7 @@
 
 ### application/prs.alvestrand.titrax-sheet
 
-> **application/prs.alvestrand.titrax-sheet**: `object`
+> **titrax-sheet**: `object`
 
 ### application/prs.alvestrand.titrax-sheet.source
 
@@ -3668,7 +3668,7 @@
 
 ### application/prs.cww
 
-> **application/prs.cww**: `object`
+> **cww**: `object`
 
 ### application/prs.cww.extensions
 
@@ -3680,7 +3680,7 @@
 
 ### application/prs.cyn
 
-> **application/prs.cyn**: `object`
+> **cyn**: `object`
 
 ### application/prs.cyn.charset
 
@@ -3692,7 +3692,7 @@
 
 ### application/prs.hpub+zip
 
-> **application/prs.hpub+zip**: `object`
+> **hpub+zip**: `object`
 
 ### application/prs.hpub+zip.compressible
 
@@ -3704,7 +3704,7 @@
 
 ### application/prs.nprend
 
-> **application/prs.nprend**: `object`
+> **nprend**: `object`
 
 ### application/prs.nprend.source
 
@@ -3712,7 +3712,7 @@
 
 ### application/prs.plucker
 
-> **application/prs.plucker**: `object`
+> **plucker**: `object`
 
 ### application/prs.plucker.source
 
@@ -3720,7 +3720,7 @@
 
 ### application/prs.rdf-xml-crypt
 
-> **application/prs.rdf-xml-crypt**: `object`
+> **rdf-xml-crypt**: `object`
 
 ### application/prs.rdf-xml-crypt.source
 
@@ -3728,7 +3728,7 @@
 
 ### application/prs.xsf+xml
 
-> **application/prs.xsf+xml**: `object`
+> **xsf+xml**: `object`
 
 ### application/prs.xsf+xml.compressible
 
@@ -5164,7 +5164,7 @@
 
 ### application/vividence.scriptfile
 
-> **application/vividence.scriptfile**: `object`
+> **scriptfile**: `object`
 
 ### application/vividence.scriptfile.source
 
@@ -5172,7 +5172,7 @@
 
 ### application/vnd.1000minds.decision-model+xml
 
-> **application/vnd.1000minds.decision-model+xml**: `object`
+> **decision-model+xml**: `object`
 
 ### application/vnd.1000minds.decision-model+xml.compressible
 
@@ -5188,7 +5188,7 @@
 
 ### application/vnd.3gpp-prose+xml
 
-> **application/vnd.3gpp-prose+xml**: `object`
+> **3gpp-prose+xml**: `object`
 
 ### application/vnd.3gpp-prose+xml.compressible
 
@@ -5200,7 +5200,7 @@
 
 ### application/vnd.3gpp-prose-pc3ch+xml
 
-> **application/vnd.3gpp-prose-pc3ch+xml**: `object`
+> **3gpp-prose-pc3ch+xml**: `object`
 
 ### application/vnd.3gpp-prose-pc3ch+xml.compressible
 
@@ -5212,7 +5212,7 @@
 
 ### application/vnd.3gpp-v2x-local-service-information
 
-> **application/vnd.3gpp-v2x-local-service-information**: `object`
+> **3gpp-v2x-local-service-information**: `object`
 
 ### application/vnd.3gpp-v2x-local-service-information.source
 
@@ -5220,7 +5220,7 @@
 
 ### application/vnd.3gpp.5gnas
 
-> **application/vnd.3gpp.5gnas**: `object`
+> **5gnas**: `object`
 
 ### application/vnd.3gpp.5gnas.source
 
@@ -5228,7 +5228,7 @@
 
 ### application/vnd.3gpp.access-transfer-events+xml
 
-> **application/vnd.3gpp.access-transfer-events+xml**: `object`
+> **access-transfer-events+xml**: `object`
 
 ### application/vnd.3gpp.access-transfer-events+xml.compressible
 
@@ -5240,7 +5240,7 @@
 
 ### application/vnd.3gpp.bsf+xml
 
-> **application/vnd.3gpp.bsf+xml**: `object`
+> **bsf+xml**: `object`
 
 ### application/vnd.3gpp.bsf+xml.compressible
 
@@ -5252,7 +5252,7 @@
 
 ### application/vnd.3gpp.gmop+xml
 
-> **application/vnd.3gpp.gmop+xml**: `object`
+> **gmop+xml**: `object`
 
 ### application/vnd.3gpp.gmop+xml.compressible
 
@@ -5264,7 +5264,7 @@
 
 ### application/vnd.3gpp.gtpc
 
-> **application/vnd.3gpp.gtpc**: `object`
+> **gtpc**: `object`
 
 ### application/vnd.3gpp.gtpc.source
 
@@ -5272,7 +5272,7 @@
 
 ### application/vnd.3gpp.interworking-data
 
-> **application/vnd.3gpp.interworking-data**: `object`
+> **interworking-data**: `object`
 
 ### application/vnd.3gpp.interworking-data.source
 
@@ -5280,7 +5280,7 @@
 
 ### application/vnd.3gpp.lpp
 
-> **application/vnd.3gpp.lpp**: `object`
+> **lpp**: `object`
 
 ### application/vnd.3gpp.lpp.source
 
@@ -5288,7 +5288,7 @@
 
 ### application/vnd.3gpp.mc-signalling-ear
 
-> **application/vnd.3gpp.mc-signalling-ear**: `object`
+> **mc-signalling-ear**: `object`
 
 ### application/vnd.3gpp.mc-signalling-ear.source
 
@@ -5296,7 +5296,7 @@
 
 ### application/vnd.3gpp.mcdata-affiliation-command+xml
 
-> **application/vnd.3gpp.mcdata-affiliation-command+xml**: `object`
+> **mcdata-affiliation-command+xml**: `object`
 
 ### application/vnd.3gpp.mcdata-affiliation-command+xml.compressible
 
@@ -5308,7 +5308,7 @@
 
 ### application/vnd.3gpp.mcdata-info+xml
 
-> **application/vnd.3gpp.mcdata-info+xml**: `object`
+> **mcdata-info+xml**: `object`
 
 ### application/vnd.3gpp.mcdata-info+xml.compressible
 
@@ -5320,7 +5320,7 @@
 
 ### application/vnd.3gpp.mcdata-payload
 
-> **application/vnd.3gpp.mcdata-payload**: `object`
+> **mcdata-payload**: `object`
 
 ### application/vnd.3gpp.mcdata-payload.source
 
@@ -5328,7 +5328,7 @@
 
 ### application/vnd.3gpp.mcdata-service-config+xml
 
-> **application/vnd.3gpp.mcdata-service-config+xml**: `object`
+> **mcdata-service-config+xml**: `object`
 
 ### application/vnd.3gpp.mcdata-service-config+xml.compressible
 
@@ -5340,7 +5340,7 @@
 
 ### application/vnd.3gpp.mcdata-signalling
 
-> **application/vnd.3gpp.mcdata-signalling**: `object`
+> **mcdata-signalling**: `object`
 
 ### application/vnd.3gpp.mcdata-signalling.source
 
@@ -5348,7 +5348,7 @@
 
 ### application/vnd.3gpp.mcdata-ue-config+xml
 
-> **application/vnd.3gpp.mcdata-ue-config+xml**: `object`
+> **mcdata-ue-config+xml**: `object`
 
 ### application/vnd.3gpp.mcdata-ue-config+xml.compressible
 
@@ -5360,7 +5360,7 @@
 
 ### application/vnd.3gpp.mcdata-user-profile+xml
 
-> **application/vnd.3gpp.mcdata-user-profile+xml**: `object`
+> **mcdata-user-profile+xml**: `object`
 
 ### application/vnd.3gpp.mcdata-user-profile+xml.compressible
 
@@ -5372,7 +5372,7 @@
 
 ### application/vnd.3gpp.mcptt-affiliation-command+xml
 
-> **application/vnd.3gpp.mcptt-affiliation-command+xml**: `object`
+> **mcptt-affiliation-command+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-affiliation-command+xml.compressible
 
@@ -5384,7 +5384,7 @@
 
 ### application/vnd.3gpp.mcptt-floor-request+xml
 
-> **application/vnd.3gpp.mcptt-floor-request+xml**: `object`
+> **mcptt-floor-request+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-floor-request+xml.compressible
 
@@ -5396,7 +5396,7 @@
 
 ### application/vnd.3gpp.mcptt-info+xml
 
-> **application/vnd.3gpp.mcptt-info+xml**: `object`
+> **mcptt-info+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-info+xml.compressible
 
@@ -5408,7 +5408,7 @@
 
 ### application/vnd.3gpp.mcptt-location-info+xml
 
-> **application/vnd.3gpp.mcptt-location-info+xml**: `object`
+> **mcptt-location-info+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-location-info+xml.compressible
 
@@ -5420,7 +5420,7 @@
 
 ### application/vnd.3gpp.mcptt-mbms-usage-info+xml
 
-> **application/vnd.3gpp.mcptt-mbms-usage-info+xml**: `object`
+> **mcptt-mbms-usage-info+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-mbms-usage-info+xml.compressible
 
@@ -5432,7 +5432,7 @@
 
 ### application/vnd.3gpp.mcptt-service-config+xml
 
-> **application/vnd.3gpp.mcptt-service-config+xml**: `object`
+> **mcptt-service-config+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-service-config+xml.compressible
 
@@ -5444,7 +5444,7 @@
 
 ### application/vnd.3gpp.mcptt-signed+xml
 
-> **application/vnd.3gpp.mcptt-signed+xml**: `object`
+> **mcptt-signed+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-signed+xml.compressible
 
@@ -5456,7 +5456,7 @@
 
 ### application/vnd.3gpp.mcptt-ue-config+xml
 
-> **application/vnd.3gpp.mcptt-ue-config+xml**: `object`
+> **mcptt-ue-config+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-ue-config+xml.compressible
 
@@ -5468,7 +5468,7 @@
 
 ### application/vnd.3gpp.mcptt-ue-init-config+xml
 
-> **application/vnd.3gpp.mcptt-ue-init-config+xml**: `object`
+> **mcptt-ue-init-config+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-ue-init-config+xml.compressible
 
@@ -5480,7 +5480,7 @@
 
 ### application/vnd.3gpp.mcptt-user-profile+xml
 
-> **application/vnd.3gpp.mcptt-user-profile+xml**: `object`
+> **mcptt-user-profile+xml**: `object`
 
 ### application/vnd.3gpp.mcptt-user-profile+xml.compressible
 
@@ -5492,7 +5492,7 @@
 
 ### application/vnd.3gpp.mcvideo-affiliation-command+xml
 
-> **application/vnd.3gpp.mcvideo-affiliation-command+xml**: `object`
+> **mcvideo-affiliation-command+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-affiliation-command+xml.compressible
 
@@ -5504,7 +5504,7 @@
 
 ### application/vnd.3gpp.mcvideo-affiliation-info+xml
 
-> **application/vnd.3gpp.mcvideo-affiliation-info+xml**: `object`
+> **mcvideo-affiliation-info+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-affiliation-info+xml.compressible
 
@@ -5516,7 +5516,7 @@
 
 ### application/vnd.3gpp.mcvideo-info+xml
 
-> **application/vnd.3gpp.mcvideo-info+xml**: `object`
+> **mcvideo-info+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-info+xml.compressible
 
@@ -5528,7 +5528,7 @@
 
 ### application/vnd.3gpp.mcvideo-location-info+xml
 
-> **application/vnd.3gpp.mcvideo-location-info+xml**: `object`
+> **mcvideo-location-info+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-location-info+xml.compressible
 
@@ -5540,7 +5540,7 @@
 
 ### application/vnd.3gpp.mcvideo-mbms-usage-info+xml
 
-> **application/vnd.3gpp.mcvideo-mbms-usage-info+xml**: `object`
+> **mcvideo-mbms-usage-info+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-mbms-usage-info+xml.compressible
 
@@ -5552,7 +5552,7 @@
 
 ### application/vnd.3gpp.mcvideo-service-config+xml
 
-> **application/vnd.3gpp.mcvideo-service-config+xml**: `object`
+> **mcvideo-service-config+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-service-config+xml.compressible
 
@@ -5564,7 +5564,7 @@
 
 ### application/vnd.3gpp.mcvideo-transmission-request+xml
 
-> **application/vnd.3gpp.mcvideo-transmission-request+xml**: `object`
+> **mcvideo-transmission-request+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-transmission-request+xml.compressible
 
@@ -5576,7 +5576,7 @@
 
 ### application/vnd.3gpp.mcvideo-ue-config+xml
 
-> **application/vnd.3gpp.mcvideo-ue-config+xml**: `object`
+> **mcvideo-ue-config+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-ue-config+xml.compressible
 
@@ -5588,7 +5588,7 @@
 
 ### application/vnd.3gpp.mcvideo-user-profile+xml
 
-> **application/vnd.3gpp.mcvideo-user-profile+xml**: `object`
+> **mcvideo-user-profile+xml**: `object`
 
 ### application/vnd.3gpp.mcvideo-user-profile+xml.compressible
 
@@ -5600,7 +5600,7 @@
 
 ### application/vnd.3gpp.mid-call+xml
 
-> **application/vnd.3gpp.mid-call+xml**: `object`
+> **mid-call+xml**: `object`
 
 ### application/vnd.3gpp.mid-call+xml.compressible
 
@@ -5612,7 +5612,7 @@
 
 ### application/vnd.3gpp.ngap
 
-> **application/vnd.3gpp.ngap**: `object`
+> **ngap**: `object`
 
 ### application/vnd.3gpp.ngap.source
 
@@ -5620,7 +5620,7 @@
 
 ### application/vnd.3gpp.pfcp
 
-> **application/vnd.3gpp.pfcp**: `object`
+> **pfcp**: `object`
 
 ### application/vnd.3gpp.pfcp.source
 
@@ -5628,7 +5628,7 @@
 
 ### application/vnd.3gpp.pic-bw-large
 
-> **application/vnd.3gpp.pic-bw-large**: `object`
+> **pic-bw-large**: `object`
 
 ### application/vnd.3gpp.pic-bw-large.extensions
 
@@ -5640,7 +5640,7 @@
 
 ### application/vnd.3gpp.pic-bw-small
 
-> **application/vnd.3gpp.pic-bw-small**: `object`
+> **pic-bw-small**: `object`
 
 ### application/vnd.3gpp.pic-bw-small.extensions
 
@@ -5652,7 +5652,7 @@
 
 ### application/vnd.3gpp.pic-bw-var
 
-> **application/vnd.3gpp.pic-bw-var**: `object`
+> **pic-bw-var**: `object`
 
 ### application/vnd.3gpp.pic-bw-var.extensions
 
@@ -5664,7 +5664,7 @@
 
 ### application/vnd.3gpp.s1ap
 
-> **application/vnd.3gpp.s1ap**: `object`
+> **s1ap**: `object`
 
 ### application/vnd.3gpp.s1ap.source
 
@@ -5672,7 +5672,7 @@
 
 ### application/vnd.3gpp.sms
 
-> **application/vnd.3gpp.sms**: `object`
+> **sms**: `object`
 
 ### application/vnd.3gpp.sms.source
 
@@ -5680,7 +5680,7 @@
 
 ### application/vnd.3gpp.sms+xml
 
-> **application/vnd.3gpp.sms+xml**: `object`
+> **sms+xml**: `object`
 
 ### application/vnd.3gpp.sms+xml.compressible
 
@@ -5692,7 +5692,7 @@
 
 ### application/vnd.3gpp.srvcc-ext+xml
 
-> **application/vnd.3gpp.srvcc-ext+xml**: `object`
+> **srvcc-ext+xml**: `object`
 
 ### application/vnd.3gpp.srvcc-ext+xml.compressible
 
@@ -5704,7 +5704,7 @@
 
 ### application/vnd.3gpp.srvcc-info+xml
 
-> **application/vnd.3gpp.srvcc-info+xml**: `object`
+> **srvcc-info+xml**: `object`
 
 ### application/vnd.3gpp.srvcc-info+xml.compressible
 
@@ -5716,7 +5716,7 @@
 
 ### application/vnd.3gpp.state-and-event-info+xml
 
-> **application/vnd.3gpp.state-and-event-info+xml**: `object`
+> **state-and-event-info+xml**: `object`
 
 ### application/vnd.3gpp.state-and-event-info+xml.compressible
 
@@ -5728,7 +5728,7 @@
 
 ### application/vnd.3gpp.ussd+xml
 
-> **application/vnd.3gpp.ussd+xml**: `object`
+> **ussd+xml**: `object`
 
 ### application/vnd.3gpp.ussd+xml.compressible
 
@@ -5740,7 +5740,7 @@
 
 ### application/vnd.3gpp2.bcmcsinfo+xml
 
-> **application/vnd.3gpp2.bcmcsinfo+xml**: `object`
+> **bcmcsinfo+xml**: `object`
 
 ### application/vnd.3gpp2.bcmcsinfo+xml.compressible
 
@@ -5752,7 +5752,7 @@
 
 ### application/vnd.3gpp2.sms
 
-> **application/vnd.3gpp2.sms**: `object`
+> **sms**: `object`
 
 ### application/vnd.3gpp2.sms.source
 
@@ -5760,7 +5760,7 @@
 
 ### application/vnd.3gpp2.tcap
 
-> **application/vnd.3gpp2.tcap**: `object`
+> **tcap**: `object`
 
 ### application/vnd.3gpp2.tcap.extensions
 
@@ -5772,7 +5772,7 @@
 
 ### application/vnd.3lightssoftware.imagescal
 
-> **application/vnd.3lightssoftware.imagescal**: `object`
+> **imagescal**: `object`
 
 ### application/vnd.3lightssoftware.imagescal.source
 
@@ -5780,7 +5780,7 @@
 
 ### application/vnd.3m.post-it-notes
 
-> **application/vnd.3m.post-it-notes**: `object`
+> **post-it-notes**: `object`
 
 ### application/vnd.3m.post-it-notes.extensions
 
@@ -5792,7 +5792,7 @@
 
 ### application/vnd.accpac.simply.aso
 
-> **application/vnd.accpac.simply.aso**: `object`
+> **aso**: `object`
 
 ### application/vnd.accpac.simply.aso.extensions
 
@@ -5804,7 +5804,7 @@
 
 ### application/vnd.accpac.simply.imp
 
-> **application/vnd.accpac.simply.imp**: `object`
+> **imp**: `object`
 
 ### application/vnd.accpac.simply.imp.extensions
 
@@ -5816,7 +5816,7 @@
 
 ### application/vnd.acucobol
 
-> **application/vnd.acucobol**: `object`
+> **acucobol**: `object`
 
 ### application/vnd.acucobol.extensions
 
@@ -5828,7 +5828,7 @@
 
 ### application/vnd.acucorp
 
-> **application/vnd.acucorp**: `object`
+> **acucorp**: `object`
 
 ### application/vnd.acucorp.extensions
 
@@ -5840,7 +5840,7 @@
 
 ### application/vnd.adobe.air-application-installer-package+zip
 
-> **application/vnd.adobe.air-application-installer-package+zip**: `object`
+> **air-application-installer-package+zip**: `object`
 
 ### application/vnd.adobe.air-application-installer-package+zip.compressible
 
@@ -5856,7 +5856,7 @@
 
 ### application/vnd.adobe.flash.movie
 
-> **application/vnd.adobe.flash.movie**: `object`
+> **movie**: `object`
 
 ### application/vnd.adobe.flash.movie.source
 
@@ -5864,7 +5864,7 @@
 
 ### application/vnd.adobe.formscentral.fcdt
 
-> **application/vnd.adobe.formscentral.fcdt**: `object`
+> **fcdt**: `object`
 
 ### application/vnd.adobe.formscentral.fcdt.extensions
 
@@ -5876,7 +5876,7 @@
 
 ### application/vnd.adobe.fxp
 
-> **application/vnd.adobe.fxp**: `object`
+> **fxp**: `object`
 
 ### application/vnd.adobe.fxp.extensions
 
@@ -5888,7 +5888,7 @@
 
 ### application/vnd.adobe.partial-upload
 
-> **application/vnd.adobe.partial-upload**: `object`
+> **partial-upload**: `object`
 
 ### application/vnd.adobe.partial-upload.source
 
@@ -5896,7 +5896,7 @@
 
 ### application/vnd.adobe.xdp+xml
 
-> **application/vnd.adobe.xdp+xml**: `object`
+> **xdp+xml**: `object`
 
 ### application/vnd.adobe.xdp+xml.compressible
 
@@ -5912,7 +5912,7 @@
 
 ### application/vnd.adobe.xfdf
 
-> **application/vnd.adobe.xfdf**: `object`
+> **xfdf**: `object`
 
 ### application/vnd.adobe.xfdf.extensions
 
@@ -5924,7 +5924,7 @@
 
 ### application/vnd.aether.imp
 
-> **application/vnd.aether.imp**: `object`
+> **imp**: `object`
 
 ### application/vnd.aether.imp.source
 
@@ -5932,7 +5932,7 @@
 
 ### application/vnd.afpc.afplinedata
 
-> **application/vnd.afpc.afplinedata**: `object`
+> **afplinedata**: `object`
 
 ### application/vnd.afpc.afplinedata.source
 
@@ -5940,7 +5940,7 @@
 
 ### application/vnd.afpc.afplinedata-pagedef
 
-> **application/vnd.afpc.afplinedata-pagedef**: `object`
+> **afplinedata-pagedef**: `object`
 
 ### application/vnd.afpc.afplinedata-pagedef.source
 
@@ -5948,7 +5948,7 @@
 
 ### application/vnd.afpc.cmoca-cmresource
 
-> **application/vnd.afpc.cmoca-cmresource**: `object`
+> **cmoca-cmresource**: `object`
 
 ### application/vnd.afpc.cmoca-cmresource.source
 
@@ -5956,7 +5956,7 @@
 
 ### application/vnd.afpc.foca-charset
 
-> **application/vnd.afpc.foca-charset**: `object`
+> **foca-charset**: `object`
 
 ### application/vnd.afpc.foca-charset.source
 
@@ -5964,7 +5964,7 @@
 
 ### application/vnd.afpc.foca-codedfont
 
-> **application/vnd.afpc.foca-codedfont**: `object`
+> **foca-codedfont**: `object`
 
 ### application/vnd.afpc.foca-codedfont.source
 
@@ -5972,7 +5972,7 @@
 
 ### application/vnd.afpc.foca-codepage
 
-> **application/vnd.afpc.foca-codepage**: `object`
+> **foca-codepage**: `object`
 
 ### application/vnd.afpc.foca-codepage.source
 
@@ -5980,7 +5980,7 @@
 
 ### application/vnd.afpc.modca
 
-> **application/vnd.afpc.modca**: `object`
+> **modca**: `object`
 
 ### application/vnd.afpc.modca.source
 
@@ -5988,7 +5988,7 @@
 
 ### application/vnd.afpc.modca-cmtable
 
-> **application/vnd.afpc.modca-cmtable**: `object`
+> **modca-cmtable**: `object`
 
 ### application/vnd.afpc.modca-cmtable.source
 
@@ -5996,7 +5996,7 @@
 
 ### application/vnd.afpc.modca-formdef
 
-> **application/vnd.afpc.modca-formdef**: `object`
+> **modca-formdef**: `object`
 
 ### application/vnd.afpc.modca-formdef.source
 
@@ -6004,7 +6004,7 @@
 
 ### application/vnd.afpc.modca-mediummap
 
-> **application/vnd.afpc.modca-mediummap**: `object`
+> **modca-mediummap**: `object`
 
 ### application/vnd.afpc.modca-mediummap.source
 
@@ -6012,7 +6012,7 @@
 
 ### application/vnd.afpc.modca-objectcontainer
 
-> **application/vnd.afpc.modca-objectcontainer**: `object`
+> **modca-objectcontainer**: `object`
 
 ### application/vnd.afpc.modca-objectcontainer.source
 
@@ -6020,7 +6020,7 @@
 
 ### application/vnd.afpc.modca-overlay
 
-> **application/vnd.afpc.modca-overlay**: `object`
+> **modca-overlay**: `object`
 
 ### application/vnd.afpc.modca-overlay.source
 
@@ -6028,7 +6028,7 @@
 
 ### application/vnd.afpc.modca-pagesegment
 
-> **application/vnd.afpc.modca-pagesegment**: `object`
+> **modca-pagesegment**: `object`
 
 ### application/vnd.afpc.modca-pagesegment.source
 
@@ -6036,7 +6036,7 @@
 
 ### application/vnd.age
 
-> **application/vnd.age**: `object`
+> **age**: `object`
 
 ### application/vnd.age.extensions
 
@@ -6048,7 +6048,7 @@
 
 ### application/vnd.ah-barcode
 
-> **application/vnd.ah-barcode**: `object`
+> **ah-barcode**: `object`
 
 ### application/vnd.ah-barcode.source
 
@@ -6056,7 +6056,7 @@
 
 ### application/vnd.ahead.space
 
-> **application/vnd.ahead.space**: `object`
+> **space**: `object`
 
 ### application/vnd.ahead.space.extensions
 
@@ -6068,7 +6068,7 @@
 
 ### application/vnd.airzip.filesecure.azf
 
-> **application/vnd.airzip.filesecure.azf**: `object`
+> **azf**: `object`
 
 ### application/vnd.airzip.filesecure.azf.extensions
 
@@ -6080,7 +6080,7 @@
 
 ### application/vnd.airzip.filesecure.azs
 
-> **application/vnd.airzip.filesecure.azs**: `object`
+> **azs**: `object`
 
 ### application/vnd.airzip.filesecure.azs.extensions
 
@@ -6092,7 +6092,7 @@
 
 ### application/vnd.amadeus+json
 
-> **application/vnd.amadeus+json**: `object`
+> **amadeus+json**: `object`
 
 ### application/vnd.amadeus+json.compressible
 
@@ -6104,7 +6104,7 @@
 
 ### application/vnd.amazon.ebook
 
-> **application/vnd.amazon.ebook**: `object`
+> **ebook**: `object`
 
 ### application/vnd.amazon.ebook.extensions
 
@@ -6116,7 +6116,7 @@
 
 ### application/vnd.amazon.mobi8-ebook
 
-> **application/vnd.amazon.mobi8-ebook**: `object`
+> **mobi8-ebook**: `object`
 
 ### application/vnd.amazon.mobi8-ebook.source
 
@@ -6124,7 +6124,7 @@
 
 ### application/vnd.americandynamics.acc
 
-> **application/vnd.americandynamics.acc**: `object`
+> **acc**: `object`
 
 ### application/vnd.americandynamics.acc.extensions
 
@@ -6136,7 +6136,7 @@
 
 ### application/vnd.amiga.ami
 
-> **application/vnd.amiga.ami**: `object`
+> **ami**: `object`
 
 ### application/vnd.amiga.ami.extensions
 
@@ -6148,7 +6148,7 @@
 
 ### application/vnd.amundsen.maze+xml
 
-> **application/vnd.amundsen.maze+xml**: `object`
+> **maze+xml**: `object`
 
 ### application/vnd.amundsen.maze+xml.compressible
 
@@ -6160,7 +6160,7 @@
 
 ### application/vnd.android.ota
 
-> **application/vnd.android.ota**: `object`
+> **ota**: `object`
 
 ### application/vnd.android.ota.source
 
@@ -6168,7 +6168,7 @@
 
 ### application/vnd.android.package-archive
 
-> **application/vnd.android.package-archive**: `object`
+> **package-archive**: `object`
 
 ### application/vnd.android.package-archive.compressible
 
@@ -6184,7 +6184,7 @@
 
 ### application/vnd.anki
 
-> **application/vnd.anki**: `object`
+> **anki**: `object`
 
 ### application/vnd.anki.source
 
@@ -6192,7 +6192,7 @@
 
 ### application/vnd.anser-web-certificate-issue-initiation
 
-> **application/vnd.anser-web-certificate-issue-initiation**: `object`
+> **anser-web-certificate-issue-initiation**: `object`
 
 ### application/vnd.anser-web-certificate-issue-initiation.extensions
 
@@ -6204,7 +6204,7 @@
 
 ### application/vnd.anser-web-funds-transfer-initiation
 
-> **application/vnd.anser-web-funds-transfer-initiation**: `object`
+> **anser-web-funds-transfer-initiation**: `object`
 
 ### application/vnd.anser-web-funds-transfer-initiation.extensions
 
@@ -6216,7 +6216,7 @@
 
 ### application/vnd.antix.game-component
 
-> **application/vnd.antix.game-component**: `object`
+> **game-component**: `object`
 
 ### application/vnd.antix.game-component.extensions
 
@@ -6228,7 +6228,7 @@
 
 ### application/vnd.apache.arrow.file
 
-> **application/vnd.apache.arrow.file**: `object`
+> **file**: `object`
 
 ### application/vnd.apache.arrow.file.source
 
@@ -6236,7 +6236,7 @@
 
 ### application/vnd.apache.arrow.stream
 
-> **application/vnd.apache.arrow.stream**: `object`
+> **stream**: `object`
 
 ### application/vnd.apache.arrow.stream.source
 
@@ -6244,7 +6244,7 @@
 
 ### application/vnd.apache.thrift.binary
 
-> **application/vnd.apache.thrift.binary**: `object`
+> **binary**: `object`
 
 ### application/vnd.apache.thrift.binary.source
 
@@ -6252,7 +6252,7 @@
 
 ### application/vnd.apache.thrift.compact
 
-> **application/vnd.apache.thrift.compact**: `object`
+> **compact**: `object`
 
 ### application/vnd.apache.thrift.compact.source
 
@@ -6260,7 +6260,7 @@
 
 ### application/vnd.apache.thrift.json
 
-> **application/vnd.apache.thrift.json**: `object`
+> **json**: `object`
 
 ### application/vnd.apache.thrift.json.source
 
@@ -6268,7 +6268,7 @@
 
 ### application/vnd.api+json
 
-> **application/vnd.api+json**: `object`
+> **api+json**: `object`
 
 ### application/vnd.api+json.compressible
 
@@ -6280,7 +6280,7 @@
 
 ### application/vnd.aplextor.warrp+json
 
-> **application/vnd.aplextor.warrp+json**: `object`
+> **warrp+json**: `object`
 
 ### application/vnd.aplextor.warrp+json.compressible
 
@@ -6292,7 +6292,7 @@
 
 ### application/vnd.apothekende.reservation+json
 
-> **application/vnd.apothekende.reservation+json**: `object`
+> **reservation+json**: `object`
 
 ### application/vnd.apothekende.reservation+json.compressible
 
@@ -6304,7 +6304,7 @@
 
 ### application/vnd.apple.installer+xml
 
-> **application/vnd.apple.installer+xml**: `object`
+> **installer+xml**: `object`
 
 ### application/vnd.apple.installer+xml.compressible
 
@@ -6320,7 +6320,7 @@
 
 ### application/vnd.apple.keynote
 
-> **application/vnd.apple.keynote**: `object`
+> **keynote**: `object`
 
 ### application/vnd.apple.keynote.extensions
 
@@ -6332,7 +6332,7 @@
 
 ### application/vnd.apple.mpegurl
 
-> **application/vnd.apple.mpegurl**: `object`
+> **mpegurl**: `object`
 
 ### application/vnd.apple.mpegurl.extensions
 
@@ -6344,7 +6344,7 @@
 
 ### application/vnd.apple.numbers
 
-> **application/vnd.apple.numbers**: `object`
+> **numbers**: `object`
 
 ### application/vnd.apple.numbers.extensions
 
@@ -6356,7 +6356,7 @@
 
 ### application/vnd.apple.pages
 
-> **application/vnd.apple.pages**: `object`
+> **pages**: `object`
 
 ### application/vnd.apple.pages.extensions
 
@@ -6368,7 +6368,7 @@
 
 ### application/vnd.apple.pkpass
 
-> **application/vnd.apple.pkpass**: `object`
+> **pkpass**: `object`
 
 ### application/vnd.apple.pkpass.compressible
 
@@ -6380,7 +6380,7 @@
 
 ### application/vnd.arastra.swi
 
-> **application/vnd.arastra.swi**: `object`
+> **swi**: `object`
 
 ### application/vnd.arastra.swi.source
 
@@ -6388,7 +6388,7 @@
 
 ### application/vnd.aristanetworks.swi
 
-> **application/vnd.aristanetworks.swi**: `object`
+> **swi**: `object`
 
 ### application/vnd.aristanetworks.swi.extensions
 
@@ -6400,7 +6400,7 @@
 
 ### application/vnd.artisan+json
 
-> **application/vnd.artisan+json**: `object`
+> **artisan+json**: `object`
 
 ### application/vnd.artisan+json.compressible
 
@@ -6412,7 +6412,7 @@
 
 ### application/vnd.artsquare
 
-> **application/vnd.artsquare**: `object`
+> **artsquare**: `object`
 
 ### application/vnd.artsquare.source
 
@@ -6420,7 +6420,7 @@
 
 ### application/vnd.astraea-software.iota
 
-> **application/vnd.astraea-software.iota**: `object`
+> **iota**: `object`
 
 ### application/vnd.astraea-software.iota.extensions
 
@@ -6432,7 +6432,7 @@
 
 ### application/vnd.audiograph
 
-> **application/vnd.audiograph**: `object`
+> **audiograph**: `object`
 
 ### application/vnd.audiograph.extensions
 
@@ -6444,7 +6444,7 @@
 
 ### application/vnd.autopackage
 
-> **application/vnd.autopackage**: `object`
+> **autopackage**: `object`
 
 ### application/vnd.autopackage.source
 
@@ -6452,7 +6452,7 @@
 
 ### application/vnd.avalon+json
 
-> **application/vnd.avalon+json**: `object`
+> **avalon+json**: `object`
 
 ### application/vnd.avalon+json.compressible
 
@@ -6464,7 +6464,7 @@
 
 ### application/vnd.avistar+xml
 
-> **application/vnd.avistar+xml**: `object`
+> **avistar+xml**: `object`
 
 ### application/vnd.avistar+xml.compressible
 
@@ -6476,7 +6476,7 @@
 
 ### application/vnd.balsamiq.bmml+xml
 
-> **application/vnd.balsamiq.bmml+xml**: `object`
+> **bmml+xml**: `object`
 
 ### application/vnd.balsamiq.bmml+xml.compressible
 
@@ -6492,7 +6492,7 @@
 
 ### application/vnd.balsamiq.bmpr
 
-> **application/vnd.balsamiq.bmpr**: `object`
+> **bmpr**: `object`
 
 ### application/vnd.balsamiq.bmpr.source
 
@@ -6500,7 +6500,7 @@
 
 ### application/vnd.banana-accounting
 
-> **application/vnd.banana-accounting**: `object`
+> **banana-accounting**: `object`
 
 ### application/vnd.banana-accounting.source
 
@@ -6508,7 +6508,7 @@
 
 ### application/vnd.bbf.usp.error
 
-> **application/vnd.bbf.usp.error**: `object`
+> **error**: `object`
 
 ### application/vnd.bbf.usp.error.source
 
@@ -6516,7 +6516,7 @@
 
 ### application/vnd.bbf.usp.msg
 
-> **application/vnd.bbf.usp.msg**: `object`
+> **msg**: `object`
 
 ### application/vnd.bbf.usp.msg.source
 
@@ -6524,7 +6524,7 @@
 
 ### application/vnd.bbf.usp.msg+json
 
-> **application/vnd.bbf.usp.msg+json**: `object`
+> **msg+json**: `object`
 
 ### application/vnd.bbf.usp.msg+json.compressible
 
@@ -6536,7 +6536,7 @@
 
 ### application/vnd.bekitzur-stech+json
 
-> **application/vnd.bekitzur-stech+json**: `object`
+> **bekitzur-stech+json**: `object`
 
 ### application/vnd.bekitzur-stech+json.compressible
 
@@ -6548,7 +6548,7 @@
 
 ### application/vnd.bint.med-content
 
-> **application/vnd.bint.med-content**: `object`
+> **med-content**: `object`
 
 ### application/vnd.bint.med-content.source
 
@@ -6556,7 +6556,7 @@
 
 ### application/vnd.biopax.rdf+xml
 
-> **application/vnd.biopax.rdf+xml**: `object`
+> **rdf+xml**: `object`
 
 ### application/vnd.biopax.rdf+xml.compressible
 
@@ -6568,7 +6568,7 @@
 
 ### application/vnd.blink-idb-value-wrapper
 
-> **application/vnd.blink-idb-value-wrapper**: `object`
+> **blink-idb-value-wrapper**: `object`
 
 ### application/vnd.blink-idb-value-wrapper.source
 
@@ -6576,7 +6576,7 @@
 
 ### application/vnd.blueice.multipass
 
-> **application/vnd.blueice.multipass**: `object`
+> **multipass**: `object`
 
 ### application/vnd.blueice.multipass.extensions
 
@@ -6588,7 +6588,7 @@
 
 ### application/vnd.bluetooth.ep.oob
 
-> **application/vnd.bluetooth.ep.oob**: `object`
+> **oob**: `object`
 
 ### application/vnd.bluetooth.ep.oob.source
 
@@ -6596,7 +6596,7 @@
 
 ### application/vnd.bluetooth.le.oob
 
-> **application/vnd.bluetooth.le.oob**: `object`
+> **oob**: `object`
 
 ### application/vnd.bluetooth.le.oob.source
 
@@ -6604,7 +6604,7 @@
 
 ### application/vnd.bmi
 
-> **application/vnd.bmi**: `object`
+> **bmi**: `object`
 
 ### application/vnd.bmi.extensions
 
@@ -6616,7 +6616,7 @@
 
 ### application/vnd.bpf
 
-> **application/vnd.bpf**: `object`
+> **bpf**: `object`
 
 ### application/vnd.bpf.source
 
@@ -6624,7 +6624,7 @@
 
 ### application/vnd.bpf3
 
-> **application/vnd.bpf3**: `object`
+> **bpf3**: `object`
 
 ### application/vnd.bpf3.source
 
@@ -6632,7 +6632,7 @@
 
 ### application/vnd.businessobjects
 
-> **application/vnd.businessobjects**: `object`
+> **businessobjects**: `object`
 
 ### application/vnd.businessobjects.extensions
 
@@ -6644,7 +6644,7 @@
 
 ### application/vnd.byu.uapi+json
 
-> **application/vnd.byu.uapi+json**: `object`
+> **uapi+json**: `object`
 
 ### application/vnd.byu.uapi+json.compressible
 
@@ -6656,7 +6656,7 @@
 
 ### application/vnd.cab-jscript
 
-> **application/vnd.cab-jscript**: `object`
+> **cab-jscript**: `object`
 
 ### application/vnd.cab-jscript.source
 
@@ -6664,7 +6664,7 @@
 
 ### application/vnd.canon-cpdl
 
-> **application/vnd.canon-cpdl**: `object`
+> **canon-cpdl**: `object`
 
 ### application/vnd.canon-cpdl.source
 
@@ -6672,7 +6672,7 @@
 
 ### application/vnd.canon-lips
 
-> **application/vnd.canon-lips**: `object`
+> **canon-lips**: `object`
 
 ### application/vnd.canon-lips.source
 
@@ -6680,7 +6680,7 @@
 
 ### application/vnd.capasystems-pg+json
 
-> **application/vnd.capasystems-pg+json**: `object`
+> **capasystems-pg+json**: `object`
 
 ### application/vnd.capasystems-pg+json.compressible
 
@@ -6692,7 +6692,7 @@
 
 ### application/vnd.cendio.thinlinc.clientconf
 
-> **application/vnd.cendio.thinlinc.clientconf**: `object`
+> **clientconf**: `object`
 
 ### application/vnd.cendio.thinlinc.clientconf.source
 
@@ -6700,7 +6700,7 @@
 
 ### application/vnd.century-systems.tcp\_stream
 
-> **application/vnd.century-systems.tcp\_stream**: `object`
+> **tcp\_stream**: `object`
 
 ### application/vnd.century-systems.tcp\_stream.source
 
@@ -6708,7 +6708,7 @@
 
 ### application/vnd.chemdraw+xml
 
-> **application/vnd.chemdraw+xml**: `object`
+> **chemdraw+xml**: `object`
 
 ### application/vnd.chemdraw+xml.compressible
 
@@ -6724,7 +6724,7 @@
 
 ### application/vnd.chess-pgn
 
-> **application/vnd.chess-pgn**: `object`
+> **chess-pgn**: `object`
 
 ### application/vnd.chess-pgn.source
 
@@ -6732,7 +6732,7 @@
 
 ### application/vnd.chipnuts.karaoke-mmd
 
-> **application/vnd.chipnuts.karaoke-mmd**: `object`
+> **karaoke-mmd**: `object`
 
 ### application/vnd.chipnuts.karaoke-mmd.extensions
 
@@ -6744,7 +6744,7 @@
 
 ### application/vnd.ciedi
 
-> **application/vnd.ciedi**: `object`
+> **ciedi**: `object`
 
 ### application/vnd.ciedi.source
 
@@ -6752,7 +6752,7 @@
 
 ### application/vnd.cinderella
 
-> **application/vnd.cinderella**: `object`
+> **cinderella**: `object`
 
 ### application/vnd.cinderella.extensions
 
@@ -6764,7 +6764,7 @@
 
 ### application/vnd.cirpack.isdn-ext
 
-> **application/vnd.cirpack.isdn-ext**: `object`
+> **isdn-ext**: `object`
 
 ### application/vnd.cirpack.isdn-ext.source
 
@@ -6772,7 +6772,7 @@
 
 ### application/vnd.citationstyles.style+xml
 
-> **application/vnd.citationstyles.style+xml**: `object`
+> **style+xml**: `object`
 
 ### application/vnd.citationstyles.style+xml.compressible
 
@@ -6788,7 +6788,7 @@
 
 ### application/vnd.claymore
 
-> **application/vnd.claymore**: `object`
+> **claymore**: `object`
 
 ### application/vnd.claymore.extensions
 
@@ -6800,7 +6800,7 @@
 
 ### application/vnd.cloanto.rp9
 
-> **application/vnd.cloanto.rp9**: `object`
+> **rp9**: `object`
 
 ### application/vnd.cloanto.rp9.extensions
 
@@ -6812,7 +6812,7 @@
 
 ### application/vnd.clonk.c4group
 
-> **application/vnd.clonk.c4group**: `object`
+> **c4group**: `object`
 
 ### application/vnd.clonk.c4group.extensions
 
@@ -6824,7 +6824,7 @@
 
 ### application/vnd.cluetrust.cartomobile-config
 
-> **application/vnd.cluetrust.cartomobile-config**: `object`
+> **cartomobile-config**: `object`
 
 ### application/vnd.cluetrust.cartomobile-config.extensions
 
@@ -6836,7 +6836,7 @@
 
 ### application/vnd.cluetrust.cartomobile-config-pkg
 
-> **application/vnd.cluetrust.cartomobile-config-pkg**: `object`
+> **cartomobile-config-pkg**: `object`
 
 ### application/vnd.cluetrust.cartomobile-config-pkg.extensions
 
@@ -6848,7 +6848,7 @@
 
 ### application/vnd.coffeescript
 
-> **application/vnd.coffeescript**: `object`
+> **coffeescript**: `object`
 
 ### application/vnd.coffeescript.source
 
@@ -6856,7 +6856,7 @@
 
 ### application/vnd.collabio.xodocuments.document
 
-> **application/vnd.collabio.xodocuments.document**: `object`
+> **document**: `object`
 
 ### application/vnd.collabio.xodocuments.document.source
 
@@ -6864,7 +6864,7 @@
 
 ### application/vnd.collabio.xodocuments.document-template
 
-> **application/vnd.collabio.xodocuments.document-template**: `object`
+> **document-template**: `object`
 
 ### application/vnd.collabio.xodocuments.document-template.source
 
@@ -6872,7 +6872,7 @@
 
 ### application/vnd.collabio.xodocuments.presentation
 
-> **application/vnd.collabio.xodocuments.presentation**: `object`
+> **presentation**: `object`
 
 ### application/vnd.collabio.xodocuments.presentation.source
 
@@ -6880,7 +6880,7 @@
 
 ### application/vnd.collabio.xodocuments.presentation-template
 
-> **application/vnd.collabio.xodocuments.presentation-template**: `object`
+> **presentation-template**: `object`
 
 ### application/vnd.collabio.xodocuments.presentation-template.source
 
@@ -6888,7 +6888,7 @@
 
 ### application/vnd.collabio.xodocuments.spreadsheet
 
-> **application/vnd.collabio.xodocuments.spreadsheet**: `object`
+> **spreadsheet**: `object`
 
 ### application/vnd.collabio.xodocuments.spreadsheet.source
 
@@ -6896,7 +6896,7 @@
 
 ### application/vnd.collabio.xodocuments.spreadsheet-template
 
-> **application/vnd.collabio.xodocuments.spreadsheet-template**: `object`
+> **spreadsheet-template**: `object`
 
 ### application/vnd.collabio.xodocuments.spreadsheet-template.source
 
@@ -6904,7 +6904,7 @@
 
 ### application/vnd.collection+json
 
-> **application/vnd.collection+json**: `object`
+> **collection+json**: `object`
 
 ### application/vnd.collection+json.compressible
 
@@ -6916,7 +6916,7 @@
 
 ### application/vnd.collection.doc+json
 
-> **application/vnd.collection.doc+json**: `object`
+> **doc+json**: `object`
 
 ### application/vnd.collection.doc+json.compressible
 
@@ -6928,7 +6928,7 @@
 
 ### application/vnd.collection.next+json
 
-> **application/vnd.collection.next+json**: `object`
+> **next+json**: `object`
 
 ### application/vnd.collection.next+json.compressible
 
@@ -6940,7 +6940,7 @@
 
 ### application/vnd.comicbook+zip
 
-> **application/vnd.comicbook+zip**: `object`
+> **comicbook+zip**: `object`
 
 ### application/vnd.comicbook+zip.compressible
 
@@ -6952,7 +6952,7 @@
 
 ### application/vnd.comicbook-rar
 
-> **application/vnd.comicbook-rar**: `object`
+> **comicbook-rar**: `object`
 
 ### application/vnd.comicbook-rar.source
 
@@ -6960,7 +6960,7 @@
 
 ### application/vnd.commerce-battelle
 
-> **application/vnd.commerce-battelle**: `object`
+> **commerce-battelle**: `object`
 
 ### application/vnd.commerce-battelle.source
 
@@ -6968,7 +6968,7 @@
 
 ### application/vnd.commonspace
 
-> **application/vnd.commonspace**: `object`
+> **commonspace**: `object`
 
 ### application/vnd.commonspace.extensions
 
@@ -6980,7 +6980,7 @@
 
 ### application/vnd.contact.cmsg
 
-> **application/vnd.contact.cmsg**: `object`
+> **cmsg**: `object`
 
 ### application/vnd.contact.cmsg.extensions
 
@@ -6992,7 +6992,7 @@
 
 ### application/vnd.coreos.ignition+json
 
-> **application/vnd.coreos.ignition+json**: `object`
+> **ignition+json**: `object`
 
 ### application/vnd.coreos.ignition+json.compressible
 
@@ -7004,7 +7004,7 @@
 
 ### application/vnd.cosmocaller
 
-> **application/vnd.cosmocaller**: `object`
+> **cosmocaller**: `object`
 
 ### application/vnd.cosmocaller.extensions
 
@@ -7016,7 +7016,7 @@
 
 ### application/vnd.crick.clicker
 
-> **application/vnd.crick.clicker**: `object`
+> **clicker**: `object`
 
 ### application/vnd.crick.clicker.extensions
 
@@ -7028,7 +7028,7 @@
 
 ### application/vnd.crick.clicker.keyboard
 
-> **application/vnd.crick.clicker.keyboard**: `object`
+> **keyboard**: `object`
 
 ### application/vnd.crick.clicker.keyboard.extensions
 
@@ -7040,7 +7040,7 @@
 
 ### application/vnd.crick.clicker.palette
 
-> **application/vnd.crick.clicker.palette**: `object`
+> **palette**: `object`
 
 ### application/vnd.crick.clicker.palette.extensions
 
@@ -7052,7 +7052,7 @@
 
 ### application/vnd.crick.clicker.template
 
-> **application/vnd.crick.clicker.template**: `object`
+> **template**: `object`
 
 ### application/vnd.crick.clicker.template.extensions
 
@@ -7064,7 +7064,7 @@
 
 ### application/vnd.crick.clicker.wordbank
 
-> **application/vnd.crick.clicker.wordbank**: `object`
+> **wordbank**: `object`
 
 ### application/vnd.crick.clicker.wordbank.extensions
 
@@ -7076,7 +7076,7 @@
 
 ### application/vnd.criticaltools.wbs+xml
 
-> **application/vnd.criticaltools.wbs+xml**: `object`
+> **wbs+xml**: `object`
 
 ### application/vnd.criticaltools.wbs+xml.compressible
 
@@ -7092,7 +7092,7 @@
 
 ### application/vnd.cryptii.pipe+json
 
-> **application/vnd.cryptii.pipe+json**: `object`
+> **pipe+json**: `object`
 
 ### application/vnd.cryptii.pipe+json.compressible
 
@@ -7104,7 +7104,7 @@
 
 ### application/vnd.crypto-shade-file
 
-> **application/vnd.crypto-shade-file**: `object`
+> **crypto-shade-file**: `object`
 
 ### application/vnd.crypto-shade-file.source
 
@@ -7112,7 +7112,7 @@
 
 ### application/vnd.cryptomator.encrypted
 
-> **application/vnd.cryptomator.encrypted**: `object`
+> **encrypted**: `object`
 
 ### application/vnd.cryptomator.encrypted.source
 
@@ -7120,7 +7120,7 @@
 
 ### application/vnd.cryptomator.vault
 
-> **application/vnd.cryptomator.vault**: `object`
+> **vault**: `object`
 
 ### application/vnd.cryptomator.vault.source
 
@@ -7128,7 +7128,7 @@
 
 ### application/vnd.ctc-posml
 
-> **application/vnd.ctc-posml**: `object`
+> **ctc-posml**: `object`
 
 ### application/vnd.ctc-posml.extensions
 
@@ -7140,7 +7140,7 @@
 
 ### application/vnd.ctct.ws+xml
 
-> **application/vnd.ctct.ws+xml**: `object`
+> **ws+xml**: `object`
 
 ### application/vnd.ctct.ws+xml.compressible
 
@@ -7152,7 +7152,7 @@
 
 ### application/vnd.cups-pdf
 
-> **application/vnd.cups-pdf**: `object`
+> **cups-pdf**: `object`
 
 ### application/vnd.cups-pdf.source
 
@@ -7160,7 +7160,7 @@
 
 ### application/vnd.cups-postscript
 
-> **application/vnd.cups-postscript**: `object`
+> **cups-postscript**: `object`
 
 ### application/vnd.cups-postscript.source
 
@@ -7168,7 +7168,7 @@
 
 ### application/vnd.cups-ppd
 
-> **application/vnd.cups-ppd**: `object`
+> **cups-ppd**: `object`
 
 ### application/vnd.cups-ppd.extensions
 
@@ -7180,7 +7180,7 @@
 
 ### application/vnd.cups-raster
 
-> **application/vnd.cups-raster**: `object`
+> **cups-raster**: `object`
 
 ### application/vnd.cups-raster.source
 
@@ -7188,7 +7188,7 @@
 
 ### application/vnd.cups-raw
 
-> **application/vnd.cups-raw**: `object`
+> **cups-raw**: `object`
 
 ### application/vnd.cups-raw.source
 
@@ -7196,7 +7196,7 @@
 
 ### application/vnd.curl
 
-> **application/vnd.curl**: `object`
+> **curl**: `object`
 
 ### application/vnd.curl.source
 
@@ -7204,7 +7204,7 @@
 
 ### application/vnd.curl.car
 
-> **application/vnd.curl.car**: `object`
+> **car**: `object`
 
 ### application/vnd.curl.car.extensions
 
@@ -7216,7 +7216,7 @@
 
 ### application/vnd.curl.pcurl
 
-> **application/vnd.curl.pcurl**: `object`
+> **pcurl**: `object`
 
 ### application/vnd.curl.pcurl.extensions
 
@@ -7228,7 +7228,7 @@
 
 ### application/vnd.cyan.dean.root+xml
 
-> **application/vnd.cyan.dean.root+xml**: `object`
+> **root+xml**: `object`
 
 ### application/vnd.cyan.dean.root+xml.compressible
 
@@ -7240,7 +7240,7 @@
 
 ### application/vnd.cybank
 
-> **application/vnd.cybank**: `object`
+> **cybank**: `object`
 
 ### application/vnd.cybank.source
 
@@ -7248,7 +7248,7 @@
 
 ### application/vnd.cyclonedx+json
 
-> **application/vnd.cyclonedx+json**: `object`
+> **cyclonedx+json**: `object`
 
 ### application/vnd.cyclonedx+json.compressible
 
@@ -7260,7 +7260,7 @@
 
 ### application/vnd.cyclonedx+xml
 
-> **application/vnd.cyclonedx+xml**: `object`
+> **cyclonedx+xml**: `object`
 
 ### application/vnd.cyclonedx+xml.compressible
 
@@ -7272,7 +7272,7 @@
 
 ### application/vnd.d2l.coursepackage1p0+zip
 
-> **application/vnd.d2l.coursepackage1p0+zip**: `object`
+> **coursepackage1p0+zip**: `object`
 
 ### application/vnd.d2l.coursepackage1p0+zip.compressible
 
@@ -7284,7 +7284,7 @@
 
 ### application/vnd.d3m-dataset
 
-> **application/vnd.d3m-dataset**: `object`
+> **d3m-dataset**: `object`
 
 ### application/vnd.d3m-dataset.source
 
@@ -7292,7 +7292,7 @@
 
 ### application/vnd.d3m-problem
 
-> **application/vnd.d3m-problem**: `object`
+> **d3m-problem**: `object`
 
 ### application/vnd.d3m-problem.source
 
@@ -7300,7 +7300,7 @@
 
 ### application/vnd.dart
 
-> **application/vnd.dart**: `object`
+> **dart**: `object`
 
 ### application/vnd.dart.compressible
 
@@ -7316,7 +7316,7 @@
 
 ### application/vnd.data-vision.rdz
 
-> **application/vnd.data-vision.rdz**: `object`
+> **rdz**: `object`
 
 ### application/vnd.data-vision.rdz.extensions
 
@@ -7328,7 +7328,7 @@
 
 ### application/vnd.datapackage+json
 
-> **application/vnd.datapackage+json**: `object`
+> **datapackage+json**: `object`
 
 ### application/vnd.datapackage+json.compressible
 
@@ -7340,7 +7340,7 @@
 
 ### application/vnd.dataresource+json
 
-> **application/vnd.dataresource+json**: `object`
+> **dataresource+json**: `object`
 
 ### application/vnd.dataresource+json.compressible
 
@@ -7352,7 +7352,7 @@
 
 ### application/vnd.dbf
 
-> **application/vnd.dbf**: `object`
+> **dbf**: `object`
 
 ### application/vnd.dbf.extensions
 
@@ -7364,7 +7364,7 @@
 
 ### application/vnd.debian.binary-package
 
-> **application/vnd.debian.binary-package**: `object`
+> **binary-package**: `object`
 
 ### application/vnd.debian.binary-package.source
 
@@ -7372,7 +7372,7 @@
 
 ### application/vnd.dece.data
 
-> **application/vnd.dece.data**: `object`
+> **data**: `object`
 
 ### application/vnd.dece.data.extensions
 
@@ -7384,7 +7384,7 @@
 
 ### application/vnd.dece.ttml+xml
 
-> **application/vnd.dece.ttml+xml**: `object`
+> **ttml+xml**: `object`
 
 ### application/vnd.dece.ttml+xml.compressible
 
@@ -7400,7 +7400,7 @@
 
 ### application/vnd.dece.unspecified
 
-> **application/vnd.dece.unspecified**: `object`
+> **unspecified**: `object`
 
 ### application/vnd.dece.unspecified.extensions
 
@@ -7412,7 +7412,7 @@
 
 ### application/vnd.dece.zip
 
-> **application/vnd.dece.zip**: `object`
+> **zip**: `object`
 
 ### application/vnd.dece.zip.extensions
 
@@ -7424,7 +7424,7 @@
 
 ### application/vnd.denovo.fcselayout-link
 
-> **application/vnd.denovo.fcselayout-link**: `object`
+> **fcselayout-link**: `object`
 
 ### application/vnd.denovo.fcselayout-link.extensions
 
@@ -7436,7 +7436,7 @@
 
 ### application/vnd.desmume.movie
 
-> **application/vnd.desmume.movie**: `object`
+> **movie**: `object`
 
 ### application/vnd.desmume.movie.source
 
@@ -7444,7 +7444,7 @@
 
 ### application/vnd.dir-bi.plate-dl-nosuffix
 
-> **application/vnd.dir-bi.plate-dl-nosuffix**: `object`
+> **plate-dl-nosuffix**: `object`
 
 ### application/vnd.dir-bi.plate-dl-nosuffix.source
 
@@ -7452,7 +7452,7 @@
 
 ### application/vnd.dm.delegation+xml
 
-> **application/vnd.dm.delegation+xml**: `object`
+> **delegation+xml**: `object`
 
 ### application/vnd.dm.delegation+xml.compressible
 
@@ -7464,7 +7464,7 @@
 
 ### application/vnd.dna
 
-> **application/vnd.dna**: `object`
+> **dna**: `object`
 
 ### application/vnd.dna.extensions
 
@@ -7476,7 +7476,7 @@
 
 ### application/vnd.document+json
 
-> **application/vnd.document+json**: `object`
+> **document+json**: `object`
 
 ### application/vnd.document+json.compressible
 
@@ -7488,7 +7488,7 @@
 
 ### application/vnd.dolby.mlp
 
-> **application/vnd.dolby.mlp**: `object`
+> **mlp**: `object`
 
 ### application/vnd.dolby.mlp.extensions
 
@@ -7500,7 +7500,7 @@
 
 ### application/vnd.dolby.mobile.1
 
-> **application/vnd.dolby.mobile.1**: `object`
+> **1**: `object`
 
 ### application/vnd.dolby.mobile.1.source
 
@@ -7508,7 +7508,7 @@
 
 ### application/vnd.dolby.mobile.2
 
-> **application/vnd.dolby.mobile.2**: `object`
+> **2**: `object`
 
 ### application/vnd.dolby.mobile.2.source
 
@@ -7516,7 +7516,7 @@
 
 ### application/vnd.doremir.scorecloud-binary-document
 
-> **application/vnd.doremir.scorecloud-binary-document**: `object`
+> **scorecloud-binary-document**: `object`
 
 ### application/vnd.doremir.scorecloud-binary-document.source
 
@@ -7524,7 +7524,7 @@
 
 ### application/vnd.dpgraph
 
-> **application/vnd.dpgraph**: `object`
+> **dpgraph**: `object`
 
 ### application/vnd.dpgraph.extensions
 
@@ -7536,7 +7536,7 @@
 
 ### application/vnd.dreamfactory
 
-> **application/vnd.dreamfactory**: `object`
+> **dreamfactory**: `object`
 
 ### application/vnd.dreamfactory.extensions
 
@@ -7548,7 +7548,7 @@
 
 ### application/vnd.drive+json
 
-> **application/vnd.drive+json**: `object`
+> **drive+json**: `object`
 
 ### application/vnd.drive+json.compressible
 
@@ -7560,7 +7560,7 @@
 
 ### application/vnd.ds-keypoint
 
-> **application/vnd.ds-keypoint**: `object`
+> **ds-keypoint**: `object`
 
 ### application/vnd.ds-keypoint.extensions
 
@@ -7572,7 +7572,7 @@
 
 ### application/vnd.dtg.local
 
-> **application/vnd.dtg.local**: `object`
+> **local**: `object`
 
 ### application/vnd.dtg.local.source
 
@@ -7580,7 +7580,7 @@
 
 ### application/vnd.dtg.local.flash
 
-> **application/vnd.dtg.local.flash**: `object`
+> **flash**: `object`
 
 ### application/vnd.dtg.local.flash.source
 
@@ -7588,7 +7588,7 @@
 
 ### application/vnd.dtg.local.html
 
-> **application/vnd.dtg.local.html**: `object`
+> **html**: `object`
 
 ### application/vnd.dtg.local.html.source
 
@@ -7596,7 +7596,7 @@
 
 ### application/vnd.dvb.ait
 
-> **application/vnd.dvb.ait**: `object`
+> **ait**: `object`
 
 ### application/vnd.dvb.ait.extensions
 
@@ -7608,7 +7608,7 @@
 
 ### application/vnd.dvb.dvbisl+xml
 
-> **application/vnd.dvb.dvbisl+xml**: `object`
+> **dvbisl+xml**: `object`
 
 ### application/vnd.dvb.dvbisl+xml.compressible
 
@@ -7620,7 +7620,7 @@
 
 ### application/vnd.dvb.dvbj
 
-> **application/vnd.dvb.dvbj**: `object`
+> **dvbj**: `object`
 
 ### application/vnd.dvb.dvbj.source
 
@@ -7628,7 +7628,7 @@
 
 ### application/vnd.dvb.esgcontainer
 
-> **application/vnd.dvb.esgcontainer**: `object`
+> **esgcontainer**: `object`
 
 ### application/vnd.dvb.esgcontainer.source
 
@@ -7636,7 +7636,7 @@
 
 ### application/vnd.dvb.ipdcdftnotifaccess
 
-> **application/vnd.dvb.ipdcdftnotifaccess**: `object`
+> **ipdcdftnotifaccess**: `object`
 
 ### application/vnd.dvb.ipdcdftnotifaccess.source
 
@@ -7644,7 +7644,7 @@
 
 ### application/vnd.dvb.ipdcesgaccess
 
-> **application/vnd.dvb.ipdcesgaccess**: `object`
+> **ipdcesgaccess**: `object`
 
 ### application/vnd.dvb.ipdcesgaccess.source
 
@@ -7652,7 +7652,7 @@
 
 ### application/vnd.dvb.ipdcesgaccess2
 
-> **application/vnd.dvb.ipdcesgaccess2**: `object`
+> **ipdcesgaccess2**: `object`
 
 ### application/vnd.dvb.ipdcesgaccess2.source
 
@@ -7660,7 +7660,7 @@
 
 ### application/vnd.dvb.ipdcesgpdd
 
-> **application/vnd.dvb.ipdcesgpdd**: `object`
+> **ipdcesgpdd**: `object`
 
 ### application/vnd.dvb.ipdcesgpdd.source
 
@@ -7668,7 +7668,7 @@
 
 ### application/vnd.dvb.ipdcroaming
 
-> **application/vnd.dvb.ipdcroaming**: `object`
+> **ipdcroaming**: `object`
 
 ### application/vnd.dvb.ipdcroaming.source
 
@@ -7676,7 +7676,7 @@
 
 ### application/vnd.dvb.iptv.alfec-base
 
-> **application/vnd.dvb.iptv.alfec-base**: `object`
+> **alfec-base**: `object`
 
 ### application/vnd.dvb.iptv.alfec-base.source
 
@@ -7684,7 +7684,7 @@
 
 ### application/vnd.dvb.iptv.alfec-enhancement
 
-> **application/vnd.dvb.iptv.alfec-enhancement**: `object`
+> **alfec-enhancement**: `object`
 
 ### application/vnd.dvb.iptv.alfec-enhancement.source
 
@@ -7692,7 +7692,7 @@
 
 ### application/vnd.dvb.notif-aggregate-root+xml
 
-> **application/vnd.dvb.notif-aggregate-root+xml**: `object`
+> **notif-aggregate-root+xml**: `object`
 
 ### application/vnd.dvb.notif-aggregate-root+xml.compressible
 
@@ -7704,7 +7704,7 @@
 
 ### application/vnd.dvb.notif-container+xml
 
-> **application/vnd.dvb.notif-container+xml**: `object`
+> **notif-container+xml**: `object`
 
 ### application/vnd.dvb.notif-container+xml.compressible
 
@@ -7716,7 +7716,7 @@
 
 ### application/vnd.dvb.notif-generic+xml
 
-> **application/vnd.dvb.notif-generic+xml**: `object`
+> **notif-generic+xml**: `object`
 
 ### application/vnd.dvb.notif-generic+xml.compressible
 
@@ -7728,7 +7728,7 @@
 
 ### application/vnd.dvb.notif-ia-msglist+xml
 
-> **application/vnd.dvb.notif-ia-msglist+xml**: `object`
+> **notif-ia-msglist+xml**: `object`
 
 ### application/vnd.dvb.notif-ia-msglist+xml.compressible
 
@@ -7740,7 +7740,7 @@
 
 ### application/vnd.dvb.notif-ia-registration-request+xml
 
-> **application/vnd.dvb.notif-ia-registration-request+xml**: `object`
+> **notif-ia-registration-request+xml**: `object`
 
 ### application/vnd.dvb.notif-ia-registration-request+xml.compressible
 
@@ -7752,7 +7752,7 @@
 
 ### application/vnd.dvb.notif-ia-registration-response+xml
 
-> **application/vnd.dvb.notif-ia-registration-response+xml**: `object`
+> **notif-ia-registration-response+xml**: `object`
 
 ### application/vnd.dvb.notif-ia-registration-response+xml.compressible
 
@@ -7764,7 +7764,7 @@
 
 ### application/vnd.dvb.notif-init+xml
 
-> **application/vnd.dvb.notif-init+xml**: `object`
+> **notif-init+xml**: `object`
 
 ### application/vnd.dvb.notif-init+xml.compressible
 
@@ -7776,7 +7776,7 @@
 
 ### application/vnd.dvb.pfr
 
-> **application/vnd.dvb.pfr**: `object`
+> **pfr**: `object`
 
 ### application/vnd.dvb.pfr.source
 
@@ -7784,7 +7784,7 @@
 
 ### application/vnd.dvb.service
 
-> **application/vnd.dvb.service**: `object`
+> **service**: `object`
 
 ### application/vnd.dvb.service.extensions
 
@@ -7796,7 +7796,7 @@
 
 ### application/vnd.dxr
 
-> **application/vnd.dxr**: `object`
+> **dxr**: `object`
 
 ### application/vnd.dxr.source
 
@@ -7804,7 +7804,7 @@
 
 ### application/vnd.dynageo
 
-> **application/vnd.dynageo**: `object`
+> **dynageo**: `object`
 
 ### application/vnd.dynageo.extensions
 
@@ -7816,7 +7816,7 @@
 
 ### application/vnd.dzr
 
-> **application/vnd.dzr**: `object`
+> **dzr**: `object`
 
 ### application/vnd.dzr.source
 
@@ -7824,7 +7824,7 @@
 
 ### application/vnd.easykaraoke.cdgdownload
 
-> **application/vnd.easykaraoke.cdgdownload**: `object`
+> **cdgdownload**: `object`
 
 ### application/vnd.easykaraoke.cdgdownload.source
 
@@ -7832,7 +7832,7 @@
 
 ### application/vnd.ecdis-update
 
-> **application/vnd.ecdis-update**: `object`
+> **ecdis-update**: `object`
 
 ### application/vnd.ecdis-update.source
 
@@ -7840,7 +7840,7 @@
 
 ### application/vnd.ecip.rlp
 
-> **application/vnd.ecip.rlp**: `object`
+> **rlp**: `object`
 
 ### application/vnd.ecip.rlp.source
 
@@ -7848,7 +7848,7 @@
 
 ### application/vnd.eclipse.ditto+json
 
-> **application/vnd.eclipse.ditto+json**: `object`
+> **ditto+json**: `object`
 
 ### application/vnd.eclipse.ditto+json.compressible
 
@@ -7860,7 +7860,7 @@
 
 ### application/vnd.ecowin.chart
 
-> **application/vnd.ecowin.chart**: `object`
+> **chart**: `object`
 
 ### application/vnd.ecowin.chart.extensions
 
@@ -7872,7 +7872,7 @@
 
 ### application/vnd.ecowin.filerequest
 
-> **application/vnd.ecowin.filerequest**: `object`
+> **filerequest**: `object`
 
 ### application/vnd.ecowin.filerequest.source
 
@@ -7880,7 +7880,7 @@
 
 ### application/vnd.ecowin.fileupdate
 
-> **application/vnd.ecowin.fileupdate**: `object`
+> **fileupdate**: `object`
 
 ### application/vnd.ecowin.fileupdate.source
 
@@ -7888,7 +7888,7 @@
 
 ### application/vnd.ecowin.series
 
-> **application/vnd.ecowin.series**: `object`
+> **series**: `object`
 
 ### application/vnd.ecowin.series.source
 
@@ -7896,7 +7896,7 @@
 
 ### application/vnd.ecowin.seriesrequest
 
-> **application/vnd.ecowin.seriesrequest**: `object`
+> **seriesrequest**: `object`
 
 ### application/vnd.ecowin.seriesrequest.source
 
@@ -7904,7 +7904,7 @@
 
 ### application/vnd.ecowin.seriesupdate
 
-> **application/vnd.ecowin.seriesupdate**: `object`
+> **seriesupdate**: `object`
 
 ### application/vnd.ecowin.seriesupdate.source
 
@@ -7912,7 +7912,7 @@
 
 ### application/vnd.efi.img
 
-> **application/vnd.efi.img**: `object`
+> **img**: `object`
 
 ### application/vnd.efi.img.source
 
@@ -7920,7 +7920,7 @@
 
 ### application/vnd.efi.iso
 
-> **application/vnd.efi.iso**: `object`
+> **iso**: `object`
 
 ### application/vnd.efi.iso.source
 
@@ -7928,7 +7928,7 @@
 
 ### application/vnd.emclient.accessrequest+xml
 
-> **application/vnd.emclient.accessrequest+xml**: `object`
+> **accessrequest+xml**: `object`
 
 ### application/vnd.emclient.accessrequest+xml.compressible
 
@@ -7940,7 +7940,7 @@
 
 ### application/vnd.enliven
 
-> **application/vnd.enliven**: `object`
+> **enliven**: `object`
 
 ### application/vnd.enliven.extensions
 
@@ -7952,7 +7952,7 @@
 
 ### application/vnd.enphase.envoy
 
-> **application/vnd.enphase.envoy**: `object`
+> **envoy**: `object`
 
 ### application/vnd.enphase.envoy.source
 
@@ -7960,7 +7960,7 @@
 
 ### application/vnd.eprints.data+xml
 
-> **application/vnd.eprints.data+xml**: `object`
+> **data+xml**: `object`
 
 ### application/vnd.eprints.data+xml.compressible
 
@@ -7972,7 +7972,7 @@
 
 ### application/vnd.epson.esf
 
-> **application/vnd.epson.esf**: `object`
+> **esf**: `object`
 
 ### application/vnd.epson.esf.extensions
 
@@ -7984,7 +7984,7 @@
 
 ### application/vnd.epson.msf
 
-> **application/vnd.epson.msf**: `object`
+> **msf**: `object`
 
 ### application/vnd.epson.msf.extensions
 
@@ -7996,7 +7996,7 @@
 
 ### application/vnd.epson.quickanime
 
-> **application/vnd.epson.quickanime**: `object`
+> **quickanime**: `object`
 
 ### application/vnd.epson.quickanime.extensions
 
@@ -8008,7 +8008,7 @@
 
 ### application/vnd.epson.salt
 
-> **application/vnd.epson.salt**: `object`
+> **salt**: `object`
 
 ### application/vnd.epson.salt.extensions
 
@@ -8020,7 +8020,7 @@
 
 ### application/vnd.epson.ssf
 
-> **application/vnd.epson.ssf**: `object`
+> **ssf**: `object`
 
 ### application/vnd.epson.ssf.extensions
 
@@ -8032,7 +8032,7 @@
 
 ### application/vnd.ericsson.quickcall
 
-> **application/vnd.ericsson.quickcall**: `object`
+> **quickcall**: `object`
 
 ### application/vnd.ericsson.quickcall.source
 
@@ -8040,7 +8040,7 @@
 
 ### application/vnd.espass-espass+zip
 
-> **application/vnd.espass-espass+zip**: `object`
+> **espass-espass+zip**: `object`
 
 ### application/vnd.espass-espass+zip.compressible
 
@@ -8052,7 +8052,7 @@
 
 ### application/vnd.eszigno3+xml
 
-> **application/vnd.eszigno3+xml**: `object`
+> **eszigno3+xml**: `object`
 
 ### application/vnd.eszigno3+xml.compressible
 
@@ -8068,7 +8068,7 @@
 
 ### application/vnd.etsi.aoc+xml
 
-> **application/vnd.etsi.aoc+xml**: `object`
+> **aoc+xml**: `object`
 
 ### application/vnd.etsi.aoc+xml.compressible
 
@@ -8080,7 +8080,7 @@
 
 ### application/vnd.etsi.asic-e+zip
 
-> **application/vnd.etsi.asic-e+zip**: `object`
+> **asic-e+zip**: `object`
 
 ### application/vnd.etsi.asic-e+zip.compressible
 
@@ -8092,7 +8092,7 @@
 
 ### application/vnd.etsi.asic-s+zip
 
-> **application/vnd.etsi.asic-s+zip**: `object`
+> **asic-s+zip**: `object`
 
 ### application/vnd.etsi.asic-s+zip.compressible
 
@@ -8104,7 +8104,7 @@
 
 ### application/vnd.etsi.cug+xml
 
-> **application/vnd.etsi.cug+xml**: `object`
+> **cug+xml**: `object`
 
 ### application/vnd.etsi.cug+xml.compressible
 
@@ -8116,7 +8116,7 @@
 
 ### application/vnd.etsi.iptvcommand+xml
 
-> **application/vnd.etsi.iptvcommand+xml**: `object`
+> **iptvcommand+xml**: `object`
 
 ### application/vnd.etsi.iptvcommand+xml.compressible
 
@@ -8128,7 +8128,7 @@
 
 ### application/vnd.etsi.iptvdiscovery+xml
 
-> **application/vnd.etsi.iptvdiscovery+xml**: `object`
+> **iptvdiscovery+xml**: `object`
 
 ### application/vnd.etsi.iptvdiscovery+xml.compressible
 
@@ -8140,7 +8140,7 @@
 
 ### application/vnd.etsi.iptvprofile+xml
 
-> **application/vnd.etsi.iptvprofile+xml**: `object`
+> **iptvprofile+xml**: `object`
 
 ### application/vnd.etsi.iptvprofile+xml.compressible
 
@@ -8152,7 +8152,7 @@
 
 ### application/vnd.etsi.iptvsad-bc+xml
 
-> **application/vnd.etsi.iptvsad-bc+xml**: `object`
+> **iptvsad-bc+xml**: `object`
 
 ### application/vnd.etsi.iptvsad-bc+xml.compressible
 
@@ -8164,7 +8164,7 @@
 
 ### application/vnd.etsi.iptvsad-cod+xml
 
-> **application/vnd.etsi.iptvsad-cod+xml**: `object`
+> **iptvsad-cod+xml**: `object`
 
 ### application/vnd.etsi.iptvsad-cod+xml.compressible
 
@@ -8176,7 +8176,7 @@
 
 ### application/vnd.etsi.iptvsad-npvr+xml
 
-> **application/vnd.etsi.iptvsad-npvr+xml**: `object`
+> **iptvsad-npvr+xml**: `object`
 
 ### application/vnd.etsi.iptvsad-npvr+xml.compressible
 
@@ -8188,7 +8188,7 @@
 
 ### application/vnd.etsi.iptvservice+xml
 
-> **application/vnd.etsi.iptvservice+xml**: `object`
+> **iptvservice+xml**: `object`
 
 ### application/vnd.etsi.iptvservice+xml.compressible
 
@@ -8200,7 +8200,7 @@
 
 ### application/vnd.etsi.iptvsync+xml
 
-> **application/vnd.etsi.iptvsync+xml**: `object`
+> **iptvsync+xml**: `object`
 
 ### application/vnd.etsi.iptvsync+xml.compressible
 
@@ -8212,7 +8212,7 @@
 
 ### application/vnd.etsi.iptvueprofile+xml
 
-> **application/vnd.etsi.iptvueprofile+xml**: `object`
+> **iptvueprofile+xml**: `object`
 
 ### application/vnd.etsi.iptvueprofile+xml.compressible
 
@@ -8224,7 +8224,7 @@
 
 ### application/vnd.etsi.mcid+xml
 
-> **application/vnd.etsi.mcid+xml**: `object`
+> **mcid+xml**: `object`
 
 ### application/vnd.etsi.mcid+xml.compressible
 
@@ -8236,7 +8236,7 @@
 
 ### application/vnd.etsi.mheg5
 
-> **application/vnd.etsi.mheg5**: `object`
+> **mheg5**: `object`
 
 ### application/vnd.etsi.mheg5.source
 
@@ -8244,7 +8244,7 @@
 
 ### application/vnd.etsi.overload-control-policy-dataset+xml
 
-> **application/vnd.etsi.overload-control-policy-dataset+xml**: `object`
+> **overload-control-policy-dataset+xml**: `object`
 
 ### application/vnd.etsi.overload-control-policy-dataset+xml.compressible
 
@@ -8256,7 +8256,7 @@
 
 ### application/vnd.etsi.pstn+xml
 
-> **application/vnd.etsi.pstn+xml**: `object`
+> **pstn+xml**: `object`
 
 ### application/vnd.etsi.pstn+xml.compressible
 
@@ -8268,7 +8268,7 @@
 
 ### application/vnd.etsi.sci+xml
 
-> **application/vnd.etsi.sci+xml**: `object`
+> **sci+xml**: `object`
 
 ### application/vnd.etsi.sci+xml.compressible
 
@@ -8280,7 +8280,7 @@
 
 ### application/vnd.etsi.simservs+xml
 
-> **application/vnd.etsi.simservs+xml**: `object`
+> **simservs+xml**: `object`
 
 ### application/vnd.etsi.simservs+xml.compressible
 
@@ -8292,7 +8292,7 @@
 
 ### application/vnd.etsi.timestamp-token
 
-> **application/vnd.etsi.timestamp-token**: `object`
+> **timestamp-token**: `object`
 
 ### application/vnd.etsi.timestamp-token.source
 
@@ -8300,7 +8300,7 @@
 
 ### application/vnd.etsi.tsl+xml
 
-> **application/vnd.etsi.tsl+xml**: `object`
+> **tsl+xml**: `object`
 
 ### application/vnd.etsi.tsl+xml.compressible
 
@@ -8312,7 +8312,7 @@
 
 ### application/vnd.etsi.tsl.der
 
-> **application/vnd.etsi.tsl.der**: `object`
+> **der**: `object`
 
 ### application/vnd.etsi.tsl.der.source
 
@@ -8320,7 +8320,7 @@
 
 ### application/vnd.eu.kasparian.car+json
 
-> **application/vnd.eu.kasparian.car+json**: `object`
+> **car+json**: `object`
 
 ### application/vnd.eu.kasparian.car+json.compressible
 
@@ -8332,7 +8332,7 @@
 
 ### application/vnd.eudora.data
 
-> **application/vnd.eudora.data**: `object`
+> **data**: `object`
 
 ### application/vnd.eudora.data.source
 
@@ -8340,7 +8340,7 @@
 
 ### application/vnd.evolv.ecig.profile
 
-> **application/vnd.evolv.ecig.profile**: `object`
+> **profile**: `object`
 
 ### application/vnd.evolv.ecig.profile.source
 
@@ -8348,7 +8348,7 @@
 
 ### application/vnd.evolv.ecig.settings
 
-> **application/vnd.evolv.ecig.settings**: `object`
+> **settings**: `object`
 
 ### application/vnd.evolv.ecig.settings.source
 
@@ -8356,7 +8356,7 @@
 
 ### application/vnd.evolv.ecig.theme
 
-> **application/vnd.evolv.ecig.theme**: `object`
+> **theme**: `object`
 
 ### application/vnd.evolv.ecig.theme.source
 
@@ -8364,7 +8364,7 @@
 
 ### application/vnd.exstream-empower+zip
 
-> **application/vnd.exstream-empower+zip**: `object`
+> **exstream-empower+zip**: `object`
 
 ### application/vnd.exstream-empower+zip.compressible
 
@@ -8376,7 +8376,7 @@
 
 ### application/vnd.exstream-package
 
-> **application/vnd.exstream-package**: `object`
+> **exstream-package**: `object`
 
 ### application/vnd.exstream-package.source
 
@@ -8384,7 +8384,7 @@
 
 ### application/vnd.ezpix-album
 
-> **application/vnd.ezpix-album**: `object`
+> **ezpix-album**: `object`
 
 ### application/vnd.ezpix-album.extensions
 
@@ -8396,7 +8396,7 @@
 
 ### application/vnd.ezpix-package
 
-> **application/vnd.ezpix-package**: `object`
+> **ezpix-package**: `object`
 
 ### application/vnd.ezpix-package.extensions
 
@@ -8408,7 +8408,7 @@
 
 ### application/vnd.f-secure.mobile
 
-> **application/vnd.f-secure.mobile**: `object`
+> **mobile**: `object`
 
 ### application/vnd.f-secure.mobile.source
 
@@ -8416,7 +8416,7 @@
 
 ### application/vnd.familysearch.gedcom+zip
 
-> **application/vnd.familysearch.gedcom+zip**: `object`
+> **gedcom+zip**: `object`
 
 ### application/vnd.familysearch.gedcom+zip.compressible
 
@@ -8428,7 +8428,7 @@
 
 ### application/vnd.fastcopy-disk-image
 
-> **application/vnd.fastcopy-disk-image**: `object`
+> **fastcopy-disk-image**: `object`
 
 ### application/vnd.fastcopy-disk-image.source
 
@@ -8436,7 +8436,7 @@
 
 ### application/vnd.fdf
 
-> **application/vnd.fdf**: `object`
+> **fdf**: `object`
 
 ### application/vnd.fdf.extensions
 
@@ -8448,7 +8448,7 @@
 
 ### application/vnd.fdsn.mseed
 
-> **application/vnd.fdsn.mseed**: `object`
+> **mseed**: `object`
 
 ### application/vnd.fdsn.mseed.extensions
 
@@ -8460,7 +8460,7 @@
 
 ### application/vnd.fdsn.seed
 
-> **application/vnd.fdsn.seed**: `object`
+> **seed**: `object`
 
 ### application/vnd.fdsn.seed.extensions
 
@@ -8472,7 +8472,7 @@
 
 ### application/vnd.ffsns
 
-> **application/vnd.ffsns**: `object`
+> **ffsns**: `object`
 
 ### application/vnd.ffsns.source
 
@@ -8480,7 +8480,7 @@
 
 ### application/vnd.ficlab.flb+zip
 
-> **application/vnd.ficlab.flb+zip**: `object`
+> **flb+zip**: `object`
 
 ### application/vnd.ficlab.flb+zip.compressible
 
@@ -8492,7 +8492,7 @@
 
 ### application/vnd.filmit.zfc
 
-> **application/vnd.filmit.zfc**: `object`
+> **zfc**: `object`
 
 ### application/vnd.filmit.zfc.source
 
@@ -8500,7 +8500,7 @@
 
 ### application/vnd.fints
 
-> **application/vnd.fints**: `object`
+> **fints**: `object`
 
 ### application/vnd.fints.source
 
@@ -8508,7 +8508,7 @@
 
 ### application/vnd.firemonkeys.cloudcell
 
-> **application/vnd.firemonkeys.cloudcell**: `object`
+> **cloudcell**: `object`
 
 ### application/vnd.firemonkeys.cloudcell.source
 
@@ -8516,7 +8516,7 @@
 
 ### application/vnd.flographit
 
-> **application/vnd.flographit**: `object`
+> **flographit**: `object`
 
 ### application/vnd.flographit.extensions
 
@@ -8528,7 +8528,7 @@
 
 ### application/vnd.fluxtime.clip
 
-> **application/vnd.fluxtime.clip**: `object`
+> **clip**: `object`
 
 ### application/vnd.fluxtime.clip.extensions
 
@@ -8540,7 +8540,7 @@
 
 ### application/vnd.font-fontforge-sfd
 
-> **application/vnd.font-fontforge-sfd**: `object`
+> **font-fontforge-sfd**: `object`
 
 ### application/vnd.font-fontforge-sfd.source
 
@@ -8548,7 +8548,7 @@
 
 ### application/vnd.framemaker
 
-> **application/vnd.framemaker**: `object`
+> **framemaker**: `object`
 
 ### application/vnd.framemaker.extensions
 
@@ -8560,7 +8560,7 @@
 
 ### application/vnd.frogans.fnc
 
-> **application/vnd.frogans.fnc**: `object`
+> **fnc**: `object`
 
 ### application/vnd.frogans.fnc.extensions
 
@@ -8572,7 +8572,7 @@
 
 ### application/vnd.frogans.ltf
 
-> **application/vnd.frogans.ltf**: `object`
+> **ltf**: `object`
 
 ### application/vnd.frogans.ltf.extensions
 
@@ -8584,7 +8584,7 @@
 
 ### application/vnd.fsc.weblaunch
 
-> **application/vnd.fsc.weblaunch**: `object`
+> **weblaunch**: `object`
 
 ### application/vnd.fsc.weblaunch.extensions
 
@@ -8596,7 +8596,7 @@
 
 ### application/vnd.fujifilm.fb.docuworks
 
-> **application/vnd.fujifilm.fb.docuworks**: `object`
+> **docuworks**: `object`
 
 ### application/vnd.fujifilm.fb.docuworks.source
 
@@ -8604,7 +8604,7 @@
 
 ### application/vnd.fujifilm.fb.docuworks.binder
 
-> **application/vnd.fujifilm.fb.docuworks.binder**: `object`
+> **binder**: `object`
 
 ### application/vnd.fujifilm.fb.docuworks.binder.source
 
@@ -8612,7 +8612,7 @@
 
 ### application/vnd.fujifilm.fb.docuworks.container
 
-> **application/vnd.fujifilm.fb.docuworks.container**: `object`
+> **container**: `object`
 
 ### application/vnd.fujifilm.fb.docuworks.container.source
 
@@ -8620,7 +8620,7 @@
 
 ### application/vnd.fujifilm.fb.jfi+xml
 
-> **application/vnd.fujifilm.fb.jfi+xml**: `object`
+> **jfi+xml**: `object`
 
 ### application/vnd.fujifilm.fb.jfi+xml.compressible
 
@@ -8632,7 +8632,7 @@
 
 ### application/vnd.fujitsu.oasys
 
-> **application/vnd.fujitsu.oasys**: `object`
+> **oasys**: `object`
 
 ### application/vnd.fujitsu.oasys.extensions
 
@@ -8644,7 +8644,7 @@
 
 ### application/vnd.fujitsu.oasys2
 
-> **application/vnd.fujitsu.oasys2**: `object`
+> **oasys2**: `object`
 
 ### application/vnd.fujitsu.oasys2.extensions
 
@@ -8656,7 +8656,7 @@
 
 ### application/vnd.fujitsu.oasys3
 
-> **application/vnd.fujitsu.oasys3**: `object`
+> **oasys3**: `object`
 
 ### application/vnd.fujitsu.oasys3.extensions
 
@@ -8668,7 +8668,7 @@
 
 ### application/vnd.fujitsu.oasysgp
 
-> **application/vnd.fujitsu.oasysgp**: `object`
+> **oasysgp**: `object`
 
 ### application/vnd.fujitsu.oasysgp.extensions
 
@@ -8680,7 +8680,7 @@
 
 ### application/vnd.fujitsu.oasysprs
 
-> **application/vnd.fujitsu.oasysprs**: `object`
+> **oasysprs**: `object`
 
 ### application/vnd.fujitsu.oasysprs.extensions
 
@@ -8692,7 +8692,7 @@
 
 ### application/vnd.fujixerox.art-ex
 
-> **application/vnd.fujixerox.art-ex**: `object`
+> **art-ex**: `object`
 
 ### application/vnd.fujixerox.art-ex.source
 
@@ -8700,7 +8700,7 @@
 
 ### application/vnd.fujixerox.art4
 
-> **application/vnd.fujixerox.art4**: `object`
+> **art4**: `object`
 
 ### application/vnd.fujixerox.art4.source
 
@@ -8708,7 +8708,7 @@
 
 ### application/vnd.fujixerox.ddd
 
-> **application/vnd.fujixerox.ddd**: `object`
+> **ddd**: `object`
 
 ### application/vnd.fujixerox.ddd.extensions
 
@@ -8720,7 +8720,7 @@
 
 ### application/vnd.fujixerox.docuworks
 
-> **application/vnd.fujixerox.docuworks**: `object`
+> **docuworks**: `object`
 
 ### application/vnd.fujixerox.docuworks.extensions
 
@@ -8732,7 +8732,7 @@
 
 ### application/vnd.fujixerox.docuworks.binder
 
-> **application/vnd.fujixerox.docuworks.binder**: `object`
+> **binder**: `object`
 
 ### application/vnd.fujixerox.docuworks.binder.extensions
 
@@ -8744,7 +8744,7 @@
 
 ### application/vnd.fujixerox.docuworks.container
 
-> **application/vnd.fujixerox.docuworks.container**: `object`
+> **container**: `object`
 
 ### application/vnd.fujixerox.docuworks.container.source
 
@@ -8752,7 +8752,7 @@
 
 ### application/vnd.fujixerox.hbpl
 
-> **application/vnd.fujixerox.hbpl**: `object`
+> **hbpl**: `object`
 
 ### application/vnd.fujixerox.hbpl.source
 
@@ -8760,7 +8760,7 @@
 
 ### application/vnd.fut-misnet
 
-> **application/vnd.fut-misnet**: `object`
+> **fut-misnet**: `object`
 
 ### application/vnd.fut-misnet.source
 
@@ -8768,7 +8768,7 @@
 
 ### application/vnd.futoin+cbor
 
-> **application/vnd.futoin+cbor**: `object`
+> **futoin+cbor**: `object`
 
 ### application/vnd.futoin+cbor.source
 
@@ -8776,7 +8776,7 @@
 
 ### application/vnd.futoin+json
 
-> **application/vnd.futoin+json**: `object`
+> **futoin+json**: `object`
 
 ### application/vnd.futoin+json.compressible
 
@@ -8788,7 +8788,7 @@
 
 ### application/vnd.fuzzysheet
 
-> **application/vnd.fuzzysheet**: `object`
+> **fuzzysheet**: `object`
 
 ### application/vnd.fuzzysheet.extensions
 
@@ -8800,7 +8800,7 @@
 
 ### application/vnd.genomatix.tuxedo
 
-> **application/vnd.genomatix.tuxedo**: `object`
+> **tuxedo**: `object`
 
 ### application/vnd.genomatix.tuxedo.extensions
 
@@ -8812,7 +8812,7 @@
 
 ### application/vnd.gentics.grd+json
 
-> **application/vnd.gentics.grd+json**: `object`
+> **grd+json**: `object`
 
 ### application/vnd.gentics.grd+json.compressible
 
@@ -8824,7 +8824,7 @@
 
 ### application/vnd.geo+json
 
-> **application/vnd.geo+json**: `object`
+> **geo+json**: `object`
 
 ### application/vnd.geo+json.compressible
 
@@ -8836,7 +8836,7 @@
 
 ### application/vnd.geocube+xml
 
-> **application/vnd.geocube+xml**: `object`
+> **geocube+xml**: `object`
 
 ### application/vnd.geocube+xml.compressible
 
@@ -8848,7 +8848,7 @@
 
 ### application/vnd.geogebra.file
 
-> **application/vnd.geogebra.file**: `object`
+> **file**: `object`
 
 ### application/vnd.geogebra.file.extensions
 
@@ -8860,7 +8860,7 @@
 
 ### application/vnd.geogebra.slides
 
-> **application/vnd.geogebra.slides**: `object`
+> **slides**: `object`
 
 ### application/vnd.geogebra.slides.source
 
@@ -8868,7 +8868,7 @@
 
 ### application/vnd.geogebra.tool
 
-> **application/vnd.geogebra.tool**: `object`
+> **tool**: `object`
 
 ### application/vnd.geogebra.tool.extensions
 
@@ -8880,7 +8880,7 @@
 
 ### application/vnd.geometry-explorer
 
-> **application/vnd.geometry-explorer**: `object`
+> **geometry-explorer**: `object`
 
 ### application/vnd.geometry-explorer.extensions
 
@@ -8892,7 +8892,7 @@
 
 ### application/vnd.geonext
 
-> **application/vnd.geonext**: `object`
+> **geonext**: `object`
 
 ### application/vnd.geonext.extensions
 
@@ -8904,7 +8904,7 @@
 
 ### application/vnd.geoplan
 
-> **application/vnd.geoplan**: `object`
+> **geoplan**: `object`
 
 ### application/vnd.geoplan.extensions
 
@@ -8916,7 +8916,7 @@
 
 ### application/vnd.geospace
 
-> **application/vnd.geospace**: `object`
+> **geospace**: `object`
 
 ### application/vnd.geospace.extensions
 
@@ -8928,7 +8928,7 @@
 
 ### application/vnd.gerber
 
-> **application/vnd.gerber**: `object`
+> **gerber**: `object`
 
 ### application/vnd.gerber.source
 
@@ -8936,7 +8936,7 @@
 
 ### application/vnd.globalplatform.card-content-mgt
 
-> **application/vnd.globalplatform.card-content-mgt**: `object`
+> **card-content-mgt**: `object`
 
 ### application/vnd.globalplatform.card-content-mgt.source
 
@@ -8944,7 +8944,7 @@
 
 ### application/vnd.globalplatform.card-content-mgt-response
 
-> **application/vnd.globalplatform.card-content-mgt-response**: `object`
+> **card-content-mgt-response**: `object`
 
 ### application/vnd.globalplatform.card-content-mgt-response.source
 
@@ -8952,7 +8952,7 @@
 
 ### application/vnd.gmx
 
-> **application/vnd.gmx**: `object`
+> **gmx**: `object`
 
 ### application/vnd.gmx.extensions
 
@@ -8964,7 +8964,7 @@
 
 ### application/vnd.google-apps.document
 
-> **application/vnd.google-apps.document**: `object`
+> **document**: `object`
 
 ### application/vnd.google-apps.document.compressible
 
@@ -8976,7 +8976,7 @@
 
 ### application/vnd.google-apps.presentation
 
-> **application/vnd.google-apps.presentation**: `object`
+> **presentation**: `object`
 
 ### application/vnd.google-apps.presentation.compressible
 
@@ -8988,7 +8988,7 @@
 
 ### application/vnd.google-apps.spreadsheet
 
-> **application/vnd.google-apps.spreadsheet**: `object`
+> **spreadsheet**: `object`
 
 ### application/vnd.google-apps.spreadsheet.compressible
 
@@ -9000,7 +9000,7 @@
 
 ### application/vnd.google-earth.kml+xml
 
-> **application/vnd.google-earth.kml+xml**: `object`
+> **kml+xml**: `object`
 
 ### application/vnd.google-earth.kml+xml.compressible
 
@@ -9016,7 +9016,7 @@
 
 ### application/vnd.google-earth.kmz
 
-> **application/vnd.google-earth.kmz**: `object`
+> **kmz**: `object`
 
 ### application/vnd.google-earth.kmz.compressible
 
@@ -9032,7 +9032,7 @@
 
 ### application/vnd.gov.sk.e-form+xml
 
-> **application/vnd.gov.sk.e-form+xml**: `object`
+> **e-form+xml**: `object`
 
 ### application/vnd.gov.sk.e-form+xml.compressible
 
@@ -9044,7 +9044,7 @@
 
 ### application/vnd.gov.sk.e-form+zip
 
-> **application/vnd.gov.sk.e-form+zip**: `object`
+> **e-form+zip**: `object`
 
 ### application/vnd.gov.sk.e-form+zip.compressible
 
@@ -9056,7 +9056,7 @@
 
 ### application/vnd.gov.sk.xmldatacontainer+xml
 
-> **application/vnd.gov.sk.xmldatacontainer+xml**: `object`
+> **xmldatacontainer+xml**: `object`
 
 ### application/vnd.gov.sk.xmldatacontainer+xml.compressible
 
@@ -9068,7 +9068,7 @@
 
 ### application/vnd.grafeq
 
-> **application/vnd.grafeq**: `object`
+> **grafeq**: `object`
 
 ### application/vnd.grafeq.extensions
 
@@ -9080,7 +9080,7 @@
 
 ### application/vnd.gridmp
 
-> **application/vnd.gridmp**: `object`
+> **gridmp**: `object`
 
 ### application/vnd.gridmp.source
 
@@ -9088,7 +9088,7 @@
 
 ### application/vnd.groove-account
 
-> **application/vnd.groove-account**: `object`
+> **groove-account**: `object`
 
 ### application/vnd.groove-account.extensions
 
@@ -9100,7 +9100,7 @@
 
 ### application/vnd.groove-help
 
-> **application/vnd.groove-help**: `object`
+> **groove-help**: `object`
 
 ### application/vnd.groove-help.extensions
 
@@ -9112,7 +9112,7 @@
 
 ### application/vnd.groove-identity-message
 
-> **application/vnd.groove-identity-message**: `object`
+> **groove-identity-message**: `object`
 
 ### application/vnd.groove-identity-message.extensions
 
@@ -9124,7 +9124,7 @@
 
 ### application/vnd.groove-injector
 
-> **application/vnd.groove-injector**: `object`
+> **groove-injector**: `object`
 
 ### application/vnd.groove-injector.extensions
 
@@ -9136,7 +9136,7 @@
 
 ### application/vnd.groove-tool-message
 
-> **application/vnd.groove-tool-message**: `object`
+> **groove-tool-message**: `object`
 
 ### application/vnd.groove-tool-message.extensions
 
@@ -9148,7 +9148,7 @@
 
 ### application/vnd.groove-tool-template
 
-> **application/vnd.groove-tool-template**: `object`
+> **groove-tool-template**: `object`
 
 ### application/vnd.groove-tool-template.extensions
 
@@ -9160,7 +9160,7 @@
 
 ### application/vnd.groove-vcard
 
-> **application/vnd.groove-vcard**: `object`
+> **groove-vcard**: `object`
 
 ### application/vnd.groove-vcard.extensions
 
@@ -9172,7 +9172,7 @@
 
 ### application/vnd.hal+json
 
-> **application/vnd.hal+json**: `object`
+> **hal+json**: `object`
 
 ### application/vnd.hal+json.compressible
 
@@ -9184,7 +9184,7 @@
 
 ### application/vnd.hal+xml
 
-> **application/vnd.hal+xml**: `object`
+> **hal+xml**: `object`
 
 ### application/vnd.hal+xml.compressible
 
@@ -9200,7 +9200,7 @@
 
 ### application/vnd.handheld-entertainment+xml
 
-> **application/vnd.handheld-entertainment+xml**: `object`
+> **handheld-entertainment+xml**: `object`
 
 ### application/vnd.handheld-entertainment+xml.compressible
 
@@ -9216,7 +9216,7 @@
 
 ### application/vnd.hbci
 
-> **application/vnd.hbci**: `object`
+> **hbci**: `object`
 
 ### application/vnd.hbci.extensions
 
@@ -9228,7 +9228,7 @@
 
 ### application/vnd.hc+json
 
-> **application/vnd.hc+json**: `object`
+> **hc+json**: `object`
 
 ### application/vnd.hc+json.compressible
 
@@ -9240,7 +9240,7 @@
 
 ### application/vnd.hcl-bireports
 
-> **application/vnd.hcl-bireports**: `object`
+> **hcl-bireports**: `object`
 
 ### application/vnd.hcl-bireports.source
 
@@ -9248,7 +9248,7 @@
 
 ### application/vnd.hdt
 
-> **application/vnd.hdt**: `object`
+> **hdt**: `object`
 
 ### application/vnd.hdt.source
 
@@ -9256,7 +9256,7 @@
 
 ### application/vnd.heroku+json
 
-> **application/vnd.heroku+json**: `object`
+> **heroku+json**: `object`
 
 ### application/vnd.heroku+json.compressible
 
@@ -9268,7 +9268,7 @@
 
 ### application/vnd.hhe.lesson-player
 
-> **application/vnd.hhe.lesson-player**: `object`
+> **lesson-player**: `object`
 
 ### application/vnd.hhe.lesson-player.extensions
 
@@ -9280,7 +9280,7 @@
 
 ### application/vnd.hl7cda+xml
 
-> **application/vnd.hl7cda+xml**: `object`
+> **hl7cda+xml**: `object`
 
 ### application/vnd.hl7cda+xml.charset
 
@@ -9296,7 +9296,7 @@
 
 ### application/vnd.hl7v2+xml
 
-> **application/vnd.hl7v2+xml**: `object`
+> **hl7v2+xml**: `object`
 
 ### application/vnd.hl7v2+xml.charset
 
@@ -9312,7 +9312,7 @@
 
 ### application/vnd.hp-hpgl
 
-> **application/vnd.hp-hpgl**: `object`
+> **hp-hpgl**: `object`
 
 ### application/vnd.hp-hpgl.extensions
 
@@ -9324,7 +9324,7 @@
 
 ### application/vnd.hp-hpid
 
-> **application/vnd.hp-hpid**: `object`
+> **hp-hpid**: `object`
 
 ### application/vnd.hp-hpid.extensions
 
@@ -9336,7 +9336,7 @@
 
 ### application/vnd.hp-hps
 
-> **application/vnd.hp-hps**: `object`
+> **hp-hps**: `object`
 
 ### application/vnd.hp-hps.extensions
 
@@ -9348,7 +9348,7 @@
 
 ### application/vnd.hp-jlyt
 
-> **application/vnd.hp-jlyt**: `object`
+> **hp-jlyt**: `object`
 
 ### application/vnd.hp-jlyt.extensions
 
@@ -9360,7 +9360,7 @@
 
 ### application/vnd.hp-pcl
 
-> **application/vnd.hp-pcl**: `object`
+> **hp-pcl**: `object`
 
 ### application/vnd.hp-pcl.extensions
 
@@ -9372,7 +9372,7 @@
 
 ### application/vnd.hp-pclxl
 
-> **application/vnd.hp-pclxl**: `object`
+> **hp-pclxl**: `object`
 
 ### application/vnd.hp-pclxl.extensions
 
@@ -9384,7 +9384,7 @@
 
 ### application/vnd.httphone
 
-> **application/vnd.httphone**: `object`
+> **httphone**: `object`
 
 ### application/vnd.httphone.source
 
@@ -9392,7 +9392,7 @@
 
 ### application/vnd.hydrostatix.sof-data
 
-> **application/vnd.hydrostatix.sof-data**: `object`
+> **sof-data**: `object`
 
 ### application/vnd.hydrostatix.sof-data.extensions
 
@@ -9404,7 +9404,7 @@
 
 ### application/vnd.hyper+json
 
-> **application/vnd.hyper+json**: `object`
+> **hyper+json**: `object`
 
 ### application/vnd.hyper+json.compressible
 
@@ -9416,7 +9416,7 @@
 
 ### application/vnd.hyper-item+json
 
-> **application/vnd.hyper-item+json**: `object`
+> **hyper-item+json**: `object`
 
 ### application/vnd.hyper-item+json.compressible
 
@@ -9428,7 +9428,7 @@
 
 ### application/vnd.hyperdrive+json
 
-> **application/vnd.hyperdrive+json**: `object`
+> **hyperdrive+json**: `object`
 
 ### application/vnd.hyperdrive+json.compressible
 
@@ -9440,7 +9440,7 @@
 
 ### application/vnd.hzn-3d-crossword
 
-> **application/vnd.hzn-3d-crossword**: `object`
+> **hzn-3d-crossword**: `object`
 
 ### application/vnd.hzn-3d-crossword.source
 
@@ -9448,7 +9448,7 @@
 
 ### application/vnd.ibm.afplinedata
 
-> **application/vnd.ibm.afplinedata**: `object`
+> **afplinedata**: `object`
 
 ### application/vnd.ibm.afplinedata.source
 
@@ -9456,7 +9456,7 @@
 
 ### application/vnd.ibm.electronic-media
 
-> **application/vnd.ibm.electronic-media**: `object`
+> **electronic-media**: `object`
 
 ### application/vnd.ibm.electronic-media.source
 
@@ -9464,7 +9464,7 @@
 
 ### application/vnd.ibm.minipay
 
-> **application/vnd.ibm.minipay**: `object`
+> **minipay**: `object`
 
 ### application/vnd.ibm.minipay.extensions
 
@@ -9476,7 +9476,7 @@
 
 ### application/vnd.ibm.modcap
 
-> **application/vnd.ibm.modcap**: `object`
+> **modcap**: `object`
 
 ### application/vnd.ibm.modcap.extensions
 
@@ -9488,7 +9488,7 @@
 
 ### application/vnd.ibm.rights-management
 
-> **application/vnd.ibm.rights-management**: `object`
+> **rights-management**: `object`
 
 ### application/vnd.ibm.rights-management.extensions
 
@@ -9500,7 +9500,7 @@
 
 ### application/vnd.ibm.secure-container
 
-> **application/vnd.ibm.secure-container**: `object`
+> **secure-container**: `object`
 
 ### application/vnd.ibm.secure-container.extensions
 
@@ -9512,7 +9512,7 @@
 
 ### application/vnd.iccprofile
 
-> **application/vnd.iccprofile**: `object`
+> **iccprofile**: `object`
 
 ### application/vnd.iccprofile.extensions
 
@@ -9524,7 +9524,7 @@
 
 ### application/vnd.ieee.1905
 
-> **application/vnd.ieee.1905**: `object`
+> **1905**: `object`
 
 ### application/vnd.ieee.1905.source
 
@@ -9532,7 +9532,7 @@
 
 ### application/vnd.igloader
 
-> **application/vnd.igloader**: `object`
+> **igloader**: `object`
 
 ### application/vnd.igloader.extensions
 
@@ -9544,7 +9544,7 @@
 
 ### application/vnd.imagemeter.folder+zip
 
-> **application/vnd.imagemeter.folder+zip**: `object`
+> **folder+zip**: `object`
 
 ### application/vnd.imagemeter.folder+zip.compressible
 
@@ -9556,7 +9556,7 @@
 
 ### application/vnd.imagemeter.image+zip
 
-> **application/vnd.imagemeter.image+zip**: `object`
+> **image+zip**: `object`
 
 ### application/vnd.imagemeter.image+zip.compressible
 
@@ -9568,7 +9568,7 @@
 
 ### application/vnd.immervision-ivp
 
-> **application/vnd.immervision-ivp**: `object`
+> **immervision-ivp**: `object`
 
 ### application/vnd.immervision-ivp.extensions
 
@@ -9580,7 +9580,7 @@
 
 ### application/vnd.immervision-ivu
 
-> **application/vnd.immervision-ivu**: `object`
+> **immervision-ivu**: `object`
 
 ### application/vnd.immervision-ivu.extensions
 
@@ -9592,7 +9592,7 @@
 
 ### application/vnd.ims.imsccv1p1
 
-> **application/vnd.ims.imsccv1p1**: `object`
+> **imsccv1p1**: `object`
 
 ### application/vnd.ims.imsccv1p1.source
 
@@ -9600,7 +9600,7 @@
 
 ### application/vnd.ims.imsccv1p2
 
-> **application/vnd.ims.imsccv1p2**: `object`
+> **imsccv1p2**: `object`
 
 ### application/vnd.ims.imsccv1p2.source
 
@@ -9608,7 +9608,7 @@
 
 ### application/vnd.ims.imsccv1p3
 
-> **application/vnd.ims.imsccv1p3**: `object`
+> **imsccv1p3**: `object`
 
 ### application/vnd.ims.imsccv1p3.source
 
@@ -9616,7 +9616,7 @@
 
 ### application/vnd.ims.lis.v2.result+json
 
-> **application/vnd.ims.lis.v2.result+json**: `object`
+> **result+json**: `object`
 
 ### application/vnd.ims.lis.v2.result+json.compressible
 
@@ -9628,7 +9628,7 @@
 
 ### application/vnd.ims.lti.v2.toolconsumerprofile+json
 
-> **application/vnd.ims.lti.v2.toolconsumerprofile+json**: `object`
+> **toolconsumerprofile+json**: `object`
 
 ### application/vnd.ims.lti.v2.toolconsumerprofile+json.compressible
 
@@ -9640,7 +9640,7 @@
 
 ### application/vnd.ims.lti.v2.toolproxy+json
 
-> **application/vnd.ims.lti.v2.toolproxy+json**: `object`
+> **toolproxy+json**: `object`
 
 ### application/vnd.ims.lti.v2.toolproxy+json.compressible
 
@@ -9652,7 +9652,7 @@
 
 ### application/vnd.ims.lti.v2.toolproxy.id+json
 
-> **application/vnd.ims.lti.v2.toolproxy.id+json**: `object`
+> **id+json**: `object`
 
 ### application/vnd.ims.lti.v2.toolproxy.id+json.compressible
 
@@ -9664,7 +9664,7 @@
 
 ### application/vnd.ims.lti.v2.toolsettings+json
 
-> **application/vnd.ims.lti.v2.toolsettings+json**: `object`
+> **toolsettings+json**: `object`
 
 ### application/vnd.ims.lti.v2.toolsettings+json.compressible
 
@@ -9676,7 +9676,7 @@
 
 ### application/vnd.ims.lti.v2.toolsettings.simple+json
 
-> **application/vnd.ims.lti.v2.toolsettings.simple+json**: `object`
+> **simple+json**: `object`
 
 ### application/vnd.ims.lti.v2.toolsettings.simple+json.compressible
 
@@ -9688,7 +9688,7 @@
 
 ### application/vnd.informedcontrol.rms+xml
 
-> **application/vnd.informedcontrol.rms+xml**: `object`
+> **rms+xml**: `object`
 
 ### application/vnd.informedcontrol.rms+xml.compressible
 
@@ -9700,7 +9700,7 @@
 
 ### application/vnd.informix-visionary
 
-> **application/vnd.informix-visionary**: `object`
+> **informix-visionary**: `object`
 
 ### application/vnd.informix-visionary.source
 
@@ -9708,7 +9708,7 @@
 
 ### application/vnd.infotech.project
 
-> **application/vnd.infotech.project**: `object`
+> **project**: `object`
 
 ### application/vnd.infotech.project.source
 
@@ -9716,7 +9716,7 @@
 
 ### application/vnd.infotech.project+xml
 
-> **application/vnd.infotech.project+xml**: `object`
+> **project+xml**: `object`
 
 ### application/vnd.infotech.project+xml.compressible
 
@@ -9728,7 +9728,7 @@
 
 ### application/vnd.innopath.wamp.notification
 
-> **application/vnd.innopath.wamp.notification**: `object`
+> **notification**: `object`
 
 ### application/vnd.innopath.wamp.notification.source
 
@@ -9736,7 +9736,7 @@
 
 ### application/vnd.insors.igm
 
-> **application/vnd.insors.igm**: `object`
+> **igm**: `object`
 
 ### application/vnd.insors.igm.extensions
 
@@ -9748,7 +9748,7 @@
 
 ### application/vnd.intercon.formnet
 
-> **application/vnd.intercon.formnet**: `object`
+> **formnet**: `object`
 
 ### application/vnd.intercon.formnet.extensions
 
@@ -9760,7 +9760,7 @@
 
 ### application/vnd.intergeo
 
-> **application/vnd.intergeo**: `object`
+> **intergeo**: `object`
 
 ### application/vnd.intergeo.extensions
 
@@ -9772,7 +9772,7 @@
 
 ### application/vnd.intertrust.digibox
 
-> **application/vnd.intertrust.digibox**: `object`
+> **digibox**: `object`
 
 ### application/vnd.intertrust.digibox.source
 
@@ -9780,7 +9780,7 @@
 
 ### application/vnd.intertrust.nncp
 
-> **application/vnd.intertrust.nncp**: `object`
+> **nncp**: `object`
 
 ### application/vnd.intertrust.nncp.source
 
@@ -9788,7 +9788,7 @@
 
 ### application/vnd.intu.qbo
 
-> **application/vnd.intu.qbo**: `object`
+> **qbo**: `object`
 
 ### application/vnd.intu.qbo.extensions
 
@@ -9800,7 +9800,7 @@
 
 ### application/vnd.intu.qfx
 
-> **application/vnd.intu.qfx**: `object`
+> **qfx**: `object`
 
 ### application/vnd.intu.qfx.extensions
 
@@ -9812,7 +9812,7 @@
 
 ### application/vnd.iptc.g2.catalogitem+xml
 
-> **application/vnd.iptc.g2.catalogitem+xml**: `object`
+> **catalogitem+xml**: `object`
 
 ### application/vnd.iptc.g2.catalogitem+xml.compressible
 
@@ -9824,7 +9824,7 @@
 
 ### application/vnd.iptc.g2.conceptitem+xml
 
-> **application/vnd.iptc.g2.conceptitem+xml**: `object`
+> **conceptitem+xml**: `object`
 
 ### application/vnd.iptc.g2.conceptitem+xml.compressible
 
@@ -9836,7 +9836,7 @@
 
 ### application/vnd.iptc.g2.knowledgeitem+xml
 
-> **application/vnd.iptc.g2.knowledgeitem+xml**: `object`
+> **knowledgeitem+xml**: `object`
 
 ### application/vnd.iptc.g2.knowledgeitem+xml.compressible
 
@@ -9848,7 +9848,7 @@
 
 ### application/vnd.iptc.g2.newsitem+xml
 
-> **application/vnd.iptc.g2.newsitem+xml**: `object`
+> **newsitem+xml**: `object`
 
 ### application/vnd.iptc.g2.newsitem+xml.compressible
 
@@ -9860,7 +9860,7 @@
 
 ### application/vnd.iptc.g2.newsmessage+xml
 
-> **application/vnd.iptc.g2.newsmessage+xml**: `object`
+> **newsmessage+xml**: `object`
 
 ### application/vnd.iptc.g2.newsmessage+xml.compressible
 
@@ -9872,7 +9872,7 @@
 
 ### application/vnd.iptc.g2.packageitem+xml
 
-> **application/vnd.iptc.g2.packageitem+xml**: `object`
+> **packageitem+xml**: `object`
 
 ### application/vnd.iptc.g2.packageitem+xml.compressible
 
@@ -9884,7 +9884,7 @@
 
 ### application/vnd.iptc.g2.planningitem+xml
 
-> **application/vnd.iptc.g2.planningitem+xml**: `object`
+> **planningitem+xml**: `object`
 
 ### application/vnd.iptc.g2.planningitem+xml.compressible
 
@@ -9896,7 +9896,7 @@
 
 ### application/vnd.ipunplugged.rcprofile
 
-> **application/vnd.ipunplugged.rcprofile**: `object`
+> **rcprofile**: `object`
 
 ### application/vnd.ipunplugged.rcprofile.extensions
 
@@ -9908,7 +9908,7 @@
 
 ### application/vnd.irepository.package+xml
 
-> **application/vnd.irepository.package+xml**: `object`
+> **package+xml**: `object`
 
 ### application/vnd.irepository.package+xml.compressible
 
@@ -9924,7 +9924,7 @@
 
 ### application/vnd.is-xpr
 
-> **application/vnd.is-xpr**: `object`
+> **is-xpr**: `object`
 
 ### application/vnd.is-xpr.extensions
 
@@ -9936,7 +9936,7 @@
 
 ### application/vnd.isac.fcs
 
-> **application/vnd.isac.fcs**: `object`
+> **fcs**: `object`
 
 ### application/vnd.isac.fcs.extensions
 
@@ -9948,7 +9948,7 @@
 
 ### application/vnd.iso11783-10+zip
 
-> **application/vnd.iso11783-10+zip**: `object`
+> **iso11783-10+zip**: `object`
 
 ### application/vnd.iso11783-10+zip.compressible
 
@@ -9960,7 +9960,7 @@
 
 ### application/vnd.jam
 
-> **application/vnd.jam**: `object`
+> **jam**: `object`
 
 ### application/vnd.jam.extensions
 
@@ -9972,7 +9972,7 @@
 
 ### application/vnd.japannet-directory-service
 
-> **application/vnd.japannet-directory-service**: `object`
+> **japannet-directory-service**: `object`
 
 ### application/vnd.japannet-directory-service.source
 
@@ -9980,7 +9980,7 @@
 
 ### application/vnd.japannet-jpnstore-wakeup
 
-> **application/vnd.japannet-jpnstore-wakeup**: `object`
+> **japannet-jpnstore-wakeup**: `object`
 
 ### application/vnd.japannet-jpnstore-wakeup.source
 
@@ -9988,7 +9988,7 @@
 
 ### application/vnd.japannet-payment-wakeup
 
-> **application/vnd.japannet-payment-wakeup**: `object`
+> **japannet-payment-wakeup**: `object`
 
 ### application/vnd.japannet-payment-wakeup.source
 
@@ -9996,7 +9996,7 @@
 
 ### application/vnd.japannet-registration
 
-> **application/vnd.japannet-registration**: `object`
+> **japannet-registration**: `object`
 
 ### application/vnd.japannet-registration.source
 
@@ -10004,7 +10004,7 @@
 
 ### application/vnd.japannet-registration-wakeup
 
-> **application/vnd.japannet-registration-wakeup**: `object`
+> **japannet-registration-wakeup**: `object`
 
 ### application/vnd.japannet-registration-wakeup.source
 
@@ -10012,7 +10012,7 @@
 
 ### application/vnd.japannet-setstore-wakeup
 
-> **application/vnd.japannet-setstore-wakeup**: `object`
+> **japannet-setstore-wakeup**: `object`
 
 ### application/vnd.japannet-setstore-wakeup.source
 
@@ -10020,7 +10020,7 @@
 
 ### application/vnd.japannet-verification
 
-> **application/vnd.japannet-verification**: `object`
+> **japannet-verification**: `object`
 
 ### application/vnd.japannet-verification.source
 
@@ -10028,7 +10028,7 @@
 
 ### application/vnd.japannet-verification-wakeup
 
-> **application/vnd.japannet-verification-wakeup**: `object`
+> **japannet-verification-wakeup**: `object`
 
 ### application/vnd.japannet-verification-wakeup.source
 
@@ -10036,7 +10036,7 @@
 
 ### application/vnd.jcp.javame.midlet-rms
 
-> **application/vnd.jcp.javame.midlet-rms**: `object`
+> **midlet-rms**: `object`
 
 ### application/vnd.jcp.javame.midlet-rms.extensions
 
@@ -10048,7 +10048,7 @@
 
 ### application/vnd.jisp
 
-> **application/vnd.jisp**: `object`
+> **jisp**: `object`
 
 ### application/vnd.jisp.extensions
 
@@ -10060,7 +10060,7 @@
 
 ### application/vnd.joost.joda-archive
 
-> **application/vnd.joost.joda-archive**: `object`
+> **joda-archive**: `object`
 
 ### application/vnd.joost.joda-archive.extensions
 
@@ -10072,7 +10072,7 @@
 
 ### application/vnd.jsk.isdn-ngn
 
-> **application/vnd.jsk.isdn-ngn**: `object`
+> **isdn-ngn**: `object`
 
 ### application/vnd.jsk.isdn-ngn.source
 
@@ -10080,7 +10080,7 @@
 
 ### application/vnd.kahootz
 
-> **application/vnd.kahootz**: `object`
+> **kahootz**: `object`
 
 ### application/vnd.kahootz.extensions
 
@@ -10092,7 +10092,7 @@
 
 ### application/vnd.kde.karbon
 
-> **application/vnd.kde.karbon**: `object`
+> **karbon**: `object`
 
 ### application/vnd.kde.karbon.extensions
 
@@ -10104,7 +10104,7 @@
 
 ### application/vnd.kde.kchart
 
-> **application/vnd.kde.kchart**: `object`
+> **kchart**: `object`
 
 ### application/vnd.kde.kchart.extensions
 
@@ -10116,7 +10116,7 @@
 
 ### application/vnd.kde.kformula
 
-> **application/vnd.kde.kformula**: `object`
+> **kformula**: `object`
 
 ### application/vnd.kde.kformula.extensions
 
@@ -10128,7 +10128,7 @@
 
 ### application/vnd.kde.kivio
 
-> **application/vnd.kde.kivio**: `object`
+> **kivio**: `object`
 
 ### application/vnd.kde.kivio.extensions
 
@@ -10140,7 +10140,7 @@
 
 ### application/vnd.kde.kontour
 
-> **application/vnd.kde.kontour**: `object`
+> **kontour**: `object`
 
 ### application/vnd.kde.kontour.extensions
 
@@ -10152,7 +10152,7 @@
 
 ### application/vnd.kde.kpresenter
 
-> **application/vnd.kde.kpresenter**: `object`
+> **kpresenter**: `object`
 
 ### application/vnd.kde.kpresenter.extensions
 
@@ -10164,7 +10164,7 @@
 
 ### application/vnd.kde.kspread
 
-> **application/vnd.kde.kspread**: `object`
+> **kspread**: `object`
 
 ### application/vnd.kde.kspread.extensions
 
@@ -10176,7 +10176,7 @@
 
 ### application/vnd.kde.kword
 
-> **application/vnd.kde.kword**: `object`
+> **kword**: `object`
 
 ### application/vnd.kde.kword.extensions
 
@@ -10188,7 +10188,7 @@
 
 ### application/vnd.kenameaapp
 
-> **application/vnd.kenameaapp**: `object`
+> **kenameaapp**: `object`
 
 ### application/vnd.kenameaapp.extensions
 
@@ -10200,7 +10200,7 @@
 
 ### application/vnd.kidspiration
 
-> **application/vnd.kidspiration**: `object`
+> **kidspiration**: `object`
 
 ### application/vnd.kidspiration.extensions
 
@@ -10212,7 +10212,7 @@
 
 ### application/vnd.kinar
 
-> **application/vnd.kinar**: `object`
+> **kinar**: `object`
 
 ### application/vnd.kinar.extensions
 
@@ -10224,7 +10224,7 @@
 
 ### application/vnd.koan
 
-> **application/vnd.koan**: `object`
+> **koan**: `object`
 
 ### application/vnd.koan.extensions
 
@@ -10236,7 +10236,7 @@
 
 ### application/vnd.kodak-descriptor
 
-> **application/vnd.kodak-descriptor**: `object`
+> **kodak-descriptor**: `object`
 
 ### application/vnd.kodak-descriptor.extensions
 
@@ -10248,7 +10248,7 @@
 
 ### application/vnd.las
 
-> **application/vnd.las**: `object`
+> **las**: `object`
 
 ### application/vnd.las.source
 
@@ -10256,7 +10256,7 @@
 
 ### application/vnd.las.las+json
 
-> **application/vnd.las.las+json**: `object`
+> **las+json**: `object`
 
 ### application/vnd.las.las+json.compressible
 
@@ -10268,7 +10268,7 @@
 
 ### application/vnd.las.las+xml
 
-> **application/vnd.las.las+xml**: `object`
+> **las+xml**: `object`
 
 ### application/vnd.las.las+xml.compressible
 
@@ -10284,7 +10284,7 @@
 
 ### application/vnd.laszip
 
-> **application/vnd.laszip**: `object`
+> **laszip**: `object`
 
 ### application/vnd.laszip.source
 
@@ -10292,7 +10292,7 @@
 
 ### application/vnd.leap+json
 
-> **application/vnd.leap+json**: `object`
+> **leap+json**: `object`
 
 ### application/vnd.leap+json.compressible
 
@@ -10304,7 +10304,7 @@
 
 ### application/vnd.liberty-request+xml
 
-> **application/vnd.liberty-request+xml**: `object`
+> **liberty-request+xml**: `object`
 
 ### application/vnd.liberty-request+xml.compressible
 
@@ -10316,7 +10316,7 @@
 
 ### application/vnd.llamagraphics.life-balance.desktop
 
-> **application/vnd.llamagraphics.life-balance.desktop**: `object`
+> **desktop**: `object`
 
 ### application/vnd.llamagraphics.life-balance.desktop.extensions
 
@@ -10328,7 +10328,7 @@
 
 ### application/vnd.llamagraphics.life-balance.exchange+xml
 
-> **application/vnd.llamagraphics.life-balance.exchange+xml**: `object`
+> **exchange+xml**: `object`
 
 ### application/vnd.llamagraphics.life-balance.exchange+xml.compressible
 
@@ -10344,7 +10344,7 @@
 
 ### application/vnd.logipipe.circuit+zip
 
-> **application/vnd.logipipe.circuit+zip**: `object`
+> **circuit+zip**: `object`
 
 ### application/vnd.logipipe.circuit+zip.compressible
 
@@ -10356,7 +10356,7 @@
 
 ### application/vnd.loom
 
-> **application/vnd.loom**: `object`
+> **loom**: `object`
 
 ### application/vnd.loom.source
 
@@ -10364,7 +10364,7 @@
 
 ### application/vnd.lotus-1-2-3
 
-> **application/vnd.lotus-1-2-3**: `object`
+> **lotus-1-2-3**: `object`
 
 ### application/vnd.lotus-1-2-3.extensions
 
@@ -10376,7 +10376,7 @@
 
 ### application/vnd.lotus-approach
 
-> **application/vnd.lotus-approach**: `object`
+> **lotus-approach**: `object`
 
 ### application/vnd.lotus-approach.extensions
 
@@ -10388,7 +10388,7 @@
 
 ### application/vnd.lotus-freelance
 
-> **application/vnd.lotus-freelance**: `object`
+> **lotus-freelance**: `object`
 
 ### application/vnd.lotus-freelance.extensions
 
@@ -10400,7 +10400,7 @@
 
 ### application/vnd.lotus-notes
 
-> **application/vnd.lotus-notes**: `object`
+> **lotus-notes**: `object`
 
 ### application/vnd.lotus-notes.extensions
 
@@ -10412,7 +10412,7 @@
 
 ### application/vnd.lotus-organizer
 
-> **application/vnd.lotus-organizer**: `object`
+> **lotus-organizer**: `object`
 
 ### application/vnd.lotus-organizer.extensions
 
@@ -10424,7 +10424,7 @@
 
 ### application/vnd.lotus-screencam
 
-> **application/vnd.lotus-screencam**: `object`
+> **lotus-screencam**: `object`
 
 ### application/vnd.lotus-screencam.extensions
 
@@ -10436,7 +10436,7 @@
 
 ### application/vnd.lotus-wordpro
 
-> **application/vnd.lotus-wordpro**: `object`
+> **lotus-wordpro**: `object`
 
 ### application/vnd.lotus-wordpro.extensions
 
@@ -10448,7 +10448,7 @@
 
 ### application/vnd.macports.portpkg
 
-> **application/vnd.macports.portpkg**: `object`
+> **portpkg**: `object`
 
 ### application/vnd.macports.portpkg.extensions
 
@@ -10460,7 +10460,7 @@
 
 ### application/vnd.mapbox-vector-tile
 
-> **application/vnd.mapbox-vector-tile**: `object`
+> **mapbox-vector-tile**: `object`
 
 ### application/vnd.mapbox-vector-tile.extensions
 
@@ -10472,7 +10472,7 @@
 
 ### application/vnd.marlin.drm.actiontoken+xml
 
-> **application/vnd.marlin.drm.actiontoken+xml**: `object`
+> **actiontoken+xml**: `object`
 
 ### application/vnd.marlin.drm.actiontoken+xml.compressible
 
@@ -10484,7 +10484,7 @@
 
 ### application/vnd.marlin.drm.conftoken+xml
 
-> **application/vnd.marlin.drm.conftoken+xml**: `object`
+> **conftoken+xml**: `object`
 
 ### application/vnd.marlin.drm.conftoken+xml.compressible
 
@@ -10496,7 +10496,7 @@
 
 ### application/vnd.marlin.drm.license+xml
 
-> **application/vnd.marlin.drm.license+xml**: `object`
+> **license+xml**: `object`
 
 ### application/vnd.marlin.drm.license+xml.compressible
 
@@ -10508,7 +10508,7 @@
 
 ### application/vnd.marlin.drm.mdcf
 
-> **application/vnd.marlin.drm.mdcf**: `object`
+> **mdcf**: `object`
 
 ### application/vnd.marlin.drm.mdcf.source
 
@@ -10516,7 +10516,7 @@
 
 ### application/vnd.mason+json
 
-> **application/vnd.mason+json**: `object`
+> **mason+json**: `object`
 
 ### application/vnd.mason+json.compressible
 
@@ -10528,7 +10528,7 @@
 
 ### application/vnd.maxar.archive.3tz+zip
 
-> **application/vnd.maxar.archive.3tz+zip**: `object`
+> **3tz+zip**: `object`
 
 ### application/vnd.maxar.archive.3tz+zip.compressible
 
@@ -10540,7 +10540,7 @@
 
 ### application/vnd.maxmind.maxmind-db
 
-> **application/vnd.maxmind.maxmind-db**: `object`
+> **maxmind-db**: `object`
 
 ### application/vnd.maxmind.maxmind-db.source
 
@@ -10548,7 +10548,7 @@
 
 ### application/vnd.mcd
 
-> **application/vnd.mcd**: `object`
+> **mcd**: `object`
 
 ### application/vnd.mcd.extensions
 
@@ -10560,7 +10560,7 @@
 
 ### application/vnd.medcalcdata
 
-> **application/vnd.medcalcdata**: `object`
+> **medcalcdata**: `object`
 
 ### application/vnd.medcalcdata.extensions
 
@@ -10572,7 +10572,7 @@
 
 ### application/vnd.mediastation.cdkey
 
-> **application/vnd.mediastation.cdkey**: `object`
+> **cdkey**: `object`
 
 ### application/vnd.mediastation.cdkey.extensions
 
@@ -10584,7 +10584,7 @@
 
 ### application/vnd.meridian-slingshot
 
-> **application/vnd.meridian-slingshot**: `object`
+> **meridian-slingshot**: `object`
 
 ### application/vnd.meridian-slingshot.source
 
@@ -10592,7 +10592,7 @@
 
 ### application/vnd.mfer
 
-> **application/vnd.mfer**: `object`
+> **mfer**: `object`
 
 ### application/vnd.mfer.extensions
 
@@ -10604,7 +10604,7 @@
 
 ### application/vnd.mfmp
 
-> **application/vnd.mfmp**: `object`
+> **mfmp**: `object`
 
 ### application/vnd.mfmp.extensions
 
@@ -10616,7 +10616,7 @@
 
 ### application/vnd.micro+json
 
-> **application/vnd.micro+json**: `object`
+> **micro+json**: `object`
 
 ### application/vnd.micro+json.compressible
 
@@ -10628,7 +10628,7 @@
 
 ### application/vnd.micrografx.flo
 
-> **application/vnd.micrografx.flo**: `object`
+> **flo**: `object`
 
 ### application/vnd.micrografx.flo.extensions
 
@@ -10640,7 +10640,7 @@
 
 ### application/vnd.micrografx.igx
 
-> **application/vnd.micrografx.igx**: `object`
+> **igx**: `object`
 
 ### application/vnd.micrografx.igx.extensions
 
@@ -10652,7 +10652,7 @@
 
 ### application/vnd.microsoft.portable-executable
 
-> **application/vnd.microsoft.portable-executable**: `object`
+> **portable-executable**: `object`
 
 ### application/vnd.microsoft.portable-executable.source
 
@@ -10660,7 +10660,7 @@
 
 ### application/vnd.microsoft.windows.thumbnail-cache
 
-> **application/vnd.microsoft.windows.thumbnail-cache**: `object`
+> **thumbnail-cache**: `object`
 
 ### application/vnd.microsoft.windows.thumbnail-cache.source
 
@@ -10668,7 +10668,7 @@
 
 ### application/vnd.miele+json
 
-> **application/vnd.miele+json**: `object`
+> **miele+json**: `object`
 
 ### application/vnd.miele+json.compressible
 
@@ -10680,7 +10680,7 @@
 
 ### application/vnd.mif
 
-> **application/vnd.mif**: `object`
+> **mif**: `object`
 
 ### application/vnd.mif.extensions
 
@@ -10692,7 +10692,7 @@
 
 ### application/vnd.minisoft-hp3000-save
 
-> **application/vnd.minisoft-hp3000-save**: `object`
+> **minisoft-hp3000-save**: `object`
 
 ### application/vnd.minisoft-hp3000-save.source
 
@@ -10700,7 +10700,7 @@
 
 ### application/vnd.mitsubishi.misty-guard.trustweb
 
-> **application/vnd.mitsubishi.misty-guard.trustweb**: `object`
+> **trustweb**: `object`
 
 ### application/vnd.mitsubishi.misty-guard.trustweb.source
 
@@ -10708,7 +10708,7 @@
 
 ### application/vnd.mobius.daf
 
-> **application/vnd.mobius.daf**: `object`
+> **daf**: `object`
 
 ### application/vnd.mobius.daf.extensions
 
@@ -10720,7 +10720,7 @@
 
 ### application/vnd.mobius.dis
 
-> **application/vnd.mobius.dis**: `object`
+> **dis**: `object`
 
 ### application/vnd.mobius.dis.extensions
 
@@ -10732,7 +10732,7 @@
 
 ### application/vnd.mobius.mbk
 
-> **application/vnd.mobius.mbk**: `object`
+> **mbk**: `object`
 
 ### application/vnd.mobius.mbk.extensions
 
@@ -10744,7 +10744,7 @@
 
 ### application/vnd.mobius.mqy
 
-> **application/vnd.mobius.mqy**: `object`
+> **mqy**: `object`
 
 ### application/vnd.mobius.mqy.extensions
 
@@ -10756,7 +10756,7 @@
 
 ### application/vnd.mobius.msl
 
-> **application/vnd.mobius.msl**: `object`
+> **msl**: `object`
 
 ### application/vnd.mobius.msl.extensions
 
@@ -10768,7 +10768,7 @@
 
 ### application/vnd.mobius.plc
 
-> **application/vnd.mobius.plc**: `object`
+> **plc**: `object`
 
 ### application/vnd.mobius.plc.extensions
 
@@ -10780,7 +10780,7 @@
 
 ### application/vnd.mobius.txf
 
-> **application/vnd.mobius.txf**: `object`
+> **txf**: `object`
 
 ### application/vnd.mobius.txf.extensions
 
@@ -10792,7 +10792,7 @@
 
 ### application/vnd.mophun.application
 
-> **application/vnd.mophun.application**: `object`
+> **application**: `object`
 
 ### application/vnd.mophun.application.extensions
 
@@ -10804,7 +10804,7 @@
 
 ### application/vnd.mophun.certificate
 
-> **application/vnd.mophun.certificate**: `object`
+> **certificate**: `object`
 
 ### application/vnd.mophun.certificate.extensions
 
@@ -10816,7 +10816,7 @@
 
 ### application/vnd.motorola.flexsuite
 
-> **application/vnd.motorola.flexsuite**: `object`
+> **flexsuite**: `object`
 
 ### application/vnd.motorola.flexsuite.source
 
@@ -10824,7 +10824,7 @@
 
 ### application/vnd.motorola.flexsuite.adsi
 
-> **application/vnd.motorola.flexsuite.adsi**: `object`
+> **adsi**: `object`
 
 ### application/vnd.motorola.flexsuite.adsi.source
 
@@ -10832,7 +10832,7 @@
 
 ### application/vnd.motorola.flexsuite.fis
 
-> **application/vnd.motorola.flexsuite.fis**: `object`
+> **fis**: `object`
 
 ### application/vnd.motorola.flexsuite.fis.source
 
@@ -10840,7 +10840,7 @@
 
 ### application/vnd.motorola.flexsuite.gotap
 
-> **application/vnd.motorola.flexsuite.gotap**: `object`
+> **gotap**: `object`
 
 ### application/vnd.motorola.flexsuite.gotap.source
 
@@ -10848,7 +10848,7 @@
 
 ### application/vnd.motorola.flexsuite.kmr
 
-> **application/vnd.motorola.flexsuite.kmr**: `object`
+> **kmr**: `object`
 
 ### application/vnd.motorola.flexsuite.kmr.source
 
@@ -10856,7 +10856,7 @@
 
 ### application/vnd.motorola.flexsuite.ttc
 
-> **application/vnd.motorola.flexsuite.ttc**: `object`
+> **ttc**: `object`
 
 ### application/vnd.motorola.flexsuite.ttc.source
 
@@ -10864,7 +10864,7 @@
 
 ### application/vnd.motorola.flexsuite.wem
 
-> **application/vnd.motorola.flexsuite.wem**: `object`
+> **wem**: `object`
 
 ### application/vnd.motorola.flexsuite.wem.source
 
@@ -10872,7 +10872,7 @@
 
 ### application/vnd.motorola.iprm
 
-> **application/vnd.motorola.iprm**: `object`
+> **iprm**: `object`
 
 ### application/vnd.motorola.iprm.source
 
@@ -10880,7 +10880,7 @@
 
 ### application/vnd.mozilla.xul+xml
 
-> **application/vnd.mozilla.xul+xml**: `object`
+> **xul+xml**: `object`
 
 ### application/vnd.mozilla.xul+xml.compressible
 
@@ -10896,7 +10896,7 @@
 
 ### application/vnd.ms-3mfdocument
 
-> **application/vnd.ms-3mfdocument**: `object`
+> **ms-3mfdocument**: `object`
 
 ### application/vnd.ms-3mfdocument.source
 
@@ -10904,7 +10904,7 @@
 
 ### application/vnd.ms-artgalry
 
-> **application/vnd.ms-artgalry**: `object`
+> **ms-artgalry**: `object`
 
 ### application/vnd.ms-artgalry.extensions
 
@@ -10916,7 +10916,7 @@
 
 ### application/vnd.ms-asf
 
-> **application/vnd.ms-asf**: `object`
+> **ms-asf**: `object`
 
 ### application/vnd.ms-asf.source
 
@@ -10924,7 +10924,7 @@
 
 ### application/vnd.ms-cab-compressed
 
-> **application/vnd.ms-cab-compressed**: `object`
+> **ms-cab-compressed**: `object`
 
 ### application/vnd.ms-cab-compressed.extensions
 
@@ -10936,7 +10936,7 @@
 
 ### application/vnd.ms-color.iccprofile
 
-> **application/vnd.ms-color.iccprofile**: `object`
+> **iccprofile**: `object`
 
 ### application/vnd.ms-color.iccprofile.source
 
@@ -10944,7 +10944,7 @@
 
 ### application/vnd.ms-excel
 
-> **application/vnd.ms-excel**: `object`
+> **ms-excel**: `object`
 
 ### application/vnd.ms-excel.compressible
 
@@ -10960,7 +10960,7 @@
 
 ### application/vnd.ms-excel.addin.macroenabled.12
 
-> **application/vnd.ms-excel.addin.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-excel.addin.macroenabled.12.extensions
 
@@ -10972,7 +10972,7 @@
 
 ### application/vnd.ms-excel.sheet.binary.macroenabled.12
 
-> **application/vnd.ms-excel.sheet.binary.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-excel.sheet.binary.macroenabled.12.extensions
 
@@ -10984,7 +10984,7 @@
 
 ### application/vnd.ms-excel.sheet.macroenabled.12
 
-> **application/vnd.ms-excel.sheet.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-excel.sheet.macroenabled.12.extensions
 
@@ -10996,7 +10996,7 @@
 
 ### application/vnd.ms-excel.template.macroenabled.12
 
-> **application/vnd.ms-excel.template.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-excel.template.macroenabled.12.extensions
 
@@ -11008,7 +11008,7 @@
 
 ### application/vnd.ms-fontobject
 
-> **application/vnd.ms-fontobject**: `object`
+> **ms-fontobject**: `object`
 
 ### application/vnd.ms-fontobject.compressible
 
@@ -11024,7 +11024,7 @@
 
 ### application/vnd.ms-htmlhelp
 
-> **application/vnd.ms-htmlhelp**: `object`
+> **ms-htmlhelp**: `object`
 
 ### application/vnd.ms-htmlhelp.extensions
 
@@ -11036,7 +11036,7 @@
 
 ### application/vnd.ms-ims
 
-> **application/vnd.ms-ims**: `object`
+> **ms-ims**: `object`
 
 ### application/vnd.ms-ims.extensions
 
@@ -11048,7 +11048,7 @@
 
 ### application/vnd.ms-lrm
 
-> **application/vnd.ms-lrm**: `object`
+> **ms-lrm**: `object`
 
 ### application/vnd.ms-lrm.extensions
 
@@ -11060,7 +11060,7 @@
 
 ### application/vnd.ms-office.activex+xml
 
-> **application/vnd.ms-office.activex+xml**: `object`
+> **activex+xml**: `object`
 
 ### application/vnd.ms-office.activex+xml.compressible
 
@@ -11072,7 +11072,7 @@
 
 ### application/vnd.ms-officetheme
 
-> **application/vnd.ms-officetheme**: `object`
+> **ms-officetheme**: `object`
 
 ### application/vnd.ms-officetheme.extensions
 
@@ -11084,7 +11084,7 @@
 
 ### application/vnd.ms-opentype
 
-> **application/vnd.ms-opentype**: `object`
+> **ms-opentype**: `object`
 
 ### application/vnd.ms-opentype.compressible
 
@@ -11096,7 +11096,7 @@
 
 ### application/vnd.ms-outlook
 
-> **application/vnd.ms-outlook**: `object`
+> **ms-outlook**: `object`
 
 ### application/vnd.ms-outlook.compressible
 
@@ -11108,7 +11108,7 @@
 
 ### application/vnd.ms-package.obfuscated-opentype
 
-> **application/vnd.ms-package.obfuscated-opentype**: `object`
+> **obfuscated-opentype**: `object`
 
 ### application/vnd.ms-package.obfuscated-opentype.source
 
@@ -11116,7 +11116,7 @@
 
 ### application/vnd.ms-pki.seccat
 
-> **application/vnd.ms-pki.seccat**: `object`
+> **seccat**: `object`
 
 ### application/vnd.ms-pki.seccat.extensions
 
@@ -11128,7 +11128,7 @@
 
 ### application/vnd.ms-pki.stl
 
-> **application/vnd.ms-pki.stl**: `object`
+> **stl**: `object`
 
 ### application/vnd.ms-pki.stl.extensions
 
@@ -11140,7 +11140,7 @@
 
 ### application/vnd.ms-playready.initiator+xml
 
-> **application/vnd.ms-playready.initiator+xml**: `object`
+> **initiator+xml**: `object`
 
 ### application/vnd.ms-playready.initiator+xml.compressible
 
@@ -11152,7 +11152,7 @@
 
 ### application/vnd.ms-powerpoint
 
-> **application/vnd.ms-powerpoint**: `object`
+> **ms-powerpoint**: `object`
 
 ### application/vnd.ms-powerpoint.compressible
 
@@ -11168,7 +11168,7 @@
 
 ### application/vnd.ms-powerpoint.addin.macroenabled.12
 
-> **application/vnd.ms-powerpoint.addin.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-powerpoint.addin.macroenabled.12.extensions
 
@@ -11180,7 +11180,7 @@
 
 ### application/vnd.ms-powerpoint.presentation.macroenabled.12
 
-> **application/vnd.ms-powerpoint.presentation.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-powerpoint.presentation.macroenabled.12.extensions
 
@@ -11192,7 +11192,7 @@
 
 ### application/vnd.ms-powerpoint.slide.macroenabled.12
 
-> **application/vnd.ms-powerpoint.slide.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-powerpoint.slide.macroenabled.12.extensions
 
@@ -11204,7 +11204,7 @@
 
 ### application/vnd.ms-powerpoint.slideshow.macroenabled.12
 
-> **application/vnd.ms-powerpoint.slideshow.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-powerpoint.slideshow.macroenabled.12.extensions
 
@@ -11216,7 +11216,7 @@
 
 ### application/vnd.ms-powerpoint.template.macroenabled.12
 
-> **application/vnd.ms-powerpoint.template.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-powerpoint.template.macroenabled.12.extensions
 
@@ -11228,7 +11228,7 @@
 
 ### application/vnd.ms-printdevicecapabilities+xml
 
-> **application/vnd.ms-printdevicecapabilities+xml**: `object`
+> **ms-printdevicecapabilities+xml**: `object`
 
 ### application/vnd.ms-printdevicecapabilities+xml.compressible
 
@@ -11240,7 +11240,7 @@
 
 ### application/vnd.ms-printing.printticket+xml
 
-> **application/vnd.ms-printing.printticket+xml**: `object`
+> **printticket+xml**: `object`
 
 ### application/vnd.ms-printing.printticket+xml.compressible
 
@@ -11252,7 +11252,7 @@
 
 ### application/vnd.ms-printschematicket+xml
 
-> **application/vnd.ms-printschematicket+xml**: `object`
+> **ms-printschematicket+xml**: `object`
 
 ### application/vnd.ms-printschematicket+xml.compressible
 
@@ -11264,7 +11264,7 @@
 
 ### application/vnd.ms-project
 
-> **application/vnd.ms-project**: `object`
+> **ms-project**: `object`
 
 ### application/vnd.ms-project.extensions
 
@@ -11276,7 +11276,7 @@
 
 ### application/vnd.ms-tnef
 
-> **application/vnd.ms-tnef**: `object`
+> **ms-tnef**: `object`
 
 ### application/vnd.ms-tnef.source
 
@@ -11284,7 +11284,7 @@
 
 ### application/vnd.ms-windows.devicepairing
 
-> **application/vnd.ms-windows.devicepairing**: `object`
+> **devicepairing**: `object`
 
 ### application/vnd.ms-windows.devicepairing.source
 
@@ -11292,7 +11292,7 @@
 
 ### application/vnd.ms-windows.nwprinting.oob
 
-> **application/vnd.ms-windows.nwprinting.oob**: `object`
+> **oob**: `object`
 
 ### application/vnd.ms-windows.nwprinting.oob.source
 
@@ -11300,7 +11300,7 @@
 
 ### application/vnd.ms-windows.printerpairing
 
-> **application/vnd.ms-windows.printerpairing**: `object`
+> **printerpairing**: `object`
 
 ### application/vnd.ms-windows.printerpairing.source
 
@@ -11308,7 +11308,7 @@
 
 ### application/vnd.ms-windows.wsd.oob
 
-> **application/vnd.ms-windows.wsd.oob**: `object`
+> **oob**: `object`
 
 ### application/vnd.ms-windows.wsd.oob.source
 
@@ -11316,7 +11316,7 @@
 
 ### application/vnd.ms-wmdrm.lic-chlg-req
 
-> **application/vnd.ms-wmdrm.lic-chlg-req**: `object`
+> **lic-chlg-req**: `object`
 
 ### application/vnd.ms-wmdrm.lic-chlg-req.source
 
@@ -11324,7 +11324,7 @@
 
 ### application/vnd.ms-wmdrm.lic-resp
 
-> **application/vnd.ms-wmdrm.lic-resp**: `object`
+> **lic-resp**: `object`
 
 ### application/vnd.ms-wmdrm.lic-resp.source
 
@@ -11332,7 +11332,7 @@
 
 ### application/vnd.ms-wmdrm.meter-chlg-req
 
-> **application/vnd.ms-wmdrm.meter-chlg-req**: `object`
+> **meter-chlg-req**: `object`
 
 ### application/vnd.ms-wmdrm.meter-chlg-req.source
 
@@ -11340,7 +11340,7 @@
 
 ### application/vnd.ms-wmdrm.meter-resp
 
-> **application/vnd.ms-wmdrm.meter-resp**: `object`
+> **meter-resp**: `object`
 
 ### application/vnd.ms-wmdrm.meter-resp.source
 
@@ -11348,7 +11348,7 @@
 
 ### application/vnd.ms-word.document.macroenabled.12
 
-> **application/vnd.ms-word.document.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-word.document.macroenabled.12.extensions
 
@@ -11360,7 +11360,7 @@
 
 ### application/vnd.ms-word.template.macroenabled.12
 
-> **application/vnd.ms-word.template.macroenabled.12**: `object`
+> **12**: `object`
 
 ### application/vnd.ms-word.template.macroenabled.12.extensions
 
@@ -11372,7 +11372,7 @@
 
 ### application/vnd.ms-works
 
-> **application/vnd.ms-works**: `object`
+> **ms-works**: `object`
 
 ### application/vnd.ms-works.extensions
 
@@ -11384,7 +11384,7 @@
 
 ### application/vnd.ms-wpl
 
-> **application/vnd.ms-wpl**: `object`
+> **ms-wpl**: `object`
 
 ### application/vnd.ms-wpl.extensions
 
@@ -11396,7 +11396,7 @@
 
 ### application/vnd.ms-xpsdocument
 
-> **application/vnd.ms-xpsdocument**: `object`
+> **ms-xpsdocument**: `object`
 
 ### application/vnd.ms-xpsdocument.compressible
 
@@ -11412,7 +11412,7 @@
 
 ### application/vnd.msa-disk-image
 
-> **application/vnd.msa-disk-image**: `object`
+> **msa-disk-image**: `object`
 
 ### application/vnd.msa-disk-image.source
 
@@ -11420,7 +11420,7 @@
 
 ### application/vnd.mseq
 
-> **application/vnd.mseq**: `object`
+> **mseq**: `object`
 
 ### application/vnd.mseq.extensions
 
@@ -11432,7 +11432,7 @@
 
 ### application/vnd.msign
 
-> **application/vnd.msign**: `object`
+> **msign**: `object`
 
 ### application/vnd.msign.source
 
@@ -11440,7 +11440,7 @@
 
 ### application/vnd.multiad.creator
 
-> **application/vnd.multiad.creator**: `object`
+> **creator**: `object`
 
 ### application/vnd.multiad.creator.source
 
@@ -11448,7 +11448,7 @@
 
 ### application/vnd.multiad.creator.cif
 
-> **application/vnd.multiad.creator.cif**: `object`
+> **cif**: `object`
 
 ### application/vnd.multiad.creator.cif.source
 
@@ -11456,7 +11456,7 @@
 
 ### application/vnd.music-niff
 
-> **application/vnd.music-niff**: `object`
+> **music-niff**: `object`
 
 ### application/vnd.music-niff.source
 
@@ -11464,7 +11464,7 @@
 
 ### application/vnd.musician
 
-> **application/vnd.musician**: `object`
+> **musician**: `object`
 
 ### application/vnd.musician.extensions
 
@@ -11476,7 +11476,7 @@
 
 ### application/vnd.muvee.style
 
-> **application/vnd.muvee.style**: `object`
+> **style**: `object`
 
 ### application/vnd.muvee.style.extensions
 
@@ -11488,7 +11488,7 @@
 
 ### application/vnd.mynfc
 
-> **application/vnd.mynfc**: `object`
+> **mynfc**: `object`
 
 ### application/vnd.mynfc.extensions
 
@@ -11500,7 +11500,7 @@
 
 ### application/vnd.nacamar.ybrid+json
 
-> **application/vnd.nacamar.ybrid+json**: `object`
+> **ybrid+json**: `object`
 
 ### application/vnd.nacamar.ybrid+json.compressible
 
@@ -11512,7 +11512,7 @@
 
 ### application/vnd.ncd.control
 
-> **application/vnd.ncd.control**: `object`
+> **control**: `object`
 
 ### application/vnd.ncd.control.source
 
@@ -11520,7 +11520,7 @@
 
 ### application/vnd.ncd.reference
 
-> **application/vnd.ncd.reference**: `object`
+> **reference**: `object`
 
 ### application/vnd.ncd.reference.source
 
@@ -11528,7 +11528,7 @@
 
 ### application/vnd.nearst.inv+json
 
-> **application/vnd.nearst.inv+json**: `object`
+> **inv+json**: `object`
 
 ### application/vnd.nearst.inv+json.compressible
 
@@ -11540,7 +11540,7 @@
 
 ### application/vnd.nebumind.line
 
-> **application/vnd.nebumind.line**: `object`
+> **line**: `object`
 
 ### application/vnd.nebumind.line.source
 
@@ -11548,7 +11548,7 @@
 
 ### application/vnd.nervana
 
-> **application/vnd.nervana**: `object`
+> **nervana**: `object`
 
 ### application/vnd.nervana.source
 
@@ -11556,7 +11556,7 @@
 
 ### application/vnd.netfpx
 
-> **application/vnd.netfpx**: `object`
+> **netfpx**: `object`
 
 ### application/vnd.netfpx.source
 
@@ -11564,7 +11564,7 @@
 
 ### application/vnd.neurolanguage.nlu
 
-> **application/vnd.neurolanguage.nlu**: `object`
+> **nlu**: `object`
 
 ### application/vnd.neurolanguage.nlu.extensions
 
@@ -11576,7 +11576,7 @@
 
 ### application/vnd.nimn
 
-> **application/vnd.nimn**: `object`
+> **nimn**: `object`
 
 ### application/vnd.nimn.source
 
@@ -11584,7 +11584,7 @@
 
 ### application/vnd.nintendo.nitro.rom
 
-> **application/vnd.nintendo.nitro.rom**: `object`
+> **rom**: `object`
 
 ### application/vnd.nintendo.nitro.rom.source
 
@@ -11592,7 +11592,7 @@
 
 ### application/vnd.nintendo.snes.rom
 
-> **application/vnd.nintendo.snes.rom**: `object`
+> **rom**: `object`
 
 ### application/vnd.nintendo.snes.rom.source
 
@@ -11600,7 +11600,7 @@
 
 ### application/vnd.nitf
 
-> **application/vnd.nitf**: `object`
+> **nitf**: `object`
 
 ### application/vnd.nitf.extensions
 
@@ -11612,7 +11612,7 @@
 
 ### application/vnd.noblenet-directory
 
-> **application/vnd.noblenet-directory**: `object`
+> **noblenet-directory**: `object`
 
 ### application/vnd.noblenet-directory.extensions
 
@@ -11624,7 +11624,7 @@
 
 ### application/vnd.noblenet-sealer
 
-> **application/vnd.noblenet-sealer**: `object`
+> **noblenet-sealer**: `object`
 
 ### application/vnd.noblenet-sealer.extensions
 
@@ -11636,7 +11636,7 @@
 
 ### application/vnd.noblenet-web
 
-> **application/vnd.noblenet-web**: `object`
+> **noblenet-web**: `object`
 
 ### application/vnd.noblenet-web.extensions
 
@@ -11648,7 +11648,7 @@
 
 ### application/vnd.nokia.catalogs
 
-> **application/vnd.nokia.catalogs**: `object`
+> **catalogs**: `object`
 
 ### application/vnd.nokia.catalogs.source
 
@@ -11656,7 +11656,7 @@
 
 ### application/vnd.nokia.conml+wbxml
 
-> **application/vnd.nokia.conml+wbxml**: `object`
+> **conml+wbxml**: `object`
 
 ### application/vnd.nokia.conml+wbxml.source
 
@@ -11664,7 +11664,7 @@
 
 ### application/vnd.nokia.conml+xml
 
-> **application/vnd.nokia.conml+xml**: `object`
+> **conml+xml**: `object`
 
 ### application/vnd.nokia.conml+xml.compressible
 
@@ -11676,7 +11676,7 @@
 
 ### application/vnd.nokia.iptv.config+xml
 
-> **application/vnd.nokia.iptv.config+xml**: `object`
+> **config+xml**: `object`
 
 ### application/vnd.nokia.iptv.config+xml.compressible
 
@@ -11688,7 +11688,7 @@
 
 ### application/vnd.nokia.isds-radio-presets
 
-> **application/vnd.nokia.isds-radio-presets**: `object`
+> **isds-radio-presets**: `object`
 
 ### application/vnd.nokia.isds-radio-presets.source
 
@@ -11696,7 +11696,7 @@
 
 ### application/vnd.nokia.landmark+wbxml
 
-> **application/vnd.nokia.landmark+wbxml**: `object`
+> **landmark+wbxml**: `object`
 
 ### application/vnd.nokia.landmark+wbxml.source
 
@@ -11704,7 +11704,7 @@
 
 ### application/vnd.nokia.landmark+xml
 
-> **application/vnd.nokia.landmark+xml**: `object`
+> **landmark+xml**: `object`
 
 ### application/vnd.nokia.landmark+xml.compressible
 
@@ -11716,7 +11716,7 @@
 
 ### application/vnd.nokia.landmarkcollection+xml
 
-> **application/vnd.nokia.landmarkcollection+xml**: `object`
+> **landmarkcollection+xml**: `object`
 
 ### application/vnd.nokia.landmarkcollection+xml.compressible
 
@@ -11728,7 +11728,7 @@
 
 ### application/vnd.nokia.n-gage.ac+xml
 
-> **application/vnd.nokia.n-gage.ac+xml**: `object`
+> **ac+xml**: `object`
 
 ### application/vnd.nokia.n-gage.ac+xml.compressible
 
@@ -11744,7 +11744,7 @@
 
 ### application/vnd.nokia.n-gage.data
 
-> **application/vnd.nokia.n-gage.data**: `object`
+> **data**: `object`
 
 ### application/vnd.nokia.n-gage.data.extensions
 
@@ -11756,7 +11756,7 @@
 
 ### application/vnd.nokia.n-gage.symbian.install
 
-> **application/vnd.nokia.n-gage.symbian.install**: `object`
+> **install**: `object`
 
 ### application/vnd.nokia.n-gage.symbian.install.extensions
 
@@ -11768,7 +11768,7 @@
 
 ### application/vnd.nokia.ncd
 
-> **application/vnd.nokia.ncd**: `object`
+> **ncd**: `object`
 
 ### application/vnd.nokia.ncd.source
 
@@ -11776,7 +11776,7 @@
 
 ### application/vnd.nokia.pcd+wbxml
 
-> **application/vnd.nokia.pcd+wbxml**: `object`
+> **pcd+wbxml**: `object`
 
 ### application/vnd.nokia.pcd+wbxml.source
 
@@ -11784,7 +11784,7 @@
 
 ### application/vnd.nokia.pcd+xml
 
-> **application/vnd.nokia.pcd+xml**: `object`
+> **pcd+xml**: `object`
 
 ### application/vnd.nokia.pcd+xml.compressible
 
@@ -11796,7 +11796,7 @@
 
 ### application/vnd.nokia.radio-preset
 
-> **application/vnd.nokia.radio-preset**: `object`
+> **radio-preset**: `object`
 
 ### application/vnd.nokia.radio-preset.extensions
 
@@ -11808,7 +11808,7 @@
 
 ### application/vnd.nokia.radio-presets
 
-> **application/vnd.nokia.radio-presets**: `object`
+> **radio-presets**: `object`
 
 ### application/vnd.nokia.radio-presets.extensions
 
@@ -11820,7 +11820,7 @@
 
 ### application/vnd.novadigm.edm
 
-> **application/vnd.novadigm.edm**: `object`
+> **edm**: `object`
 
 ### application/vnd.novadigm.edm.extensions
 
@@ -11832,7 +11832,7 @@
 
 ### application/vnd.novadigm.edx
 
-> **application/vnd.novadigm.edx**: `object`
+> **edx**: `object`
 
 ### application/vnd.novadigm.edx.extensions
 
@@ -11844,7 +11844,7 @@
 
 ### application/vnd.novadigm.ext
 
-> **application/vnd.novadigm.ext**: `object`
+> **ext**: `object`
 
 ### application/vnd.novadigm.ext.extensions
 
@@ -11856,7 +11856,7 @@
 
 ### application/vnd.ntt-local.content-share
 
-> **application/vnd.ntt-local.content-share**: `object`
+> **content-share**: `object`
 
 ### application/vnd.ntt-local.content-share.source
 
@@ -11864,7 +11864,7 @@
 
 ### application/vnd.ntt-local.file-transfer
 
-> **application/vnd.ntt-local.file-transfer**: `object`
+> **file-transfer**: `object`
 
 ### application/vnd.ntt-local.file-transfer.source
 
@@ -11872,7 +11872,7 @@
 
 ### application/vnd.ntt-local.ogw\_remote-access
 
-> **application/vnd.ntt-local.ogw\_remote-access**: `object`
+> **ogw\_remote-access**: `object`
 
 ### application/vnd.ntt-local.ogw\_remote-access.source
 
@@ -11880,7 +11880,7 @@
 
 ### application/vnd.ntt-local.sip-ta\_remote
 
-> **application/vnd.ntt-local.sip-ta\_remote**: `object`
+> **sip-ta\_remote**: `object`
 
 ### application/vnd.ntt-local.sip-ta\_remote.source
 
@@ -11888,7 +11888,7 @@
 
 ### application/vnd.ntt-local.sip-ta\_tcp\_stream
 
-> **application/vnd.ntt-local.sip-ta\_tcp\_stream**: `object`
+> **sip-ta\_tcp\_stream**: `object`
 
 ### application/vnd.ntt-local.sip-ta\_tcp\_stream.source
 
@@ -11896,7 +11896,7 @@
 
 ### application/vnd.oasis.opendocument.chart
 
-> **application/vnd.oasis.opendocument.chart**: `object`
+> **chart**: `object`
 
 ### application/vnd.oasis.opendocument.chart.extensions
 
@@ -11908,7 +11908,7 @@
 
 ### application/vnd.oasis.opendocument.chart-template
 
-> **application/vnd.oasis.opendocument.chart-template**: `object`
+> **chart-template**: `object`
 
 ### application/vnd.oasis.opendocument.chart-template.extensions
 
@@ -11920,7 +11920,7 @@
 
 ### application/vnd.oasis.opendocument.database
 
-> **application/vnd.oasis.opendocument.database**: `object`
+> **database**: `object`
 
 ### application/vnd.oasis.opendocument.database.extensions
 
@@ -11932,7 +11932,7 @@
 
 ### application/vnd.oasis.opendocument.formula
 
-> **application/vnd.oasis.opendocument.formula**: `object`
+> **formula**: `object`
 
 ### application/vnd.oasis.opendocument.formula.extensions
 
@@ -11944,7 +11944,7 @@
 
 ### application/vnd.oasis.opendocument.formula-template
 
-> **application/vnd.oasis.opendocument.formula-template**: `object`
+> **formula-template**: `object`
 
 ### application/vnd.oasis.opendocument.formula-template.extensions
 
@@ -11956,7 +11956,7 @@
 
 ### application/vnd.oasis.opendocument.graphics
 
-> **application/vnd.oasis.opendocument.graphics**: `object`
+> **graphics**: `object`
 
 ### application/vnd.oasis.opendocument.graphics.compressible
 
@@ -11972,7 +11972,7 @@
 
 ### application/vnd.oasis.opendocument.graphics-template
 
-> **application/vnd.oasis.opendocument.graphics-template**: `object`
+> **graphics-template**: `object`
 
 ### application/vnd.oasis.opendocument.graphics-template.extensions
 
@@ -11984,7 +11984,7 @@
 
 ### application/vnd.oasis.opendocument.image
 
-> **application/vnd.oasis.opendocument.image**: `object`
+> **image**: `object`
 
 ### application/vnd.oasis.opendocument.image.extensions
 
@@ -11996,7 +11996,7 @@
 
 ### application/vnd.oasis.opendocument.image-template
 
-> **application/vnd.oasis.opendocument.image-template**: `object`
+> **image-template**: `object`
 
 ### application/vnd.oasis.opendocument.image-template.extensions
 
@@ -12008,7 +12008,7 @@
 
 ### application/vnd.oasis.opendocument.presentation
 
-> **application/vnd.oasis.opendocument.presentation**: `object`
+> **presentation**: `object`
 
 ### application/vnd.oasis.opendocument.presentation.compressible
 
@@ -12024,7 +12024,7 @@
 
 ### application/vnd.oasis.opendocument.presentation-template
 
-> **application/vnd.oasis.opendocument.presentation-template**: `object`
+> **presentation-template**: `object`
 
 ### application/vnd.oasis.opendocument.presentation-template.extensions
 
@@ -12036,7 +12036,7 @@
 
 ### application/vnd.oasis.opendocument.spreadsheet
 
-> **application/vnd.oasis.opendocument.spreadsheet**: `object`
+> **spreadsheet**: `object`
 
 ### application/vnd.oasis.opendocument.spreadsheet.compressible
 
@@ -12052,7 +12052,7 @@
 
 ### application/vnd.oasis.opendocument.spreadsheet-template
 
-> **application/vnd.oasis.opendocument.spreadsheet-template**: `object`
+> **spreadsheet-template**: `object`
 
 ### application/vnd.oasis.opendocument.spreadsheet-template.extensions
 
@@ -12064,7 +12064,7 @@
 
 ### application/vnd.oasis.opendocument.text
 
-> **application/vnd.oasis.opendocument.text**: `object`
+> **text**: `object`
 
 ### application/vnd.oasis.opendocument.text.compressible
 
@@ -12080,7 +12080,7 @@
 
 ### application/vnd.oasis.opendocument.text-master
 
-> **application/vnd.oasis.opendocument.text-master**: `object`
+> **text-master**: `object`
 
 ### application/vnd.oasis.opendocument.text-master.extensions
 
@@ -12092,7 +12092,7 @@
 
 ### application/vnd.oasis.opendocument.text-template
 
-> **application/vnd.oasis.opendocument.text-template**: `object`
+> **text-template**: `object`
 
 ### application/vnd.oasis.opendocument.text-template.extensions
 
@@ -12104,7 +12104,7 @@
 
 ### application/vnd.oasis.opendocument.text-web
 
-> **application/vnd.oasis.opendocument.text-web**: `object`
+> **text-web**: `object`
 
 ### application/vnd.oasis.opendocument.text-web.extensions
 
@@ -12116,7 +12116,7 @@
 
 ### application/vnd.obn
 
-> **application/vnd.obn**: `object`
+> **obn**: `object`
 
 ### application/vnd.obn.source
 
@@ -12124,7 +12124,7 @@
 
 ### application/vnd.ocf+cbor
 
-> **application/vnd.ocf+cbor**: `object`
+> **ocf+cbor**: `object`
 
 ### application/vnd.ocf+cbor.source
 
@@ -12132,7 +12132,7 @@
 
 ### application/vnd.oci.image.manifest.v1+json
 
-> **application/vnd.oci.image.manifest.v1+json**: `object`
+> **v1+json**: `object`
 
 ### application/vnd.oci.image.manifest.v1+json.compressible
 
@@ -12144,7 +12144,7 @@
 
 ### application/vnd.oftn.l10n+json
 
-> **application/vnd.oftn.l10n+json**: `object`
+> **l10n+json**: `object`
 
 ### application/vnd.oftn.l10n+json.compressible
 
@@ -12156,7 +12156,7 @@
 
 ### application/vnd.oipf.contentaccessdownload+xml
 
-> **application/vnd.oipf.contentaccessdownload+xml**: `object`
+> **contentaccessdownload+xml**: `object`
 
 ### application/vnd.oipf.contentaccessdownload+xml.compressible
 
@@ -12168,7 +12168,7 @@
 
 ### application/vnd.oipf.contentaccessstreaming+xml
 
-> **application/vnd.oipf.contentaccessstreaming+xml**: `object`
+> **contentaccessstreaming+xml**: `object`
 
 ### application/vnd.oipf.contentaccessstreaming+xml.compressible
 
@@ -12180,7 +12180,7 @@
 
 ### application/vnd.oipf.cspg-hexbinary
 
-> **application/vnd.oipf.cspg-hexbinary**: `object`
+> **cspg-hexbinary**: `object`
 
 ### application/vnd.oipf.cspg-hexbinary.source
 
@@ -12188,7 +12188,7 @@
 
 ### application/vnd.oipf.dae.svg+xml
 
-> **application/vnd.oipf.dae.svg+xml**: `object`
+> **svg+xml**: `object`
 
 ### application/vnd.oipf.dae.svg+xml.compressible
 
@@ -12200,7 +12200,7 @@
 
 ### application/vnd.oipf.dae.xhtml+xml
 
-> **application/vnd.oipf.dae.xhtml+xml**: `object`
+> **xhtml+xml**: `object`
 
 ### application/vnd.oipf.dae.xhtml+xml.compressible
 
@@ -12212,7 +12212,7 @@
 
 ### application/vnd.oipf.mippvcontrolmessage+xml
 
-> **application/vnd.oipf.mippvcontrolmessage+xml**: `object`
+> **mippvcontrolmessage+xml**: `object`
 
 ### application/vnd.oipf.mippvcontrolmessage+xml.compressible
 
@@ -12224,7 +12224,7 @@
 
 ### application/vnd.oipf.pae.gem
 
-> **application/vnd.oipf.pae.gem**: `object`
+> **gem**: `object`
 
 ### application/vnd.oipf.pae.gem.source
 
@@ -12232,7 +12232,7 @@
 
 ### application/vnd.oipf.spdiscovery+xml
 
-> **application/vnd.oipf.spdiscovery+xml**: `object`
+> **spdiscovery+xml**: `object`
 
 ### application/vnd.oipf.spdiscovery+xml.compressible
 
@@ -12244,7 +12244,7 @@
 
 ### application/vnd.oipf.spdlist+xml
 
-> **application/vnd.oipf.spdlist+xml**: `object`
+> **spdlist+xml**: `object`
 
 ### application/vnd.oipf.spdlist+xml.compressible
 
@@ -12256,7 +12256,7 @@
 
 ### application/vnd.oipf.ueprofile+xml
 
-> **application/vnd.oipf.ueprofile+xml**: `object`
+> **ueprofile+xml**: `object`
 
 ### application/vnd.oipf.ueprofile+xml.compressible
 
@@ -12268,7 +12268,7 @@
 
 ### application/vnd.oipf.userprofile+xml
 
-> **application/vnd.oipf.userprofile+xml**: `object`
+> **userprofile+xml**: `object`
 
 ### application/vnd.oipf.userprofile+xml.compressible
 
@@ -12280,7 +12280,7 @@
 
 ### application/vnd.olpc-sugar
 
-> **application/vnd.olpc-sugar**: `object`
+> **olpc-sugar**: `object`
 
 ### application/vnd.olpc-sugar.extensions
 
@@ -12292,7 +12292,7 @@
 
 ### application/vnd.oma-scws-config
 
-> **application/vnd.oma-scws-config**: `object`
+> **oma-scws-config**: `object`
 
 ### application/vnd.oma-scws-config.source
 
@@ -12300,7 +12300,7 @@
 
 ### application/vnd.oma-scws-http-request
 
-> **application/vnd.oma-scws-http-request**: `object`
+> **oma-scws-http-request**: `object`
 
 ### application/vnd.oma-scws-http-request.source
 
@@ -12308,7 +12308,7 @@
 
 ### application/vnd.oma-scws-http-response
 
-> **application/vnd.oma-scws-http-response**: `object`
+> **oma-scws-http-response**: `object`
 
 ### application/vnd.oma-scws-http-response.source
 
@@ -12316,7 +12316,7 @@
 
 ### application/vnd.oma.bcast.associated-procedure-parameter+xml
 
-> **application/vnd.oma.bcast.associated-procedure-parameter+xml**: `object`
+> **associated-procedure-parameter+xml**: `object`
 
 ### application/vnd.oma.bcast.associated-procedure-parameter+xml.compressible
 
@@ -12328,7 +12328,7 @@
 
 ### application/vnd.oma.bcast.drm-trigger+xml
 
-> **application/vnd.oma.bcast.drm-trigger+xml**: `object`
+> **drm-trigger+xml**: `object`
 
 ### application/vnd.oma.bcast.drm-trigger+xml.compressible
 
@@ -12340,7 +12340,7 @@
 
 ### application/vnd.oma.bcast.imd+xml
 
-> **application/vnd.oma.bcast.imd+xml**: `object`
+> **imd+xml**: `object`
 
 ### application/vnd.oma.bcast.imd+xml.compressible
 
@@ -12352,7 +12352,7 @@
 
 ### application/vnd.oma.bcast.ltkm
 
-> **application/vnd.oma.bcast.ltkm**: `object`
+> **ltkm**: `object`
 
 ### application/vnd.oma.bcast.ltkm.source
 
@@ -12360,7 +12360,7 @@
 
 ### application/vnd.oma.bcast.notification+xml
 
-> **application/vnd.oma.bcast.notification+xml**: `object`
+> **notification+xml**: `object`
 
 ### application/vnd.oma.bcast.notification+xml.compressible
 
@@ -12372,7 +12372,7 @@
 
 ### application/vnd.oma.bcast.provisioningtrigger
 
-> **application/vnd.oma.bcast.provisioningtrigger**: `object`
+> **provisioningtrigger**: `object`
 
 ### application/vnd.oma.bcast.provisioningtrigger.source
 
@@ -12380,7 +12380,7 @@
 
 ### application/vnd.oma.bcast.sgboot
 
-> **application/vnd.oma.bcast.sgboot**: `object`
+> **sgboot**: `object`
 
 ### application/vnd.oma.bcast.sgboot.source
 
@@ -12388,7 +12388,7 @@
 
 ### application/vnd.oma.bcast.sgdd+xml
 
-> **application/vnd.oma.bcast.sgdd+xml**: `object`
+> **sgdd+xml**: `object`
 
 ### application/vnd.oma.bcast.sgdd+xml.compressible
 
@@ -12400,7 +12400,7 @@
 
 ### application/vnd.oma.bcast.sgdu
 
-> **application/vnd.oma.bcast.sgdu**: `object`
+> **sgdu**: `object`
 
 ### application/vnd.oma.bcast.sgdu.source
 
@@ -12408,7 +12408,7 @@
 
 ### application/vnd.oma.bcast.simple-symbol-container
 
-> **application/vnd.oma.bcast.simple-symbol-container**: `object`
+> **simple-symbol-container**: `object`
 
 ### application/vnd.oma.bcast.simple-symbol-container.source
 
@@ -12416,7 +12416,7 @@
 
 ### application/vnd.oma.bcast.smartcard-trigger+xml
 
-> **application/vnd.oma.bcast.smartcard-trigger+xml**: `object`
+> **smartcard-trigger+xml**: `object`
 
 ### application/vnd.oma.bcast.smartcard-trigger+xml.compressible
 
@@ -12428,7 +12428,7 @@
 
 ### application/vnd.oma.bcast.sprov+xml
 
-> **application/vnd.oma.bcast.sprov+xml**: `object`
+> **sprov+xml**: `object`
 
 ### application/vnd.oma.bcast.sprov+xml.compressible
 
@@ -12440,7 +12440,7 @@
 
 ### application/vnd.oma.bcast.stkm
 
-> **application/vnd.oma.bcast.stkm**: `object`
+> **stkm**: `object`
 
 ### application/vnd.oma.bcast.stkm.source
 
@@ -12448,7 +12448,7 @@
 
 ### application/vnd.oma.cab-address-book+xml
 
-> **application/vnd.oma.cab-address-book+xml**: `object`
+> **cab-address-book+xml**: `object`
 
 ### application/vnd.oma.cab-address-book+xml.compressible
 
@@ -12460,7 +12460,7 @@
 
 ### application/vnd.oma.cab-feature-handler+xml
 
-> **application/vnd.oma.cab-feature-handler+xml**: `object`
+> **cab-feature-handler+xml**: `object`
 
 ### application/vnd.oma.cab-feature-handler+xml.compressible
 
@@ -12472,7 +12472,7 @@
 
 ### application/vnd.oma.cab-pcc+xml
 
-> **application/vnd.oma.cab-pcc+xml**: `object`
+> **cab-pcc+xml**: `object`
 
 ### application/vnd.oma.cab-pcc+xml.compressible
 
@@ -12484,7 +12484,7 @@
 
 ### application/vnd.oma.cab-subs-invite+xml
 
-> **application/vnd.oma.cab-subs-invite+xml**: `object`
+> **cab-subs-invite+xml**: `object`
 
 ### application/vnd.oma.cab-subs-invite+xml.compressible
 
@@ -12496,7 +12496,7 @@
 
 ### application/vnd.oma.cab-user-prefs+xml
 
-> **application/vnd.oma.cab-user-prefs+xml**: `object`
+> **cab-user-prefs+xml**: `object`
 
 ### application/vnd.oma.cab-user-prefs+xml.compressible
 
@@ -12508,7 +12508,7 @@
 
 ### application/vnd.oma.dcd
 
-> **application/vnd.oma.dcd**: `object`
+> **dcd**: `object`
 
 ### application/vnd.oma.dcd.source
 
@@ -12516,7 +12516,7 @@
 
 ### application/vnd.oma.dcdc
 
-> **application/vnd.oma.dcdc**: `object`
+> **dcdc**: `object`
 
 ### application/vnd.oma.dcdc.source
 
@@ -12524,7 +12524,7 @@
 
 ### application/vnd.oma.dd2+xml
 
-> **application/vnd.oma.dd2+xml**: `object`
+> **dd2+xml**: `object`
 
 ### application/vnd.oma.dd2+xml.compressible
 
@@ -12540,7 +12540,7 @@
 
 ### application/vnd.oma.drm.risd+xml
 
-> **application/vnd.oma.drm.risd+xml**: `object`
+> **risd+xml**: `object`
 
 ### application/vnd.oma.drm.risd+xml.compressible
 
@@ -12552,7 +12552,7 @@
 
 ### application/vnd.oma.group-usage-list+xml
 
-> **application/vnd.oma.group-usage-list+xml**: `object`
+> **group-usage-list+xml**: `object`
 
 ### application/vnd.oma.group-usage-list+xml.compressible
 
@@ -12564,7 +12564,7 @@
 
 ### application/vnd.oma.lwm2m+cbor
 
-> **application/vnd.oma.lwm2m+cbor**: `object`
+> **lwm2m+cbor**: `object`
 
 ### application/vnd.oma.lwm2m+cbor.source
 
@@ -12572,7 +12572,7 @@
 
 ### application/vnd.oma.lwm2m+json
 
-> **application/vnd.oma.lwm2m+json**: `object`
+> **lwm2m+json**: `object`
 
 ### application/vnd.oma.lwm2m+json.compressible
 
@@ -12584,7 +12584,7 @@
 
 ### application/vnd.oma.lwm2m+tlv
 
-> **application/vnd.oma.lwm2m+tlv**: `object`
+> **lwm2m+tlv**: `object`
 
 ### application/vnd.oma.lwm2m+tlv.source
 
@@ -12592,7 +12592,7 @@
 
 ### application/vnd.oma.pal+xml
 
-> **application/vnd.oma.pal+xml**: `object`
+> **pal+xml**: `object`
 
 ### application/vnd.oma.pal+xml.compressible
 
@@ -12604,7 +12604,7 @@
 
 ### application/vnd.oma.poc.detailed-progress-report+xml
 
-> **application/vnd.oma.poc.detailed-progress-report+xml**: `object`
+> **detailed-progress-report+xml**: `object`
 
 ### application/vnd.oma.poc.detailed-progress-report+xml.compressible
 
@@ -12616,7 +12616,7 @@
 
 ### application/vnd.oma.poc.final-report+xml
 
-> **application/vnd.oma.poc.final-report+xml**: `object`
+> **final-report+xml**: `object`
 
 ### application/vnd.oma.poc.final-report+xml.compressible
 
@@ -12628,7 +12628,7 @@
 
 ### application/vnd.oma.poc.groups+xml
 
-> **application/vnd.oma.poc.groups+xml**: `object`
+> **groups+xml**: `object`
 
 ### application/vnd.oma.poc.groups+xml.compressible
 
@@ -12640,7 +12640,7 @@
 
 ### application/vnd.oma.poc.invocation-descriptor+xml
 
-> **application/vnd.oma.poc.invocation-descriptor+xml**: `object`
+> **invocation-descriptor+xml**: `object`
 
 ### application/vnd.oma.poc.invocation-descriptor+xml.compressible
 
@@ -12652,7 +12652,7 @@
 
 ### application/vnd.oma.poc.optimized-progress-report+xml
 
-> **application/vnd.oma.poc.optimized-progress-report+xml**: `object`
+> **optimized-progress-report+xml**: `object`
 
 ### application/vnd.oma.poc.optimized-progress-report+xml.compressible
 
@@ -12664,7 +12664,7 @@
 
 ### application/vnd.oma.push
 
-> **application/vnd.oma.push**: `object`
+> **push**: `object`
 
 ### application/vnd.oma.push.source
 
@@ -12672,7 +12672,7 @@
 
 ### application/vnd.oma.scidm.messages+xml
 
-> **application/vnd.oma.scidm.messages+xml**: `object`
+> **messages+xml**: `object`
 
 ### application/vnd.oma.scidm.messages+xml.compressible
 
@@ -12684,7 +12684,7 @@
 
 ### application/vnd.oma.xcap-directory+xml
 
-> **application/vnd.oma.xcap-directory+xml**: `object`
+> **xcap-directory+xml**: `object`
 
 ### application/vnd.oma.xcap-directory+xml.compressible
 
@@ -12696,7 +12696,7 @@
 
 ### application/vnd.omads-email+xml
 
-> **application/vnd.omads-email+xml**: `object`
+> **omads-email+xml**: `object`
 
 ### application/vnd.omads-email+xml.charset
 
@@ -12712,7 +12712,7 @@
 
 ### application/vnd.omads-file+xml
 
-> **application/vnd.omads-file+xml**: `object`
+> **omads-file+xml**: `object`
 
 ### application/vnd.omads-file+xml.charset
 
@@ -12728,7 +12728,7 @@
 
 ### application/vnd.omads-folder+xml
 
-> **application/vnd.omads-folder+xml**: `object`
+> **omads-folder+xml**: `object`
 
 ### application/vnd.omads-folder+xml.charset
 
@@ -12744,7 +12744,7 @@
 
 ### application/vnd.omaloc-supl-init
 
-> **application/vnd.omaloc-supl-init**: `object`
+> **omaloc-supl-init**: `object`
 
 ### application/vnd.omaloc-supl-init.source
 
@@ -12752,7 +12752,7 @@
 
 ### application/vnd.onepager
 
-> **application/vnd.onepager**: `object`
+> **onepager**: `object`
 
 ### application/vnd.onepager.source
 
@@ -12760,7 +12760,7 @@
 
 ### application/vnd.onepagertamp
 
-> **application/vnd.onepagertamp**: `object`
+> **onepagertamp**: `object`
 
 ### application/vnd.onepagertamp.source
 
@@ -12768,7 +12768,7 @@
 
 ### application/vnd.onepagertamx
 
-> **application/vnd.onepagertamx**: `object`
+> **onepagertamx**: `object`
 
 ### application/vnd.onepagertamx.source
 
@@ -12776,7 +12776,7 @@
 
 ### application/vnd.onepagertat
 
-> **application/vnd.onepagertat**: `object`
+> **onepagertat**: `object`
 
 ### application/vnd.onepagertat.source
 
@@ -12784,7 +12784,7 @@
 
 ### application/vnd.onepagertatp
 
-> **application/vnd.onepagertatp**: `object`
+> **onepagertatp**: `object`
 
 ### application/vnd.onepagertatp.source
 
@@ -12792,7 +12792,7 @@
 
 ### application/vnd.onepagertatx
 
-> **application/vnd.onepagertatx**: `object`
+> **onepagertatx**: `object`
 
 ### application/vnd.onepagertatx.source
 
@@ -12800,7 +12800,7 @@
 
 ### application/vnd.openblox.game+xml
 
-> **application/vnd.openblox.game+xml**: `object`
+> **game+xml**: `object`
 
 ### application/vnd.openblox.game+xml.compressible
 
@@ -12816,7 +12816,7 @@
 
 ### application/vnd.openblox.game-binary
 
-> **application/vnd.openblox.game-binary**: `object`
+> **game-binary**: `object`
 
 ### application/vnd.openblox.game-binary.source
 
@@ -12824,7 +12824,7 @@
 
 ### application/vnd.openeye.oeb
 
-> **application/vnd.openeye.oeb**: `object`
+> **oeb**: `object`
 
 ### application/vnd.openeye.oeb.source
 
@@ -12832,7 +12832,7 @@
 
 ### application/vnd.openofficeorg.extension
 
-> **application/vnd.openofficeorg.extension**: `object`
+> **extension**: `object`
 
 ### application/vnd.openofficeorg.extension.extensions
 
@@ -12844,7 +12844,7 @@
 
 ### application/vnd.openstreetmap.data+xml
 
-> **application/vnd.openstreetmap.data+xml**: `object`
+> **data+xml**: `object`
 
 ### application/vnd.openstreetmap.data+xml.compressible
 
@@ -12860,7 +12860,7 @@
 
 ### application/vnd.opentimestamps.ots
 
-> **application/vnd.opentimestamps.ots**: `object`
+> **ots**: `object`
 
 ### application/vnd.opentimestamps.ots.source
 
@@ -12868,7 +12868,7 @@
 
 ### application/vnd.openxmlformats-officedocument.custom-properties+xml
 
-> **application/vnd.openxmlformats-officedocument.custom-properties+xml**: `object`
+> **custom-properties+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.custom-properties+xml.compressible
 
@@ -12880,7 +12880,7 @@
 
 ### application/vnd.openxmlformats-officedocument.customxmlproperties+xml
 
-> **application/vnd.openxmlformats-officedocument.customxmlproperties+xml**: `object`
+> **customxmlproperties+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.customxmlproperties+xml.compressible
 
@@ -12892,7 +12892,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawing+xml
 
-> **application/vnd.openxmlformats-officedocument.drawing+xml**: `object`
+> **drawing+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawing+xml.compressible
 
@@ -12904,7 +12904,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawingml.chart+xml
 
-> **application/vnd.openxmlformats-officedocument.drawingml.chart+xml**: `object`
+> **chart+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawingml.chart+xml.compressible
 
@@ -12916,7 +12916,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml
 
-> **application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml**: `object`
+> **chartshapes+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml.compressible
 
@@ -12928,7 +12928,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml
 
-> **application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml**: `object`
+> **diagramcolors+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml.compressible
 
@@ -12940,7 +12940,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml
 
-> **application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml**: `object`
+> **diagramdata+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml.compressible
 
@@ -12952,7 +12952,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml
 
-> **application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml**: `object`
+> **diagramlayout+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml.compressible
 
@@ -12964,7 +12964,7 @@
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml
 
-> **application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml**: `object`
+> **diagramstyle+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml.compressible
 
@@ -12976,7 +12976,7 @@
 
 ### application/vnd.openxmlformats-officedocument.extended-properties+xml
 
-> **application/vnd.openxmlformats-officedocument.extended-properties+xml**: `object`
+> **extended-properties+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.extended-properties+xml.compressible
 
@@ -12988,7 +12988,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml**: `object`
+> **commentauthors+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml.compressible
 
@@ -13000,7 +13000,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.comments+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.comments+xml**: `object`
+> **comments+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.comments+xml.compressible
 
@@ -13012,7 +13012,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml**: `object`
+> **handoutmaster+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml.compressible
 
@@ -13024,7 +13024,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml**: `object`
+> **notesmaster+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml.compressible
 
@@ -13036,7 +13036,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml**: `object`
+> **notesslide+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml.compressible
 
@@ -13048,7 +13048,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.presentation
 
-> **application/vnd.openxmlformats-officedocument.presentationml.presentation**: `object`
+> **presentation**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.presentation.compressible
 
@@ -13064,7 +13064,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml.compressible
 
@@ -13076,7 +13076,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.presprops+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.presprops+xml**: `object`
+> **presprops+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.presprops+xml.compressible
 
@@ -13088,7 +13088,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slide
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slide**: `object`
+> **slide**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slide.extensions
 
@@ -13100,7 +13100,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slide+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slide+xml**: `object`
+> **slide+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slide+xml.compressible
 
@@ -13112,7 +13112,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml**: `object`
+> **slidelayout+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml.compressible
 
@@ -13124,7 +13124,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml**: `object`
+> **slidemaster+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml.compressible
 
@@ -13136,7 +13136,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slideshow
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slideshow**: `object`
+> **slideshow**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slideshow.extensions
 
@@ -13148,7 +13148,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml.compressible
 
@@ -13160,7 +13160,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml**: `object`
+> **slideupdateinfo+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml.compressible
 
@@ -13172,7 +13172,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml**: `object`
+> **tablestyles+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml.compressible
 
@@ -13184,7 +13184,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.tags+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.tags+xml**: `object`
+> **tags+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.tags+xml.compressible
 
@@ -13196,7 +13196,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.template
 
-> **application/vnd.openxmlformats-officedocument.presentationml.template**: `object`
+> **template**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.template.extensions
 
@@ -13208,7 +13208,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.template.main+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.template.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.template.main+xml.compressible
 
@@ -13220,7 +13220,7 @@
 
 ### application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml
 
-> **application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml**: `object`
+> **viewprops+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml.compressible
 
@@ -13232,7 +13232,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml**: `object`
+> **calcchain+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml.compressible
 
@@ -13244,7 +13244,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml**: `object`
+> **chartsheet+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml.compressible
 
@@ -13256,7 +13256,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml**: `object`
+> **comments+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml.compressible
 
@@ -13268,7 +13268,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml**: `object`
+> **connections+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml.compressible
 
@@ -13280,7 +13280,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml**: `object`
+> **dialogsheet+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml.compressible
 
@@ -13292,7 +13292,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml**: `object`
+> **externallink+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml.compressible
 
@@ -13304,7 +13304,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml**: `object`
+> **pivotcachedefinition+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml.compressible
 
@@ -13316,7 +13316,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml**: `object`
+> **pivotcacherecords+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml.compressible
 
@@ -13328,7 +13328,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml**: `object`
+> **pivottable+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml.compressible
 
@@ -13340,7 +13340,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml**: `object`
+> **querytable+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml.compressible
 
@@ -13352,7 +13352,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml**: `object`
+> **revisionheaders+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml.compressible
 
@@ -13364,7 +13364,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml**: `object`
+> **revisionlog+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml.compressible
 
@@ -13376,7 +13376,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml**: `object`
+> **sharedstrings+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml.compressible
 
@@ -13388,7 +13388,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.sheet**: `object`
+> **sheet**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.compressible
 
@@ -13404,7 +13404,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml.compressible
 
@@ -13416,7 +13416,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml**: `object`
+> **sheetmetadata+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml.compressible
 
@@ -13428,7 +13428,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml**: `object`
+> **styles+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml.compressible
 
@@ -13440,7 +13440,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml**: `object`
+> **table+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml.compressible
 
@@ -13452,7 +13452,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml**: `object`
+> **tablesinglecells+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml.compressible
 
@@ -13464,7 +13464,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.template
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.template**: `object`
+> **template**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.template.extensions
 
@@ -13476,7 +13476,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml.compressible
 
@@ -13488,7 +13488,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml**: `object`
+> **usernames+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml.compressible
 
@@ -13500,7 +13500,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml**: `object`
+> **volatiledependencies+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml.compressible
 
@@ -13512,7 +13512,7 @@
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
 
-> **application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml**: `object`
+> **worksheet+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.compressible
 
@@ -13524,7 +13524,7 @@
 
 ### application/vnd.openxmlformats-officedocument.theme+xml
 
-> **application/vnd.openxmlformats-officedocument.theme+xml**: `object`
+> **theme+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.theme+xml.compressible
 
@@ -13536,7 +13536,7 @@
 
 ### application/vnd.openxmlformats-officedocument.themeoverride+xml
 
-> **application/vnd.openxmlformats-officedocument.themeoverride+xml**: `object`
+> **themeoverride+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.themeoverride+xml.compressible
 
@@ -13548,7 +13548,7 @@
 
 ### application/vnd.openxmlformats-officedocument.vmldrawing
 
-> **application/vnd.openxmlformats-officedocument.vmldrawing**: `object`
+> **vmldrawing**: `object`
 
 ### application/vnd.openxmlformats-officedocument.vmldrawing.source
 
@@ -13556,7 +13556,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml**: `object`
+> **comments+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml.compressible
 
@@ -13568,7 +13568,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.document
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.document**: `object`
+> **document**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.document.compressible
 
@@ -13584,7 +13584,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml**: `object`
+> **glossary+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml.compressible
 
@@ -13596,7 +13596,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml.compressible
 
@@ -13608,7 +13608,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml**: `object`
+> **endnotes+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml.compressible
 
@@ -13620,7 +13620,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml**: `object`
+> **fonttable+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml.compressible
 
@@ -13632,7 +13632,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml**: `object`
+> **footer+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml.compressible
 
@@ -13644,7 +13644,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml**: `object`
+> **footnotes+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml.compressible
 
@@ -13656,7 +13656,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml**: `object`
+> **numbering+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml.compressible
 
@@ -13668,7 +13668,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml**: `object`
+> **settings+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml.compressible
 
@@ -13680,7 +13680,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml**: `object`
+> **styles+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml.compressible
 
@@ -13692,7 +13692,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.template
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.template**: `object`
+> **template**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.template.extensions
 
@@ -13704,7 +13704,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml**: `object`
+> **main+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml.compressible
 
@@ -13716,7 +13716,7 @@
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml
 
-> **application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml**: `object`
+> **websettings+xml**: `object`
 
 ### application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml.compressible
 
@@ -13728,7 +13728,7 @@
 
 ### application/vnd.openxmlformats-package.core-properties+xml
 
-> **application/vnd.openxmlformats-package.core-properties+xml**: `object`
+> **core-properties+xml**: `object`
 
 ### application/vnd.openxmlformats-package.core-properties+xml.compressible
 
@@ -13740,7 +13740,7 @@
 
 ### application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml
 
-> **application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml**: `object`
+> **digital-signature-xmlsignature+xml**: `object`
 
 ### application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml.compressible
 
@@ -13752,7 +13752,7 @@
 
 ### application/vnd.openxmlformats-package.relationships+xml
 
-> **application/vnd.openxmlformats-package.relationships+xml**: `object`
+> **relationships+xml**: `object`
 
 ### application/vnd.openxmlformats-package.relationships+xml.compressible
 
@@ -13764,7 +13764,7 @@
 
 ### application/vnd.oracle.resource+json
 
-> **application/vnd.oracle.resource+json**: `object`
+> **resource+json**: `object`
 
 ### application/vnd.oracle.resource+json.compressible
 
@@ -13776,7 +13776,7 @@
 
 ### application/vnd.orange.indata
 
-> **application/vnd.orange.indata**: `object`
+> **indata**: `object`
 
 ### application/vnd.orange.indata.source
 
@@ -13784,7 +13784,7 @@
 
 ### application/vnd.osa.netdeploy
 
-> **application/vnd.osa.netdeploy**: `object`
+> **netdeploy**: `object`
 
 ### application/vnd.osa.netdeploy.source
 
@@ -13792,7 +13792,7 @@
 
 ### application/vnd.osgeo.mapguide.package
 
-> **application/vnd.osgeo.mapguide.package**: `object`
+> **package**: `object`
 
 ### application/vnd.osgeo.mapguide.package.extensions
 
@@ -13804,7 +13804,7 @@
 
 ### application/vnd.osgi.bundle
 
-> **application/vnd.osgi.bundle**: `object`
+> **bundle**: `object`
 
 ### application/vnd.osgi.bundle.source
 
@@ -13812,7 +13812,7 @@
 
 ### application/vnd.osgi.dp
 
-> **application/vnd.osgi.dp**: `object`
+> **dp**: `object`
 
 ### application/vnd.osgi.dp.extensions
 
@@ -13824,7 +13824,7 @@
 
 ### application/vnd.osgi.subsystem
 
-> **application/vnd.osgi.subsystem**: `object`
+> **subsystem**: `object`
 
 ### application/vnd.osgi.subsystem.extensions
 
@@ -13836,7 +13836,7 @@
 
 ### application/vnd.otps.ct-kip+xml
 
-> **application/vnd.otps.ct-kip+xml**: `object`
+> **ct-kip+xml**: `object`
 
 ### application/vnd.otps.ct-kip+xml.compressible
 
@@ -13848,7 +13848,7 @@
 
 ### application/vnd.oxli.countgraph
 
-> **application/vnd.oxli.countgraph**: `object`
+> **countgraph**: `object`
 
 ### application/vnd.oxli.countgraph.source
 
@@ -13856,7 +13856,7 @@
 
 ### application/vnd.pagerduty+json
 
-> **application/vnd.pagerduty+json**: `object`
+> **pagerduty+json**: `object`
 
 ### application/vnd.pagerduty+json.compressible
 
@@ -13868,7 +13868,7 @@
 
 ### application/vnd.palm
 
-> **application/vnd.palm**: `object`
+> **palm**: `object`
 
 ### application/vnd.palm.extensions
 
@@ -13880,7 +13880,7 @@
 
 ### application/vnd.panoply
 
-> **application/vnd.panoply**: `object`
+> **panoply**: `object`
 
 ### application/vnd.panoply.source
 
@@ -13888,7 +13888,7 @@
 
 ### application/vnd.paos.xml
 
-> **application/vnd.paos.xml**: `object`
+> **xml**: `object`
 
 ### application/vnd.paos.xml.source
 
@@ -13896,7 +13896,7 @@
 
 ### application/vnd.patentdive
 
-> **application/vnd.patentdive**: `object`
+> **patentdive**: `object`
 
 ### application/vnd.patentdive.source
 
@@ -13904,7 +13904,7 @@
 
 ### application/vnd.patientecommsdoc
 
-> **application/vnd.patientecommsdoc**: `object`
+> **patientecommsdoc**: `object`
 
 ### application/vnd.patientecommsdoc.source
 
@@ -13912,7 +13912,7 @@
 
 ### application/vnd.pawaafile
 
-> **application/vnd.pawaafile**: `object`
+> **pawaafile**: `object`
 
 ### application/vnd.pawaafile.extensions
 
@@ -13924,7 +13924,7 @@
 
 ### application/vnd.pcos
 
-> **application/vnd.pcos**: `object`
+> **pcos**: `object`
 
 ### application/vnd.pcos.source
 
@@ -13932,7 +13932,7 @@
 
 ### application/vnd.pg.format
 
-> **application/vnd.pg.format**: `object`
+> **format**: `object`
 
 ### application/vnd.pg.format.extensions
 
@@ -13944,7 +13944,7 @@
 
 ### application/vnd.pg.osasli
 
-> **application/vnd.pg.osasli**: `object`
+> **osasli**: `object`
 
 ### application/vnd.pg.osasli.extensions
 
@@ -13956,7 +13956,7 @@
 
 ### application/vnd.piaccess.application-licence
 
-> **application/vnd.piaccess.application-licence**: `object`
+> **application-licence**: `object`
 
 ### application/vnd.piaccess.application-licence.source
 
@@ -13964,7 +13964,7 @@
 
 ### application/vnd.picsel
 
-> **application/vnd.picsel**: `object`
+> **picsel**: `object`
 
 ### application/vnd.picsel.extensions
 
@@ -13976,7 +13976,7 @@
 
 ### application/vnd.pmi.widget
 
-> **application/vnd.pmi.widget**: `object`
+> **widget**: `object`
 
 ### application/vnd.pmi.widget.extensions
 
@@ -13988,7 +13988,7 @@
 
 ### application/vnd.poc.group-advertisement+xml
 
-> **application/vnd.poc.group-advertisement+xml**: `object`
+> **group-advertisement+xml**: `object`
 
 ### application/vnd.poc.group-advertisement+xml.compressible
 
@@ -14000,7 +14000,7 @@
 
 ### application/vnd.pocketlearn
 
-> **application/vnd.pocketlearn**: `object`
+> **pocketlearn**: `object`
 
 ### application/vnd.pocketlearn.extensions
 
@@ -14012,7 +14012,7 @@
 
 ### application/vnd.powerbuilder6
 
-> **application/vnd.powerbuilder6**: `object`
+> **powerbuilder6**: `object`
 
 ### application/vnd.powerbuilder6.extensions
 
@@ -14024,7 +14024,7 @@
 
 ### application/vnd.powerbuilder6-s
 
-> **application/vnd.powerbuilder6-s**: `object`
+> **powerbuilder6-s**: `object`
 
 ### application/vnd.powerbuilder6-s.source
 
@@ -14032,7 +14032,7 @@
 
 ### application/vnd.powerbuilder7
 
-> **application/vnd.powerbuilder7**: `object`
+> **powerbuilder7**: `object`
 
 ### application/vnd.powerbuilder7.source
 
@@ -14040,7 +14040,7 @@
 
 ### application/vnd.powerbuilder7-s
 
-> **application/vnd.powerbuilder7-s**: `object`
+> **powerbuilder7-s**: `object`
 
 ### application/vnd.powerbuilder7-s.source
 
@@ -14048,7 +14048,7 @@
 
 ### application/vnd.powerbuilder75
 
-> **application/vnd.powerbuilder75**: `object`
+> **powerbuilder75**: `object`
 
 ### application/vnd.powerbuilder75.source
 
@@ -14056,7 +14056,7 @@
 
 ### application/vnd.powerbuilder75-s
 
-> **application/vnd.powerbuilder75-s**: `object`
+> **powerbuilder75-s**: `object`
 
 ### application/vnd.powerbuilder75-s.source
 
@@ -14064,7 +14064,7 @@
 
 ### application/vnd.preminet
 
-> **application/vnd.preminet**: `object`
+> **preminet**: `object`
 
 ### application/vnd.preminet.source
 
@@ -14072,7 +14072,7 @@
 
 ### application/vnd.previewsystems.box
 
-> **application/vnd.previewsystems.box**: `object`
+> **box**: `object`
 
 ### application/vnd.previewsystems.box.extensions
 
@@ -14084,7 +14084,7 @@
 
 ### application/vnd.proteus.magazine
 
-> **application/vnd.proteus.magazine**: `object`
+> **magazine**: `object`
 
 ### application/vnd.proteus.magazine.extensions
 
@@ -14096,7 +14096,7 @@
 
 ### application/vnd.psfs
 
-> **application/vnd.psfs**: `object`
+> **psfs**: `object`
 
 ### application/vnd.psfs.source
 
@@ -14104,7 +14104,7 @@
 
 ### application/vnd.publishare-delta-tree
 
-> **application/vnd.publishare-delta-tree**: `object`
+> **publishare-delta-tree**: `object`
 
 ### application/vnd.publishare-delta-tree.extensions
 
@@ -14116,7 +14116,7 @@
 
 ### application/vnd.pvi.ptid1
 
-> **application/vnd.pvi.ptid1**: `object`
+> **ptid1**: `object`
 
 ### application/vnd.pvi.ptid1.extensions
 
@@ -14128,7 +14128,7 @@
 
 ### application/vnd.pwg-multiplexed
 
-> **application/vnd.pwg-multiplexed**: `object`
+> **pwg-multiplexed**: `object`
 
 ### application/vnd.pwg-multiplexed.source
 
@@ -14136,7 +14136,7 @@
 
 ### application/vnd.pwg-xhtml-print+xml
 
-> **application/vnd.pwg-xhtml-print+xml**: `object`
+> **pwg-xhtml-print+xml**: `object`
 
 ### application/vnd.pwg-xhtml-print+xml.compressible
 
@@ -14148,7 +14148,7 @@
 
 ### application/vnd.qualcomm.brew-app-res
 
-> **application/vnd.qualcomm.brew-app-res**: `object`
+> **brew-app-res**: `object`
 
 ### application/vnd.qualcomm.brew-app-res.source
 
@@ -14156,7 +14156,7 @@
 
 ### application/vnd.quarantainenet
 
-> **application/vnd.quarantainenet**: `object`
+> **quarantainenet**: `object`
 
 ### application/vnd.quarantainenet.source
 
@@ -14164,7 +14164,7 @@
 
 ### application/vnd.quark.quarkxpress
 
-> **application/vnd.quark.quarkxpress**: `object`
+> **quarkxpress**: `object`
 
 ### application/vnd.quark.quarkxpress.extensions
 
@@ -14176,7 +14176,7 @@
 
 ### application/vnd.quobject-quoxdocument
 
-> **application/vnd.quobject-quoxdocument**: `object`
+> **quobject-quoxdocument**: `object`
 
 ### application/vnd.quobject-quoxdocument.source
 
@@ -14184,7 +14184,7 @@
 
 ### application/vnd.radisys.moml+xml
 
-> **application/vnd.radisys.moml+xml**: `object`
+> **moml+xml**: `object`
 
 ### application/vnd.radisys.moml+xml.compressible
 
@@ -14196,7 +14196,7 @@
 
 ### application/vnd.radisys.msml+xml
 
-> **application/vnd.radisys.msml+xml**: `object`
+> **msml+xml**: `object`
 
 ### application/vnd.radisys.msml+xml.compressible
 
@@ -14208,7 +14208,7 @@
 
 ### application/vnd.radisys.msml-audit+xml
 
-> **application/vnd.radisys.msml-audit+xml**: `object`
+> **msml-audit+xml**: `object`
 
 ### application/vnd.radisys.msml-audit+xml.compressible
 
@@ -14220,7 +14220,7 @@
 
 ### application/vnd.radisys.msml-audit-conf+xml
 
-> **application/vnd.radisys.msml-audit-conf+xml**: `object`
+> **msml-audit-conf+xml**: `object`
 
 ### application/vnd.radisys.msml-audit-conf+xml.compressible
 
@@ -14232,7 +14232,7 @@
 
 ### application/vnd.radisys.msml-audit-conn+xml
 
-> **application/vnd.radisys.msml-audit-conn+xml**: `object`
+> **msml-audit-conn+xml**: `object`
 
 ### application/vnd.radisys.msml-audit-conn+xml.compressible
 
@@ -14244,7 +14244,7 @@
 
 ### application/vnd.radisys.msml-audit-dialog+xml
 
-> **application/vnd.radisys.msml-audit-dialog+xml**: `object`
+> **msml-audit-dialog+xml**: `object`
 
 ### application/vnd.radisys.msml-audit-dialog+xml.compressible
 
@@ -14256,7 +14256,7 @@
 
 ### application/vnd.radisys.msml-audit-stream+xml
 
-> **application/vnd.radisys.msml-audit-stream+xml**: `object`
+> **msml-audit-stream+xml**: `object`
 
 ### application/vnd.radisys.msml-audit-stream+xml.compressible
 
@@ -14268,7 +14268,7 @@
 
 ### application/vnd.radisys.msml-conf+xml
 
-> **application/vnd.radisys.msml-conf+xml**: `object`
+> **msml-conf+xml**: `object`
 
 ### application/vnd.radisys.msml-conf+xml.compressible
 
@@ -14280,7 +14280,7 @@
 
 ### application/vnd.radisys.msml-dialog+xml
 
-> **application/vnd.radisys.msml-dialog+xml**: `object`
+> **msml-dialog+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog+xml.compressible
 
@@ -14292,7 +14292,7 @@
 
 ### application/vnd.radisys.msml-dialog-base+xml
 
-> **application/vnd.radisys.msml-dialog-base+xml**: `object`
+> **msml-dialog-base+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog-base+xml.compressible
 
@@ -14304,7 +14304,7 @@
 
 ### application/vnd.radisys.msml-dialog-fax-detect+xml
 
-> **application/vnd.radisys.msml-dialog-fax-detect+xml**: `object`
+> **msml-dialog-fax-detect+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog-fax-detect+xml.compressible
 
@@ -14316,7 +14316,7 @@
 
 ### application/vnd.radisys.msml-dialog-fax-sendrecv+xml
 
-> **application/vnd.radisys.msml-dialog-fax-sendrecv+xml**: `object`
+> **msml-dialog-fax-sendrecv+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog-fax-sendrecv+xml.compressible
 
@@ -14328,7 +14328,7 @@
 
 ### application/vnd.radisys.msml-dialog-group+xml
 
-> **application/vnd.radisys.msml-dialog-group+xml**: `object`
+> **msml-dialog-group+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog-group+xml.compressible
 
@@ -14340,7 +14340,7 @@
 
 ### application/vnd.radisys.msml-dialog-speech+xml
 
-> **application/vnd.radisys.msml-dialog-speech+xml**: `object`
+> **msml-dialog-speech+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog-speech+xml.compressible
 
@@ -14352,7 +14352,7 @@
 
 ### application/vnd.radisys.msml-dialog-transform+xml
 
-> **application/vnd.radisys.msml-dialog-transform+xml**: `object`
+> **msml-dialog-transform+xml**: `object`
 
 ### application/vnd.radisys.msml-dialog-transform+xml.compressible
 
@@ -14364,7 +14364,7 @@
 
 ### application/vnd.rainstor.data
 
-> **application/vnd.rainstor.data**: `object`
+> **data**: `object`
 
 ### application/vnd.rainstor.data.source
 
@@ -14372,7 +14372,7 @@
 
 ### application/vnd.rapid
 
-> **application/vnd.rapid**: `object`
+> **rapid**: `object`
 
 ### application/vnd.rapid.source
 
@@ -14380,7 +14380,7 @@
 
 ### application/vnd.rar
 
-> **application/vnd.rar**: `object`
+> **rar**: `object`
 
 ### application/vnd.rar.extensions
 
@@ -14392,7 +14392,7 @@
 
 ### application/vnd.realvnc.bed
 
-> **application/vnd.realvnc.bed**: `object`
+> **bed**: `object`
 
 ### application/vnd.realvnc.bed.extensions
 
@@ -14404,7 +14404,7 @@
 
 ### application/vnd.recordare.musicxml
 
-> **application/vnd.recordare.musicxml**: `object`
+> **musicxml**: `object`
 
 ### application/vnd.recordare.musicxml.extensions
 
@@ -14416,7 +14416,7 @@
 
 ### application/vnd.recordare.musicxml+xml
 
-> **application/vnd.recordare.musicxml+xml**: `object`
+> **musicxml+xml**: `object`
 
 ### application/vnd.recordare.musicxml+xml.compressible
 
@@ -14432,7 +14432,7 @@
 
 ### application/vnd.renlearn.rlprint
 
-> **application/vnd.renlearn.rlprint**: `object`
+> **rlprint**: `object`
 
 ### application/vnd.renlearn.rlprint.source
 
@@ -14440,7 +14440,7 @@
 
 ### application/vnd.resilient.logic
 
-> **application/vnd.resilient.logic**: `object`
+> **logic**: `object`
 
 ### application/vnd.resilient.logic.source
 
@@ -14448,7 +14448,7 @@
 
 ### application/vnd.restful+json
 
-> **application/vnd.restful+json**: `object`
+> **restful+json**: `object`
 
 ### application/vnd.restful+json.compressible
 
@@ -14460,7 +14460,7 @@
 
 ### application/vnd.rig.cryptonote
 
-> **application/vnd.rig.cryptonote**: `object`
+> **cryptonote**: `object`
 
 ### application/vnd.rig.cryptonote.extensions
 
@@ -14472,7 +14472,7 @@
 
 ### application/vnd.rim.cod
 
-> **application/vnd.rim.cod**: `object`
+> **cod**: `object`
 
 ### application/vnd.rim.cod.extensions
 
@@ -14484,7 +14484,7 @@
 
 ### application/vnd.rn-realmedia
 
-> **application/vnd.rn-realmedia**: `object`
+> **rn-realmedia**: `object`
 
 ### application/vnd.rn-realmedia.extensions
 
@@ -14496,7 +14496,7 @@
 
 ### application/vnd.rn-realmedia-vbr
 
-> **application/vnd.rn-realmedia-vbr**: `object`
+> **rn-realmedia-vbr**: `object`
 
 ### application/vnd.rn-realmedia-vbr.extensions
 
@@ -14508,7 +14508,7 @@
 
 ### application/vnd.route66.link66+xml
 
-> **application/vnd.route66.link66+xml**: `object`
+> **link66+xml**: `object`
 
 ### application/vnd.route66.link66+xml.compressible
 
@@ -14524,7 +14524,7 @@
 
 ### application/vnd.rs-274x
 
-> **application/vnd.rs-274x**: `object`
+> **rs-274x**: `object`
 
 ### application/vnd.rs-274x.source
 
@@ -14532,7 +14532,7 @@
 
 ### application/vnd.ruckus.download
 
-> **application/vnd.ruckus.download**: `object`
+> **download**: `object`
 
 ### application/vnd.ruckus.download.source
 
@@ -14540,7 +14540,7 @@
 
 ### application/vnd.s3sms
 
-> **application/vnd.s3sms**: `object`
+> **s3sms**: `object`
 
 ### application/vnd.s3sms.source
 
@@ -14548,7 +14548,7 @@
 
 ### application/vnd.sailingtracker.track
 
-> **application/vnd.sailingtracker.track**: `object`
+> **track**: `object`
 
 ### application/vnd.sailingtracker.track.extensions
 
@@ -14560,7 +14560,7 @@
 
 ### application/vnd.sar
 
-> **application/vnd.sar**: `object`
+> **sar**: `object`
 
 ### application/vnd.sar.source
 
@@ -14568,7 +14568,7 @@
 
 ### application/vnd.sbm.cid
 
-> **application/vnd.sbm.cid**: `object`
+> **cid**: `object`
 
 ### application/vnd.sbm.cid.source
 
@@ -14576,7 +14576,7 @@
 
 ### application/vnd.sbm.mid2
 
-> **application/vnd.sbm.mid2**: `object`
+> **mid2**: `object`
 
 ### application/vnd.sbm.mid2.source
 
@@ -14584,7 +14584,7 @@
 
 ### application/vnd.scribus
 
-> **application/vnd.scribus**: `object`
+> **scribus**: `object`
 
 ### application/vnd.scribus.source
 
@@ -14592,7 +14592,7 @@
 
 ### application/vnd.sealed.3df
 
-> **application/vnd.sealed.3df**: `object`
+> **3df**: `object`
 
 ### application/vnd.sealed.3df.source
 
@@ -14600,7 +14600,7 @@
 
 ### application/vnd.sealed.csf
 
-> **application/vnd.sealed.csf**: `object`
+> **csf**: `object`
 
 ### application/vnd.sealed.csf.source
 
@@ -14608,7 +14608,7 @@
 
 ### application/vnd.sealed.doc
 
-> **application/vnd.sealed.doc**: `object`
+> **doc**: `object`
 
 ### application/vnd.sealed.doc.source
 
@@ -14616,7 +14616,7 @@
 
 ### application/vnd.sealed.eml
 
-> **application/vnd.sealed.eml**: `object`
+> **eml**: `object`
 
 ### application/vnd.sealed.eml.source
 
@@ -14624,7 +14624,7 @@
 
 ### application/vnd.sealed.mht
 
-> **application/vnd.sealed.mht**: `object`
+> **mht**: `object`
 
 ### application/vnd.sealed.mht.source
 
@@ -14632,7 +14632,7 @@
 
 ### application/vnd.sealed.net
 
-> **application/vnd.sealed.net**: `object`
+> **net**: `object`
 
 ### application/vnd.sealed.net.source
 
@@ -14640,7 +14640,7 @@
 
 ### application/vnd.sealed.ppt
 
-> **application/vnd.sealed.ppt**: `object`
+> **ppt**: `object`
 
 ### application/vnd.sealed.ppt.source
 
@@ -14648,7 +14648,7 @@
 
 ### application/vnd.sealed.tiff
 
-> **application/vnd.sealed.tiff**: `object`
+> **tiff**: `object`
 
 ### application/vnd.sealed.tiff.source
 
@@ -14656,7 +14656,7 @@
 
 ### application/vnd.sealed.xls
 
-> **application/vnd.sealed.xls**: `object`
+> **xls**: `object`
 
 ### application/vnd.sealed.xls.source
 
@@ -14664,7 +14664,7 @@
 
 ### application/vnd.sealedmedia.softseal.html
 
-> **application/vnd.sealedmedia.softseal.html**: `object`
+> **html**: `object`
 
 ### application/vnd.sealedmedia.softseal.html.source
 
@@ -14672,7 +14672,7 @@
 
 ### application/vnd.sealedmedia.softseal.pdf
 
-> **application/vnd.sealedmedia.softseal.pdf**: `object`
+> **pdf**: `object`
 
 ### application/vnd.sealedmedia.softseal.pdf.source
 
@@ -14680,7 +14680,7 @@
 
 ### application/vnd.seemail
 
-> **application/vnd.seemail**: `object`
+> **seemail**: `object`
 
 ### application/vnd.seemail.extensions
 
@@ -14692,7 +14692,7 @@
 
 ### application/vnd.seis+json
 
-> **application/vnd.seis+json**: `object`
+> **seis+json**: `object`
 
 ### application/vnd.seis+json.compressible
 
@@ -14704,7 +14704,7 @@
 
 ### application/vnd.sema
 
-> **application/vnd.sema**: `object`
+> **sema**: `object`
 
 ### application/vnd.sema.extensions
 
@@ -14716,7 +14716,7 @@
 
 ### application/vnd.semd
 
-> **application/vnd.semd**: `object`
+> **semd**: `object`
 
 ### application/vnd.semd.extensions
 
@@ -14728,7 +14728,7 @@
 
 ### application/vnd.semf
 
-> **application/vnd.semf**: `object`
+> **semf**: `object`
 
 ### application/vnd.semf.extensions
 
@@ -14740,7 +14740,7 @@
 
 ### application/vnd.shade-save-file
 
-> **application/vnd.shade-save-file**: `object`
+> **shade-save-file**: `object`
 
 ### application/vnd.shade-save-file.source
 
@@ -14748,7 +14748,7 @@
 
 ### application/vnd.shana.informed.formdata
 
-> **application/vnd.shana.informed.formdata**: `object`
+> **formdata**: `object`
 
 ### application/vnd.shana.informed.formdata.extensions
 
@@ -14760,7 +14760,7 @@
 
 ### application/vnd.shana.informed.formtemplate
 
-> **application/vnd.shana.informed.formtemplate**: `object`
+> **formtemplate**: `object`
 
 ### application/vnd.shana.informed.formtemplate.extensions
 
@@ -14772,7 +14772,7 @@
 
 ### application/vnd.shana.informed.interchange
 
-> **application/vnd.shana.informed.interchange**: `object`
+> **interchange**: `object`
 
 ### application/vnd.shana.informed.interchange.extensions
 
@@ -14784,7 +14784,7 @@
 
 ### application/vnd.shana.informed.package
 
-> **application/vnd.shana.informed.package**: `object`
+> **package**: `object`
 
 ### application/vnd.shana.informed.package.extensions
 
@@ -14796,7 +14796,7 @@
 
 ### application/vnd.shootproof+json
 
-> **application/vnd.shootproof+json**: `object`
+> **shootproof+json**: `object`
 
 ### application/vnd.shootproof+json.compressible
 
@@ -14808,7 +14808,7 @@
 
 ### application/vnd.shopkick+json
 
-> **application/vnd.shopkick+json**: `object`
+> **shopkick+json**: `object`
 
 ### application/vnd.shopkick+json.compressible
 
@@ -14820,7 +14820,7 @@
 
 ### application/vnd.shp
 
-> **application/vnd.shp**: `object`
+> **shp**: `object`
 
 ### application/vnd.shp.source
 
@@ -14828,7 +14828,7 @@
 
 ### application/vnd.shx
 
-> **application/vnd.shx**: `object`
+> **shx**: `object`
 
 ### application/vnd.shx.source
 
@@ -14836,7 +14836,7 @@
 
 ### application/vnd.sigrok.session
 
-> **application/vnd.sigrok.session**: `object`
+> **session**: `object`
 
 ### application/vnd.sigrok.session.source
 
@@ -14844,7 +14844,7 @@
 
 ### application/vnd.simtech-mindmapper
 
-> **application/vnd.simtech-mindmapper**: `object`
+> **simtech-mindmapper**: `object`
 
 ### application/vnd.simtech-mindmapper.extensions
 
@@ -14856,7 +14856,7 @@
 
 ### application/vnd.siren+json
 
-> **application/vnd.siren+json**: `object`
+> **siren+json**: `object`
 
 ### application/vnd.siren+json.compressible
 
@@ -14868,7 +14868,7 @@
 
 ### application/vnd.smaf
 
-> **application/vnd.smaf**: `object`
+> **smaf**: `object`
 
 ### application/vnd.smaf.extensions
 
@@ -14880,7 +14880,7 @@
 
 ### application/vnd.smart.notebook
 
-> **application/vnd.smart.notebook**: `object`
+> **notebook**: `object`
 
 ### application/vnd.smart.notebook.source
 
@@ -14888,7 +14888,7 @@
 
 ### application/vnd.smart.teacher
 
-> **application/vnd.smart.teacher**: `object`
+> **teacher**: `object`
 
 ### application/vnd.smart.teacher.extensions
 
@@ -14900,7 +14900,7 @@
 
 ### application/vnd.snesdev-page-table
 
-> **application/vnd.snesdev-page-table**: `object`
+> **snesdev-page-table**: `object`
 
 ### application/vnd.snesdev-page-table.source
 
@@ -14908,7 +14908,7 @@
 
 ### application/vnd.software602.filler.form+xml
 
-> **application/vnd.software602.filler.form+xml**: `object`
+> **form+xml**: `object`
 
 ### application/vnd.software602.filler.form+xml.compressible
 
@@ -14924,7 +14924,7 @@
 
 ### application/vnd.software602.filler.form-xml-zip
 
-> **application/vnd.software602.filler.form-xml-zip**: `object`
+> **form-xml-zip**: `object`
 
 ### application/vnd.software602.filler.form-xml-zip.source
 
@@ -14932,7 +14932,7 @@
 
 ### application/vnd.solent.sdkm+xml
 
-> **application/vnd.solent.sdkm+xml**: `object`
+> **sdkm+xml**: `object`
 
 ### application/vnd.solent.sdkm+xml.compressible
 
@@ -14948,7 +14948,7 @@
 
 ### application/vnd.spotfire.dxp
 
-> **application/vnd.spotfire.dxp**: `object`
+> **dxp**: `object`
 
 ### application/vnd.spotfire.dxp.extensions
 
@@ -14960,7 +14960,7 @@
 
 ### application/vnd.spotfire.sfs
 
-> **application/vnd.spotfire.sfs**: `object`
+> **sfs**: `object`
 
 ### application/vnd.spotfire.sfs.extensions
 
@@ -14972,7 +14972,7 @@
 
 ### application/vnd.sqlite3
 
-> **application/vnd.sqlite3**: `object`
+> **sqlite3**: `object`
 
 ### application/vnd.sqlite3.source
 
@@ -14980,7 +14980,7 @@
 
 ### application/vnd.sss-cod
 
-> **application/vnd.sss-cod**: `object`
+> **sss-cod**: `object`
 
 ### application/vnd.sss-cod.source
 
@@ -14988,7 +14988,7 @@
 
 ### application/vnd.sss-dtf
 
-> **application/vnd.sss-dtf**: `object`
+> **sss-dtf**: `object`
 
 ### application/vnd.sss-dtf.source
 
@@ -14996,7 +14996,7 @@
 
 ### application/vnd.sss-ntf
 
-> **application/vnd.sss-ntf**: `object`
+> **sss-ntf**: `object`
 
 ### application/vnd.sss-ntf.source
 
@@ -15004,7 +15004,7 @@
 
 ### application/vnd.stardivision.calc
 
-> **application/vnd.stardivision.calc**: `object`
+> **calc**: `object`
 
 ### application/vnd.stardivision.calc.extensions
 
@@ -15016,7 +15016,7 @@
 
 ### application/vnd.stardivision.draw
 
-> **application/vnd.stardivision.draw**: `object`
+> **draw**: `object`
 
 ### application/vnd.stardivision.draw.extensions
 
@@ -15028,7 +15028,7 @@
 
 ### application/vnd.stardivision.impress
 
-> **application/vnd.stardivision.impress**: `object`
+> **impress**: `object`
 
 ### application/vnd.stardivision.impress.extensions
 
@@ -15040,7 +15040,7 @@
 
 ### application/vnd.stardivision.math
 
-> **application/vnd.stardivision.math**: `object`
+> **math**: `object`
 
 ### application/vnd.stardivision.math.extensions
 
@@ -15052,7 +15052,7 @@
 
 ### application/vnd.stardivision.writer
 
-> **application/vnd.stardivision.writer**: `object`
+> **writer**: `object`
 
 ### application/vnd.stardivision.writer.extensions
 
@@ -15064,7 +15064,7 @@
 
 ### application/vnd.stardivision.writer-global
 
-> **application/vnd.stardivision.writer-global**: `object`
+> **writer-global**: `object`
 
 ### application/vnd.stardivision.writer-global.extensions
 
@@ -15076,7 +15076,7 @@
 
 ### application/vnd.stepmania.package
 
-> **application/vnd.stepmania.package**: `object`
+> **package**: `object`
 
 ### application/vnd.stepmania.package.extensions
 
@@ -15088,7 +15088,7 @@
 
 ### application/vnd.stepmania.stepchart
 
-> **application/vnd.stepmania.stepchart**: `object`
+> **stepchart**: `object`
 
 ### application/vnd.stepmania.stepchart.extensions
 
@@ -15100,7 +15100,7 @@
 
 ### application/vnd.street-stream
 
-> **application/vnd.street-stream**: `object`
+> **street-stream**: `object`
 
 ### application/vnd.street-stream.source
 
@@ -15108,7 +15108,7 @@
 
 ### application/vnd.sun.wadl+xml
 
-> **application/vnd.sun.wadl+xml**: `object`
+> **wadl+xml**: `object`
 
 ### application/vnd.sun.wadl+xml.compressible
 
@@ -15124,7 +15124,7 @@
 
 ### application/vnd.sun.xml.calc
 
-> **application/vnd.sun.xml.calc**: `object`
+> **calc**: `object`
 
 ### application/vnd.sun.xml.calc.extensions
 
@@ -15136,7 +15136,7 @@
 
 ### application/vnd.sun.xml.calc.template
 
-> **application/vnd.sun.xml.calc.template**: `object`
+> **template**: `object`
 
 ### application/vnd.sun.xml.calc.template.extensions
 
@@ -15148,7 +15148,7 @@
 
 ### application/vnd.sun.xml.draw
 
-> **application/vnd.sun.xml.draw**: `object`
+> **draw**: `object`
 
 ### application/vnd.sun.xml.draw.extensions
 
@@ -15160,7 +15160,7 @@
 
 ### application/vnd.sun.xml.draw.template
 
-> **application/vnd.sun.xml.draw.template**: `object`
+> **template**: `object`
 
 ### application/vnd.sun.xml.draw.template.extensions
 
@@ -15172,7 +15172,7 @@
 
 ### application/vnd.sun.xml.impress
 
-> **application/vnd.sun.xml.impress**: `object`
+> **impress**: `object`
 
 ### application/vnd.sun.xml.impress.extensions
 
@@ -15184,7 +15184,7 @@
 
 ### application/vnd.sun.xml.impress.template
 
-> **application/vnd.sun.xml.impress.template**: `object`
+> **template**: `object`
 
 ### application/vnd.sun.xml.impress.template.extensions
 
@@ -15196,7 +15196,7 @@
 
 ### application/vnd.sun.xml.math
 
-> **application/vnd.sun.xml.math**: `object`
+> **math**: `object`
 
 ### application/vnd.sun.xml.math.extensions
 
@@ -15208,7 +15208,7 @@
 
 ### application/vnd.sun.xml.writer
 
-> **application/vnd.sun.xml.writer**: `object`
+> **writer**: `object`
 
 ### application/vnd.sun.xml.writer.extensions
 
@@ -15220,7 +15220,7 @@
 
 ### application/vnd.sun.xml.writer.global
 
-> **application/vnd.sun.xml.writer.global**: `object`
+> **global**: `object`
 
 ### application/vnd.sun.xml.writer.global.extensions
 
@@ -15232,7 +15232,7 @@
 
 ### application/vnd.sun.xml.writer.template
 
-> **application/vnd.sun.xml.writer.template**: `object`
+> **template**: `object`
 
 ### application/vnd.sun.xml.writer.template.extensions
 
@@ -15244,7 +15244,7 @@
 
 ### application/vnd.sus-calendar
 
-> **application/vnd.sus-calendar**: `object`
+> **sus-calendar**: `object`
 
 ### application/vnd.sus-calendar.extensions
 
@@ -15256,7 +15256,7 @@
 
 ### application/vnd.svd
 
-> **application/vnd.svd**: `object`
+> **svd**: `object`
 
 ### application/vnd.svd.extensions
 
@@ -15268,7 +15268,7 @@
 
 ### application/vnd.swiftview-ics
 
-> **application/vnd.swiftview-ics**: `object`
+> **swiftview-ics**: `object`
 
 ### application/vnd.swiftview-ics.source
 
@@ -15276,7 +15276,7 @@
 
 ### application/vnd.sycle+xml
 
-> **application/vnd.sycle+xml**: `object`
+> **sycle+xml**: `object`
 
 ### application/vnd.sycle+xml.compressible
 
@@ -15288,7 +15288,7 @@
 
 ### application/vnd.syft+json
 
-> **application/vnd.syft+json**: `object`
+> **syft+json**: `object`
 
 ### application/vnd.syft+json.compressible
 
@@ -15300,7 +15300,7 @@
 
 ### application/vnd.symbian.install
 
-> **application/vnd.symbian.install**: `object`
+> **install**: `object`
 
 ### application/vnd.symbian.install.extensions
 
@@ -15312,7 +15312,7 @@
 
 ### application/vnd.syncml+xml
 
-> **application/vnd.syncml+xml**: `object`
+> **syncml+xml**: `object`
 
 ### application/vnd.syncml+xml.charset
 
@@ -15332,7 +15332,7 @@
 
 ### application/vnd.syncml.dm+wbxml
 
-> **application/vnd.syncml.dm+wbxml**: `object`
+> **dm+wbxml**: `object`
 
 ### application/vnd.syncml.dm+wbxml.charset
 
@@ -15348,7 +15348,7 @@
 
 ### application/vnd.syncml.dm+xml
 
-> **application/vnd.syncml.dm+xml**: `object`
+> **dm+xml**: `object`
 
 ### application/vnd.syncml.dm+xml.charset
 
@@ -15368,7 +15368,7 @@
 
 ### application/vnd.syncml.dm.notification
 
-> **application/vnd.syncml.dm.notification**: `object`
+> **notification**: `object`
 
 ### application/vnd.syncml.dm.notification.source
 
@@ -15376,7 +15376,7 @@
 
 ### application/vnd.syncml.dmddf+wbxml
 
-> **application/vnd.syncml.dmddf+wbxml**: `object`
+> **dmddf+wbxml**: `object`
 
 ### application/vnd.syncml.dmddf+wbxml.source
 
@@ -15384,7 +15384,7 @@
 
 ### application/vnd.syncml.dmddf+xml
 
-> **application/vnd.syncml.dmddf+xml**: `object`
+> **dmddf+xml**: `object`
 
 ### application/vnd.syncml.dmddf+xml.charset
 
@@ -15404,7 +15404,7 @@
 
 ### application/vnd.syncml.dmtnds+wbxml
 
-> **application/vnd.syncml.dmtnds+wbxml**: `object`
+> **dmtnds+wbxml**: `object`
 
 ### application/vnd.syncml.dmtnds+wbxml.source
 
@@ -15412,7 +15412,7 @@
 
 ### application/vnd.syncml.dmtnds+xml
 
-> **application/vnd.syncml.dmtnds+xml**: `object`
+> **dmtnds+xml**: `object`
 
 ### application/vnd.syncml.dmtnds+xml.charset
 
@@ -15428,7 +15428,7 @@
 
 ### application/vnd.syncml.ds.notification
 
-> **application/vnd.syncml.ds.notification**: `object`
+> **notification**: `object`
 
 ### application/vnd.syncml.ds.notification.source
 
@@ -15436,7 +15436,7 @@
 
 ### application/vnd.tableschema+json
 
-> **application/vnd.tableschema+json**: `object`
+> **tableschema+json**: `object`
 
 ### application/vnd.tableschema+json.compressible
 
@@ -15448,7 +15448,7 @@
 
 ### application/vnd.tao.intent-module-archive
 
-> **application/vnd.tao.intent-module-archive**: `object`
+> **intent-module-archive**: `object`
 
 ### application/vnd.tao.intent-module-archive.extensions
 
@@ -15460,7 +15460,7 @@
 
 ### application/vnd.tcpdump.pcap
 
-> **application/vnd.tcpdump.pcap**: `object`
+> **pcap**: `object`
 
 ### application/vnd.tcpdump.pcap.extensions
 
@@ -15472,7 +15472,7 @@
 
 ### application/vnd.think-cell.ppttc+json
 
-> **application/vnd.think-cell.ppttc+json**: `object`
+> **ppttc+json**: `object`
 
 ### application/vnd.think-cell.ppttc+json.compressible
 
@@ -15484,7 +15484,7 @@
 
 ### application/vnd.tmd.mediaflex.api+xml
 
-> **application/vnd.tmd.mediaflex.api+xml**: `object`
+> **api+xml**: `object`
 
 ### application/vnd.tmd.mediaflex.api+xml.compressible
 
@@ -15496,7 +15496,7 @@
 
 ### application/vnd.tml
 
-> **application/vnd.tml**: `object`
+> **tml**: `object`
 
 ### application/vnd.tml.source
 
@@ -15504,7 +15504,7 @@
 
 ### application/vnd.tmobile-livetv
 
-> **application/vnd.tmobile-livetv**: `object`
+> **tmobile-livetv**: `object`
 
 ### application/vnd.tmobile-livetv.extensions
 
@@ -15516,7 +15516,7 @@
 
 ### application/vnd.tri.onesource
 
-> **application/vnd.tri.onesource**: `object`
+> **onesource**: `object`
 
 ### application/vnd.tri.onesource.source
 
@@ -15524,7 +15524,7 @@
 
 ### application/vnd.trid.tpt
 
-> **application/vnd.trid.tpt**: `object`
+> **tpt**: `object`
 
 ### application/vnd.trid.tpt.extensions
 
@@ -15536,7 +15536,7 @@
 
 ### application/vnd.triscape.mxs
 
-> **application/vnd.triscape.mxs**: `object`
+> **mxs**: `object`
 
 ### application/vnd.triscape.mxs.extensions
 
@@ -15548,7 +15548,7 @@
 
 ### application/vnd.trueapp
 
-> **application/vnd.trueapp**: `object`
+> **trueapp**: `object`
 
 ### application/vnd.trueapp.extensions
 
@@ -15560,7 +15560,7 @@
 
 ### application/vnd.truedoc
 
-> **application/vnd.truedoc**: `object`
+> **truedoc**: `object`
 
 ### application/vnd.truedoc.source
 
@@ -15568,7 +15568,7 @@
 
 ### application/vnd.ubisoft.webplayer
 
-> **application/vnd.ubisoft.webplayer**: `object`
+> **webplayer**: `object`
 
 ### application/vnd.ubisoft.webplayer.source
 
@@ -15576,7 +15576,7 @@
 
 ### application/vnd.ufdl
 
-> **application/vnd.ufdl**: `object`
+> **ufdl**: `object`
 
 ### application/vnd.ufdl.extensions
 
@@ -15588,7 +15588,7 @@
 
 ### application/vnd.uiq.theme
 
-> **application/vnd.uiq.theme**: `object`
+> **theme**: `object`
 
 ### application/vnd.uiq.theme.extensions
 
@@ -15600,7 +15600,7 @@
 
 ### application/vnd.umajin
 
-> **application/vnd.umajin**: `object`
+> **umajin**: `object`
 
 ### application/vnd.umajin.extensions
 
@@ -15612,7 +15612,7 @@
 
 ### application/vnd.unity
 
-> **application/vnd.unity**: `object`
+> **unity**: `object`
 
 ### application/vnd.unity.extensions
 
@@ -15624,7 +15624,7 @@
 
 ### application/vnd.uoml+xml
 
-> **application/vnd.uoml+xml**: `object`
+> **uoml+xml**: `object`
 
 ### application/vnd.uoml+xml.compressible
 
@@ -15640,7 +15640,7 @@
 
 ### application/vnd.uplanet.alert
 
-> **application/vnd.uplanet.alert**: `object`
+> **alert**: `object`
 
 ### application/vnd.uplanet.alert.source
 
@@ -15648,7 +15648,7 @@
 
 ### application/vnd.uplanet.alert-wbxml
 
-> **application/vnd.uplanet.alert-wbxml**: `object`
+> **alert-wbxml**: `object`
 
 ### application/vnd.uplanet.alert-wbxml.source
 
@@ -15656,7 +15656,7 @@
 
 ### application/vnd.uplanet.bearer-choice
 
-> **application/vnd.uplanet.bearer-choice**: `object`
+> **bearer-choice**: `object`
 
 ### application/vnd.uplanet.bearer-choice.source
 
@@ -15664,7 +15664,7 @@
 
 ### application/vnd.uplanet.bearer-choice-wbxml
 
-> **application/vnd.uplanet.bearer-choice-wbxml**: `object`
+> **bearer-choice-wbxml**: `object`
 
 ### application/vnd.uplanet.bearer-choice-wbxml.source
 
@@ -15672,7 +15672,7 @@
 
 ### application/vnd.uplanet.cacheop
 
-> **application/vnd.uplanet.cacheop**: `object`
+> **cacheop**: `object`
 
 ### application/vnd.uplanet.cacheop.source
 
@@ -15680,7 +15680,7 @@
 
 ### application/vnd.uplanet.cacheop-wbxml
 
-> **application/vnd.uplanet.cacheop-wbxml**: `object`
+> **cacheop-wbxml**: `object`
 
 ### application/vnd.uplanet.cacheop-wbxml.source
 
@@ -15688,7 +15688,7 @@
 
 ### application/vnd.uplanet.channel
 
-> **application/vnd.uplanet.channel**: `object`
+> **channel**: `object`
 
 ### application/vnd.uplanet.channel.source
 
@@ -15696,7 +15696,7 @@
 
 ### application/vnd.uplanet.channel-wbxml
 
-> **application/vnd.uplanet.channel-wbxml**: `object`
+> **channel-wbxml**: `object`
 
 ### application/vnd.uplanet.channel-wbxml.source
 
@@ -15704,7 +15704,7 @@
 
 ### application/vnd.uplanet.list
 
-> **application/vnd.uplanet.list**: `object`
+> **list**: `object`
 
 ### application/vnd.uplanet.list.source
 
@@ -15712,7 +15712,7 @@
 
 ### application/vnd.uplanet.list-wbxml
 
-> **application/vnd.uplanet.list-wbxml**: `object`
+> **list-wbxml**: `object`
 
 ### application/vnd.uplanet.list-wbxml.source
 
@@ -15720,7 +15720,7 @@
 
 ### application/vnd.uplanet.listcmd
 
-> **application/vnd.uplanet.listcmd**: `object`
+> **listcmd**: `object`
 
 ### application/vnd.uplanet.listcmd.source
 
@@ -15728,7 +15728,7 @@
 
 ### application/vnd.uplanet.listcmd-wbxml
 
-> **application/vnd.uplanet.listcmd-wbxml**: `object`
+> **listcmd-wbxml**: `object`
 
 ### application/vnd.uplanet.listcmd-wbxml.source
 
@@ -15736,7 +15736,7 @@
 
 ### application/vnd.uplanet.signal
 
-> **application/vnd.uplanet.signal**: `object`
+> **signal**: `object`
 
 ### application/vnd.uplanet.signal.source
 
@@ -15744,7 +15744,7 @@
 
 ### application/vnd.uri-map
 
-> **application/vnd.uri-map**: `object`
+> **uri-map**: `object`
 
 ### application/vnd.uri-map.source
 
@@ -15752,7 +15752,7 @@
 
 ### application/vnd.valve.source.material
 
-> **application/vnd.valve.source.material**: `object`
+> **material**: `object`
 
 ### application/vnd.valve.source.material.source
 
@@ -15760,7 +15760,7 @@
 
 ### application/vnd.vcx
 
-> **application/vnd.vcx**: `object`
+> **vcx**: `object`
 
 ### application/vnd.vcx.extensions
 
@@ -15772,7 +15772,7 @@
 
 ### application/vnd.vd-study
 
-> **application/vnd.vd-study**: `object`
+> **vd-study**: `object`
 
 ### application/vnd.vd-study.source
 
@@ -15780,7 +15780,7 @@
 
 ### application/vnd.vectorworks
 
-> **application/vnd.vectorworks**: `object`
+> **vectorworks**: `object`
 
 ### application/vnd.vectorworks.source
 
@@ -15788,7 +15788,7 @@
 
 ### application/vnd.vel+json
 
-> **application/vnd.vel+json**: `object`
+> **vel+json**: `object`
 
 ### application/vnd.vel+json.compressible
 
@@ -15800,7 +15800,7 @@
 
 ### application/vnd.verimatrix.vcas
 
-> **application/vnd.verimatrix.vcas**: `object`
+> **vcas**: `object`
 
 ### application/vnd.verimatrix.vcas.source
 
@@ -15808,7 +15808,7 @@
 
 ### application/vnd.veritone.aion+json
 
-> **application/vnd.veritone.aion+json**: `object`
+> **aion+json**: `object`
 
 ### application/vnd.veritone.aion+json.compressible
 
@@ -15820,7 +15820,7 @@
 
 ### application/vnd.veryant.thin
 
-> **application/vnd.veryant.thin**: `object`
+> **thin**: `object`
 
 ### application/vnd.veryant.thin.source
 
@@ -15828,7 +15828,7 @@
 
 ### application/vnd.ves.encrypted
 
-> **application/vnd.ves.encrypted**: `object`
+> **encrypted**: `object`
 
 ### application/vnd.ves.encrypted.source
 
@@ -15836,7 +15836,7 @@
 
 ### application/vnd.vidsoft.vidconference
 
-> **application/vnd.vidsoft.vidconference**: `object`
+> **vidconference**: `object`
 
 ### application/vnd.vidsoft.vidconference.source
 
@@ -15844,7 +15844,7 @@
 
 ### application/vnd.visio
 
-> **application/vnd.visio**: `object`
+> **visio**: `object`
 
 ### application/vnd.visio.extensions
 
@@ -15856,7 +15856,7 @@
 
 ### application/vnd.visionary
 
-> **application/vnd.visionary**: `object`
+> **visionary**: `object`
 
 ### application/vnd.visionary.extensions
 
@@ -15868,7 +15868,7 @@
 
 ### application/vnd.vividence.scriptfile
 
-> **application/vnd.vividence.scriptfile**: `object`
+> **scriptfile**: `object`
 
 ### application/vnd.vividence.scriptfile.source
 
@@ -15876,7 +15876,7 @@
 
 ### application/vnd.vsf
 
-> **application/vnd.vsf**: `object`
+> **vsf**: `object`
 
 ### application/vnd.vsf.extensions
 
@@ -15888,7 +15888,7 @@
 
 ### application/vnd.wap.sic
 
-> **application/vnd.wap.sic**: `object`
+> **sic**: `object`
 
 ### application/vnd.wap.sic.source
 
@@ -15896,7 +15896,7 @@
 
 ### application/vnd.wap.slc
 
-> **application/vnd.wap.slc**: `object`
+> **slc**: `object`
 
 ### application/vnd.wap.slc.source
 
@@ -15904,7 +15904,7 @@
 
 ### application/vnd.wap.wbxml
 
-> **application/vnd.wap.wbxml**: `object`
+> **wbxml**: `object`
 
 ### application/vnd.wap.wbxml.charset
 
@@ -15920,7 +15920,7 @@
 
 ### application/vnd.wap.wmlc
 
-> **application/vnd.wap.wmlc**: `object`
+> **wmlc**: `object`
 
 ### application/vnd.wap.wmlc.extensions
 
@@ -15932,7 +15932,7 @@
 
 ### application/vnd.wap.wmlscriptc
 
-> **application/vnd.wap.wmlscriptc**: `object`
+> **wmlscriptc**: `object`
 
 ### application/vnd.wap.wmlscriptc.extensions
 
@@ -15944,7 +15944,7 @@
 
 ### application/vnd.webturbo
 
-> **application/vnd.webturbo**: `object`
+> **webturbo**: `object`
 
 ### application/vnd.webturbo.extensions
 
@@ -15956,7 +15956,7 @@
 
 ### application/vnd.wfa.dpp
 
-> **application/vnd.wfa.dpp**: `object`
+> **dpp**: `object`
 
 ### application/vnd.wfa.dpp.source
 
@@ -15964,7 +15964,7 @@
 
 ### application/vnd.wfa.p2p
 
-> **application/vnd.wfa.p2p**: `object`
+> **p2p**: `object`
 
 ### application/vnd.wfa.p2p.source
 
@@ -15972,7 +15972,7 @@
 
 ### application/vnd.wfa.wsc
 
-> **application/vnd.wfa.wsc**: `object`
+> **wsc**: `object`
 
 ### application/vnd.wfa.wsc.source
 
@@ -15980,7 +15980,7 @@
 
 ### application/vnd.windows.devicepairing
 
-> **application/vnd.windows.devicepairing**: `object`
+> **devicepairing**: `object`
 
 ### application/vnd.windows.devicepairing.source
 
@@ -15988,7 +15988,7 @@
 
 ### application/vnd.wmc
 
-> **application/vnd.wmc**: `object`
+> **wmc**: `object`
 
 ### application/vnd.wmc.source
 
@@ -15996,7 +15996,7 @@
 
 ### application/vnd.wmf.bootstrap
 
-> **application/vnd.wmf.bootstrap**: `object`
+> **bootstrap**: `object`
 
 ### application/vnd.wmf.bootstrap.source
 
@@ -16004,7 +16004,7 @@
 
 ### application/vnd.wolfram.mathematica
 
-> **application/vnd.wolfram.mathematica**: `object`
+> **mathematica**: `object`
 
 ### application/vnd.wolfram.mathematica.source
 
@@ -16012,7 +16012,7 @@
 
 ### application/vnd.wolfram.mathematica.package
 
-> **application/vnd.wolfram.mathematica.package**: `object`
+> **package**: `object`
 
 ### application/vnd.wolfram.mathematica.package.source
 
@@ -16020,7 +16020,7 @@
 
 ### application/vnd.wolfram.player
 
-> **application/vnd.wolfram.player**: `object`
+> **player**: `object`
 
 ### application/vnd.wolfram.player.extensions
 
@@ -16032,7 +16032,7 @@
 
 ### application/vnd.wordperfect
 
-> **application/vnd.wordperfect**: `object`
+> **wordperfect**: `object`
 
 ### application/vnd.wordperfect.extensions
 
@@ -16044,7 +16044,7 @@
 
 ### application/vnd.wqd
 
-> **application/vnd.wqd**: `object`
+> **wqd**: `object`
 
 ### application/vnd.wqd.extensions
 
@@ -16056,7 +16056,7 @@
 
 ### application/vnd.wrq-hp3000-labelled
 
-> **application/vnd.wrq-hp3000-labelled**: `object`
+> **wrq-hp3000-labelled**: `object`
 
 ### application/vnd.wrq-hp3000-labelled.source
 
@@ -16064,7 +16064,7 @@
 
 ### application/vnd.wt.stf
 
-> **application/vnd.wt.stf**: `object`
+> **stf**: `object`
 
 ### application/vnd.wt.stf.extensions
 
@@ -16076,7 +16076,7 @@
 
 ### application/vnd.wv.csp+wbxml
 
-> **application/vnd.wv.csp+wbxml**: `object`
+> **csp+wbxml**: `object`
 
 ### application/vnd.wv.csp+wbxml.source
 
@@ -16084,7 +16084,7 @@
 
 ### application/vnd.wv.csp+xml
 
-> **application/vnd.wv.csp+xml**: `object`
+> **csp+xml**: `object`
 
 ### application/vnd.wv.csp+xml.compressible
 
@@ -16096,7 +16096,7 @@
 
 ### application/vnd.wv.ssp+xml
 
-> **application/vnd.wv.ssp+xml**: `object`
+> **ssp+xml**: `object`
 
 ### application/vnd.wv.ssp+xml.compressible
 
@@ -16108,7 +16108,7 @@
 
 ### application/vnd.xacml+json
 
-> **application/vnd.xacml+json**: `object`
+> **xacml+json**: `object`
 
 ### application/vnd.xacml+json.compressible
 
@@ -16120,7 +16120,7 @@
 
 ### application/vnd.xara
 
-> **application/vnd.xara**: `object`
+> **xara**: `object`
 
 ### application/vnd.xara.extensions
 
@@ -16132,7 +16132,7 @@
 
 ### application/vnd.xfdl
 
-> **application/vnd.xfdl**: `object`
+> **xfdl**: `object`
 
 ### application/vnd.xfdl.extensions
 
@@ -16144,7 +16144,7 @@
 
 ### application/vnd.xfdl.webform
 
-> **application/vnd.xfdl.webform**: `object`
+> **webform**: `object`
 
 ### application/vnd.xfdl.webform.source
 
@@ -16152,7 +16152,7 @@
 
 ### application/vnd.xmi+xml
 
-> **application/vnd.xmi+xml**: `object`
+> **xmi+xml**: `object`
 
 ### application/vnd.xmi+xml.compressible
 
@@ -16164,7 +16164,7 @@
 
 ### application/vnd.xmpie.cpkg
 
-> **application/vnd.xmpie.cpkg**: `object`
+> **cpkg**: `object`
 
 ### application/vnd.xmpie.cpkg.source
 
@@ -16172,7 +16172,7 @@
 
 ### application/vnd.xmpie.dpkg
 
-> **application/vnd.xmpie.dpkg**: `object`
+> **dpkg**: `object`
 
 ### application/vnd.xmpie.dpkg.source
 
@@ -16180,7 +16180,7 @@
 
 ### application/vnd.xmpie.plan
 
-> **application/vnd.xmpie.plan**: `object`
+> **plan**: `object`
 
 ### application/vnd.xmpie.plan.source
 
@@ -16188,7 +16188,7 @@
 
 ### application/vnd.xmpie.ppkg
 
-> **application/vnd.xmpie.ppkg**: `object`
+> **ppkg**: `object`
 
 ### application/vnd.xmpie.ppkg.source
 
@@ -16196,7 +16196,7 @@
 
 ### application/vnd.xmpie.xlim
 
-> **application/vnd.xmpie.xlim**: `object`
+> **xlim**: `object`
 
 ### application/vnd.xmpie.xlim.source
 
@@ -16204,7 +16204,7 @@
 
 ### application/vnd.yamaha.hv-dic
 
-> **application/vnd.yamaha.hv-dic**: `object`
+> **hv-dic**: `object`
 
 ### application/vnd.yamaha.hv-dic.extensions
 
@@ -16216,7 +16216,7 @@
 
 ### application/vnd.yamaha.hv-script
 
-> **application/vnd.yamaha.hv-script**: `object`
+> **hv-script**: `object`
 
 ### application/vnd.yamaha.hv-script.extensions
 
@@ -16228,7 +16228,7 @@
 
 ### application/vnd.yamaha.hv-voice
 
-> **application/vnd.yamaha.hv-voice**: `object`
+> **hv-voice**: `object`
 
 ### application/vnd.yamaha.hv-voice.extensions
 
@@ -16240,7 +16240,7 @@
 
 ### application/vnd.yamaha.openscoreformat
 
-> **application/vnd.yamaha.openscoreformat**: `object`
+> **openscoreformat**: `object`
 
 ### application/vnd.yamaha.openscoreformat.extensions
 
@@ -16252,7 +16252,7 @@
 
 ### application/vnd.yamaha.openscoreformat.osfpvg+xml
 
-> **application/vnd.yamaha.openscoreformat.osfpvg+xml**: `object`
+> **osfpvg+xml**: `object`
 
 ### application/vnd.yamaha.openscoreformat.osfpvg+xml.compressible
 
@@ -16268,7 +16268,7 @@
 
 ### application/vnd.yamaha.remote-setup
 
-> **application/vnd.yamaha.remote-setup**: `object`
+> **remote-setup**: `object`
 
 ### application/vnd.yamaha.remote-setup.source
 
@@ -16276,7 +16276,7 @@
 
 ### application/vnd.yamaha.smaf-audio
 
-> **application/vnd.yamaha.smaf-audio**: `object`
+> **smaf-audio**: `object`
 
 ### application/vnd.yamaha.smaf-audio.extensions
 
@@ -16288,7 +16288,7 @@
 
 ### application/vnd.yamaha.smaf-phrase
 
-> **application/vnd.yamaha.smaf-phrase**: `object`
+> **smaf-phrase**: `object`
 
 ### application/vnd.yamaha.smaf-phrase.extensions
 
@@ -16300,7 +16300,7 @@
 
 ### application/vnd.yamaha.through-ngn
 
-> **application/vnd.yamaha.through-ngn**: `object`
+> **through-ngn**: `object`
 
 ### application/vnd.yamaha.through-ngn.source
 
@@ -16308,7 +16308,7 @@
 
 ### application/vnd.yamaha.tunnel-udpencap
 
-> **application/vnd.yamaha.tunnel-udpencap**: `object`
+> **tunnel-udpencap**: `object`
 
 ### application/vnd.yamaha.tunnel-udpencap.source
 
@@ -16316,7 +16316,7 @@
 
 ### application/vnd.yaoweme
 
-> **application/vnd.yaoweme**: `object`
+> **yaoweme**: `object`
 
 ### application/vnd.yaoweme.source
 
@@ -16324,7 +16324,7 @@
 
 ### application/vnd.yellowriver-custom-menu
 
-> **application/vnd.yellowriver-custom-menu**: `object`
+> **yellowriver-custom-menu**: `object`
 
 ### application/vnd.yellowriver-custom-menu.extensions
 
@@ -16336,7 +16336,7 @@
 
 ### application/vnd.youtube.yt
 
-> **application/vnd.youtube.yt**: `object`
+> **yt**: `object`
 
 ### application/vnd.youtube.yt.source
 
@@ -16344,7 +16344,7 @@
 
 ### application/vnd.zul
 
-> **application/vnd.zul**: `object`
+> **zul**: `object`
 
 ### application/vnd.zul.extensions
 
@@ -16356,7 +16356,7 @@
 
 ### application/vnd.zzazz.deck+xml
 
-> **application/vnd.zzazz.deck+xml**: `object`
+> **deck+xml**: `object`
 
 ### application/vnd.zzazz.deck+xml.compressible
 
@@ -16500,7 +16500,7 @@
 
 ### application/wordperfect5.1
 
-> **application/wordperfect5.1**: `object`
+> **1**: `object`
 
 ### application/wordperfect5.1.source
 
@@ -19248,7 +19248,7 @@
 
 ### audio/ip-mr\_v2.5
 
-> **audio/ip-mr\_v2.5**: `object`
+> **5**: `object`
 
 ### audio/ip-mr\_v2.5.source
 
@@ -19520,7 +19520,7 @@
 
 ### audio/prs.sid
 
-> **audio/prs.sid**: `object`
+> **sid**: `object`
 
 ### audio/prs.sid.source
 
@@ -19760,7 +19760,7 @@
 
 ### audio/vnd.3gpp.iufp
 
-> **audio/vnd.3gpp.iufp**: `object`
+> **iufp**: `object`
 
 ### audio/vnd.3gpp.iufp.source
 
@@ -19768,7 +19768,7 @@
 
 ### audio/vnd.4sb
 
-> **audio/vnd.4sb**: `object`
+> **4sb**: `object`
 
 ### audio/vnd.4sb.source
 
@@ -19776,7 +19776,7 @@
 
 ### audio/vnd.audiokoz
 
-> **audio/vnd.audiokoz**: `object`
+> **audiokoz**: `object`
 
 ### audio/vnd.audiokoz.source
 
@@ -19784,7 +19784,7 @@
 
 ### audio/vnd.celp
 
-> **audio/vnd.celp**: `object`
+> **celp**: `object`
 
 ### audio/vnd.celp.source
 
@@ -19792,7 +19792,7 @@
 
 ### audio/vnd.cisco.nse
 
-> **audio/vnd.cisco.nse**: `object`
+> **nse**: `object`
 
 ### audio/vnd.cisco.nse.source
 
@@ -19800,7 +19800,7 @@
 
 ### audio/vnd.cmles.radio-events
 
-> **audio/vnd.cmles.radio-events**: `object`
+> **radio-events**: `object`
 
 ### audio/vnd.cmles.radio-events.source
 
@@ -19808,7 +19808,7 @@
 
 ### audio/vnd.cns.anp1
 
-> **audio/vnd.cns.anp1**: `object`
+> **anp1**: `object`
 
 ### audio/vnd.cns.anp1.source
 
@@ -19816,7 +19816,7 @@
 
 ### audio/vnd.cns.inf1
 
-> **audio/vnd.cns.inf1**: `object`
+> **inf1**: `object`
 
 ### audio/vnd.cns.inf1.source
 
@@ -19824,7 +19824,7 @@
 
 ### audio/vnd.dece.audio
 
-> **audio/vnd.dece.audio**: `object`
+> **audio**: `object`
 
 ### audio/vnd.dece.audio.extensions
 
@@ -19836,7 +19836,7 @@
 
 ### audio/vnd.digital-winds
 
-> **audio/vnd.digital-winds**: `object`
+> **digital-winds**: `object`
 
 ### audio/vnd.digital-winds.extensions
 
@@ -19848,7 +19848,7 @@
 
 ### audio/vnd.dlna.adts
 
-> **audio/vnd.dlna.adts**: `object`
+> **adts**: `object`
 
 ### audio/vnd.dlna.adts.source
 
@@ -19856,7 +19856,7 @@
 
 ### audio/vnd.dolby.heaac.1
 
-> **audio/vnd.dolby.heaac.1**: `object`
+> **1**: `object`
 
 ### audio/vnd.dolby.heaac.1.source
 
@@ -19864,7 +19864,7 @@
 
 ### audio/vnd.dolby.heaac.2
 
-> **audio/vnd.dolby.heaac.2**: `object`
+> **2**: `object`
 
 ### audio/vnd.dolby.heaac.2.source
 
@@ -19872,7 +19872,7 @@
 
 ### audio/vnd.dolby.mlp
 
-> **audio/vnd.dolby.mlp**: `object`
+> **mlp**: `object`
 
 ### audio/vnd.dolby.mlp.source
 
@@ -19880,7 +19880,7 @@
 
 ### audio/vnd.dolby.mps
 
-> **audio/vnd.dolby.mps**: `object`
+> **mps**: `object`
 
 ### audio/vnd.dolby.mps.source
 
@@ -19888,7 +19888,7 @@
 
 ### audio/vnd.dolby.pl2
 
-> **audio/vnd.dolby.pl2**: `object`
+> **pl2**: `object`
 
 ### audio/vnd.dolby.pl2.source
 
@@ -19896,7 +19896,7 @@
 
 ### audio/vnd.dolby.pl2x
 
-> **audio/vnd.dolby.pl2x**: `object`
+> **pl2x**: `object`
 
 ### audio/vnd.dolby.pl2x.source
 
@@ -19904,7 +19904,7 @@
 
 ### audio/vnd.dolby.pl2z
 
-> **audio/vnd.dolby.pl2z**: `object`
+> **pl2z**: `object`
 
 ### audio/vnd.dolby.pl2z.source
 
@@ -19912,7 +19912,7 @@
 
 ### audio/vnd.dolby.pulse.1
 
-> **audio/vnd.dolby.pulse.1**: `object`
+> **1**: `object`
 
 ### audio/vnd.dolby.pulse.1.source
 
@@ -19920,7 +19920,7 @@
 
 ### audio/vnd.dra
 
-> **audio/vnd.dra**: `object`
+> **dra**: `object`
 
 ### audio/vnd.dra.extensions
 
@@ -19932,7 +19932,7 @@
 
 ### audio/vnd.dts
 
-> **audio/vnd.dts**: `object`
+> **dts**: `object`
 
 ### audio/vnd.dts.extensions
 
@@ -19944,7 +19944,7 @@
 
 ### audio/vnd.dts.hd
 
-> **audio/vnd.dts.hd**: `object`
+> **hd**: `object`
 
 ### audio/vnd.dts.hd.extensions
 
@@ -19956,7 +19956,7 @@
 
 ### audio/vnd.dts.uhd
 
-> **audio/vnd.dts.uhd**: `object`
+> **uhd**: `object`
 
 ### audio/vnd.dts.uhd.source
 
@@ -19964,7 +19964,7 @@
 
 ### audio/vnd.dvb.file
 
-> **audio/vnd.dvb.file**: `object`
+> **file**: `object`
 
 ### audio/vnd.dvb.file.source
 
@@ -19972,7 +19972,7 @@
 
 ### audio/vnd.everad.plj
 
-> **audio/vnd.everad.plj**: `object`
+> **plj**: `object`
 
 ### audio/vnd.everad.plj.source
 
@@ -19980,7 +19980,7 @@
 
 ### audio/vnd.hns.audio
 
-> **audio/vnd.hns.audio**: `object`
+> **audio**: `object`
 
 ### audio/vnd.hns.audio.source
 
@@ -19988,7 +19988,7 @@
 
 ### audio/vnd.lucent.voice
 
-> **audio/vnd.lucent.voice**: `object`
+> **voice**: `object`
 
 ### audio/vnd.lucent.voice.extensions
 
@@ -20000,7 +20000,7 @@
 
 ### audio/vnd.ms-playready.media.pya
 
-> **audio/vnd.ms-playready.media.pya**: `object`
+> **pya**: `object`
 
 ### audio/vnd.ms-playready.media.pya.extensions
 
@@ -20012,7 +20012,7 @@
 
 ### audio/vnd.nokia.mobile-xmf
 
-> **audio/vnd.nokia.mobile-xmf**: `object`
+> **mobile-xmf**: `object`
 
 ### audio/vnd.nokia.mobile-xmf.source
 
@@ -20020,7 +20020,7 @@
 
 ### audio/vnd.nortel.vbk
 
-> **audio/vnd.nortel.vbk**: `object`
+> **vbk**: `object`
 
 ### audio/vnd.nortel.vbk.source
 
@@ -20028,7 +20028,7 @@
 
 ### audio/vnd.nuera.ecelp4800
 
-> **audio/vnd.nuera.ecelp4800**: `object`
+> **ecelp4800**: `object`
 
 ### audio/vnd.nuera.ecelp4800.extensions
 
@@ -20040,7 +20040,7 @@
 
 ### audio/vnd.nuera.ecelp7470
 
-> **audio/vnd.nuera.ecelp7470**: `object`
+> **ecelp7470**: `object`
 
 ### audio/vnd.nuera.ecelp7470.extensions
 
@@ -20052,7 +20052,7 @@
 
 ### audio/vnd.nuera.ecelp9600
 
-> **audio/vnd.nuera.ecelp9600**: `object`
+> **ecelp9600**: `object`
 
 ### audio/vnd.nuera.ecelp9600.extensions
 
@@ -20064,7 +20064,7 @@
 
 ### audio/vnd.octel.sbc
 
-> **audio/vnd.octel.sbc**: `object`
+> **sbc**: `object`
 
 ### audio/vnd.octel.sbc.source
 
@@ -20072,7 +20072,7 @@
 
 ### audio/vnd.presonus.multitrack
 
-> **audio/vnd.presonus.multitrack**: `object`
+> **multitrack**: `object`
 
 ### audio/vnd.presonus.multitrack.source
 
@@ -20080,7 +20080,7 @@
 
 ### audio/vnd.qcelp
 
-> **audio/vnd.qcelp**: `object`
+> **qcelp**: `object`
 
 ### audio/vnd.qcelp.source
 
@@ -20088,7 +20088,7 @@
 
 ### audio/vnd.rhetorex.32kadpcm
 
-> **audio/vnd.rhetorex.32kadpcm**: `object`
+> **32kadpcm**: `object`
 
 ### audio/vnd.rhetorex.32kadpcm.source
 
@@ -20096,7 +20096,7 @@
 
 ### audio/vnd.rip
 
-> **audio/vnd.rip**: `object`
+> **rip**: `object`
 
 ### audio/vnd.rip.extensions
 
@@ -20108,7 +20108,7 @@
 
 ### audio/vnd.rn-realaudio
 
-> **audio/vnd.rn-realaudio**: `object`
+> **rn-realaudio**: `object`
 
 ### audio/vnd.rn-realaudio.compressible
 
@@ -20116,7 +20116,7 @@
 
 ### audio/vnd.sealedmedia.softseal.mpeg
 
-> **audio/vnd.sealedmedia.softseal.mpeg**: `object`
+> **mpeg**: `object`
 
 ### audio/vnd.sealedmedia.softseal.mpeg.source
 
@@ -20124,7 +20124,7 @@
 
 ### audio/vnd.vmx.cvsd
 
-> **audio/vnd.vmx.cvsd**: `object`
+> **cvsd**: `object`
 
 ### audio/vnd.vmx.cvsd.source
 
@@ -20132,7 +20132,7 @@
 
 ### audio/vnd.wave
 
-> **audio/vnd.wave**: `object`
+> **wave**: `object`
 
 ### audio/vnd.wave.compressible
 
@@ -21020,7 +21020,7 @@
 
 ### image/prs.btif
 
-> **image/prs.btif**: `object`
+> **btif**: `object`
 
 ### image/prs.btif.extensions
 
@@ -21032,7 +21032,7 @@
 
 ### image/prs.pti
 
-> **image/prs.pti**: `object`
+> **pti**: `object`
 
 ### image/prs.pti.extensions
 
@@ -21120,7 +21120,7 @@
 
 ### image/vnd.adobe.photoshop
 
-> **image/vnd.adobe.photoshop**: `object`
+> **photoshop**: `object`
 
 ### image/vnd.adobe.photoshop.compressible
 
@@ -21136,7 +21136,7 @@
 
 ### image/vnd.airzip.accelerator.azv
 
-> **image/vnd.airzip.accelerator.azv**: `object`
+> **azv**: `object`
 
 ### image/vnd.airzip.accelerator.azv.extensions
 
@@ -21148,7 +21148,7 @@
 
 ### image/vnd.cns.inf2
 
-> **image/vnd.cns.inf2**: `object`
+> **inf2**: `object`
 
 ### image/vnd.cns.inf2.source
 
@@ -21156,7 +21156,7 @@
 
 ### image/vnd.dece.graphic
 
-> **image/vnd.dece.graphic**: `object`
+> **graphic**: `object`
 
 ### image/vnd.dece.graphic.extensions
 
@@ -21168,7 +21168,7 @@
 
 ### image/vnd.djvu
 
-> **image/vnd.djvu**: `object`
+> **djvu**: `object`
 
 ### image/vnd.djvu.extensions
 
@@ -21180,7 +21180,7 @@
 
 ### image/vnd.dvb.subtitle
 
-> **image/vnd.dvb.subtitle**: `object`
+> **subtitle**: `object`
 
 ### image/vnd.dvb.subtitle.extensions
 
@@ -21192,7 +21192,7 @@
 
 ### image/vnd.dwg
 
-> **image/vnd.dwg**: `object`
+> **dwg**: `object`
 
 ### image/vnd.dwg.extensions
 
@@ -21204,7 +21204,7 @@
 
 ### image/vnd.dxf
 
-> **image/vnd.dxf**: `object`
+> **dxf**: `object`
 
 ### image/vnd.dxf.extensions
 
@@ -21216,7 +21216,7 @@
 
 ### image/vnd.fastbidsheet
 
-> **image/vnd.fastbidsheet**: `object`
+> **fastbidsheet**: `object`
 
 ### image/vnd.fastbidsheet.extensions
 
@@ -21228,7 +21228,7 @@
 
 ### image/vnd.fpx
 
-> **image/vnd.fpx**: `object`
+> **fpx**: `object`
 
 ### image/vnd.fpx.extensions
 
@@ -21240,7 +21240,7 @@
 
 ### image/vnd.fst
 
-> **image/vnd.fst**: `object`
+> **fst**: `object`
 
 ### image/vnd.fst.extensions
 
@@ -21252,7 +21252,7 @@
 
 ### image/vnd.fujixerox.edmics-mmr
 
-> **image/vnd.fujixerox.edmics-mmr**: `object`
+> **edmics-mmr**: `object`
 
 ### image/vnd.fujixerox.edmics-mmr.extensions
 
@@ -21264,7 +21264,7 @@
 
 ### image/vnd.fujixerox.edmics-rlc
 
-> **image/vnd.fujixerox.edmics-rlc**: `object`
+> **edmics-rlc**: `object`
 
 ### image/vnd.fujixerox.edmics-rlc.extensions
 
@@ -21276,7 +21276,7 @@
 
 ### image/vnd.globalgraphics.pgb
 
-> **image/vnd.globalgraphics.pgb**: `object`
+> **pgb**: `object`
 
 ### image/vnd.globalgraphics.pgb.source
 
@@ -21284,7 +21284,7 @@
 
 ### image/vnd.microsoft.icon
 
-> **image/vnd.microsoft.icon**: `object`
+> **icon**: `object`
 
 ### image/vnd.microsoft.icon.compressible
 
@@ -21300,7 +21300,7 @@
 
 ### image/vnd.mix
 
-> **image/vnd.mix**: `object`
+> **mix**: `object`
 
 ### image/vnd.mix.source
 
@@ -21308,7 +21308,7 @@
 
 ### image/vnd.mozilla.apng
 
-> **image/vnd.mozilla.apng**: `object`
+> **apng**: `object`
 
 ### image/vnd.mozilla.apng.source
 
@@ -21316,7 +21316,7 @@
 
 ### image/vnd.ms-dds
 
-> **image/vnd.ms-dds**: `object`
+> **ms-dds**: `object`
 
 ### image/vnd.ms-dds.compressible
 
@@ -21328,7 +21328,7 @@
 
 ### image/vnd.ms-modi
 
-> **image/vnd.ms-modi**: `object`
+> **ms-modi**: `object`
 
 ### image/vnd.ms-modi.extensions
 
@@ -21340,7 +21340,7 @@
 
 ### image/vnd.ms-photo
 
-> **image/vnd.ms-photo**: `object`
+> **ms-photo**: `object`
 
 ### image/vnd.ms-photo.extensions
 
@@ -21352,7 +21352,7 @@
 
 ### image/vnd.net-fpx
 
-> **image/vnd.net-fpx**: `object`
+> **net-fpx**: `object`
 
 ### image/vnd.net-fpx.extensions
 
@@ -21364,7 +21364,7 @@
 
 ### image/vnd.pco.b16
 
-> **image/vnd.pco.b16**: `object`
+> **b16**: `object`
 
 ### image/vnd.pco.b16.extensions
 
@@ -21376,7 +21376,7 @@
 
 ### image/vnd.radiance
 
-> **image/vnd.radiance**: `object`
+> **radiance**: `object`
 
 ### image/vnd.radiance.source
 
@@ -21384,7 +21384,7 @@
 
 ### image/vnd.sealed.png
 
-> **image/vnd.sealed.png**: `object`
+> **png**: `object`
 
 ### image/vnd.sealed.png.source
 
@@ -21392,7 +21392,7 @@
 
 ### image/vnd.sealedmedia.softseal.gif
 
-> **image/vnd.sealedmedia.softseal.gif**: `object`
+> **gif**: `object`
 
 ### image/vnd.sealedmedia.softseal.gif.source
 
@@ -21400,7 +21400,7 @@
 
 ### image/vnd.sealedmedia.softseal.jpg
 
-> **image/vnd.sealedmedia.softseal.jpg**: `object`
+> **jpg**: `object`
 
 ### image/vnd.sealedmedia.softseal.jpg.source
 
@@ -21408,7 +21408,7 @@
 
 ### image/vnd.svf
 
-> **image/vnd.svf**: `object`
+> **svf**: `object`
 
 ### image/vnd.svf.source
 
@@ -21416,7 +21416,7 @@
 
 ### image/vnd.tencent.tap
 
-> **image/vnd.tencent.tap**: `object`
+> **tap**: `object`
 
 ### image/vnd.tencent.tap.extensions
 
@@ -21428,7 +21428,7 @@
 
 ### image/vnd.valve.source.texture
 
-> **image/vnd.valve.source.texture**: `object`
+> **texture**: `object`
 
 ### image/vnd.valve.source.texture.extensions
 
@@ -21440,7 +21440,7 @@
 
 ### image/vnd.wap.wbmp
 
-> **image/vnd.wap.wbmp**: `object`
+> **wbmp**: `object`
 
 ### image/vnd.wap.wbmp.extensions
 
@@ -21452,7 +21452,7 @@
 
 ### image/vnd.xiff
 
-> **image/vnd.xiff**: `object`
+> **xiff**: `object`
 
 ### image/vnd.xiff.extensions
 
@@ -21464,7 +21464,7 @@
 
 ### image/vnd.zbrush.pcx
 
-> **image/vnd.zbrush.pcx**: `object`
+> **pcx**: `object`
 
 ### image/vnd.zbrush.pcx.extensions
 
@@ -21928,7 +21928,7 @@
 
 ### message/vnd.si.simp
 
-> **message/vnd.si.simp**: `object`
+> **simp**: `object`
 
 ### message/vnd.si.simp.source
 
@@ -21936,7 +21936,7 @@
 
 ### message/vnd.wfa.wsc
 
-> **message/vnd.wfa.wsc**: `object`
+> **wsc**: `object`
 
 ### message/vnd.wfa.wsc.extensions
 
@@ -22124,7 +22124,7 @@
 
 ### model/vnd.collada+xml
 
-> **model/vnd.collada+xml**: `object`
+> **collada+xml**: `object`
 
 ### model/vnd.collada+xml.compressible
 
@@ -22140,7 +22140,7 @@
 
 ### model/vnd.dwf
 
-> **model/vnd.dwf**: `object`
+> **dwf**: `object`
 
 ### model/vnd.dwf.extensions
 
@@ -22152,7 +22152,7 @@
 
 ### model/vnd.flatland.3dml
 
-> **model/vnd.flatland.3dml**: `object`
+> **3dml**: `object`
 
 ### model/vnd.flatland.3dml.source
 
@@ -22160,7 +22160,7 @@
 
 ### model/vnd.gdl
 
-> **model/vnd.gdl**: `object`
+> **gdl**: `object`
 
 ### model/vnd.gdl.extensions
 
@@ -22172,7 +22172,7 @@
 
 ### model/vnd.gs-gdl
 
-> **model/vnd.gs-gdl**: `object`
+> **gs-gdl**: `object`
 
 ### model/vnd.gs-gdl.source
 
@@ -22180,7 +22180,7 @@
 
 ### model/vnd.gs.gdl
 
-> **model/vnd.gs.gdl**: `object`
+> **gdl**: `object`
 
 ### model/vnd.gs.gdl.source
 
@@ -22188,7 +22188,7 @@
 
 ### model/vnd.gtw
 
-> **model/vnd.gtw**: `object`
+> **gtw**: `object`
 
 ### model/vnd.gtw.extensions
 
@@ -22200,7 +22200,7 @@
 
 ### model/vnd.moml+xml
 
-> **model/vnd.moml+xml**: `object`
+> **moml+xml**: `object`
 
 ### model/vnd.moml+xml.compressible
 
@@ -22212,7 +22212,7 @@
 
 ### model/vnd.mts
 
-> **model/vnd.mts**: `object`
+> **mts**: `object`
 
 ### model/vnd.mts.extensions
 
@@ -22224,7 +22224,7 @@
 
 ### model/vnd.opengex
 
-> **model/vnd.opengex**: `object`
+> **opengex**: `object`
 
 ### model/vnd.opengex.extensions
 
@@ -22236,7 +22236,7 @@
 
 ### model/vnd.parasolid.transmit.binary
 
-> **model/vnd.parasolid.transmit.binary**: `object`
+> **binary**: `object`
 
 ### model/vnd.parasolid.transmit.binary.extensions
 
@@ -22248,7 +22248,7 @@
 
 ### model/vnd.parasolid.transmit.text
 
-> **model/vnd.parasolid.transmit.text**: `object`
+> **text**: `object`
 
 ### model/vnd.parasolid.transmit.text.extensions
 
@@ -22260,7 +22260,7 @@
 
 ### model/vnd.pytha.pyox
 
-> **model/vnd.pytha.pyox**: `object`
+> **pyox**: `object`
 
 ### model/vnd.pytha.pyox.source
 
@@ -22268,7 +22268,7 @@
 
 ### model/vnd.rosette.annotated-data-model
 
-> **model/vnd.rosette.annotated-data-model**: `object`
+> **annotated-data-model**: `object`
 
 ### model/vnd.rosette.annotated-data-model.source
 
@@ -22276,7 +22276,7 @@
 
 ### model/vnd.sap.vds
 
-> **model/vnd.sap.vds**: `object`
+> **vds**: `object`
 
 ### model/vnd.sap.vds.extensions
 
@@ -22288,7 +22288,7 @@
 
 ### model/vnd.usdz+zip
 
-> **model/vnd.usdz+zip**: `object`
+> **usdz+zip**: `object`
 
 ### model/vnd.usdz+zip.compressible
 
@@ -22304,7 +22304,7 @@
 
 ### model/vnd.valve.source.compiled-map
 
-> **model/vnd.valve.source.compiled-map**: `object`
+> **compiled-map**: `object`
 
 ### model/vnd.valve.source.compiled-map.extensions
 
@@ -22316,7 +22316,7 @@
 
 ### model/vnd.vtu
 
-> **model/vnd.vtu**: `object`
+> **vtu**: `object`
 
 ### model/vnd.vtu.extensions
 
@@ -22540,7 +22540,7 @@
 
 ### multipart/vnd.bint.med-plus
 
-> **multipart/vnd.bint.med-plus**: `object`
+> **med-plus**: `object`
 
 ### multipart/vnd.bint.med-plus.source
 
@@ -22956,7 +22956,7 @@
 
 ### text/prs.fallenstein.rst
 
-> **text/prs.fallenstein.rst**: `object`
+> **rst**: `object`
 
 ### text/prs.fallenstein.rst.source
 
@@ -22964,7 +22964,7 @@
 
 ### text/prs.lines.tag
 
-> **text/prs.lines.tag**: `object`
+> **tag**: `object`
 
 ### text/prs.lines.tag.extensions
 
@@ -22976,7 +22976,7 @@
 
 ### text/prs.prop.logic
 
-> **text/prs.prop.logic**: `object`
+> **logic**: `object`
 
 ### text/prs.prop.logic.source
 
@@ -23224,7 +23224,7 @@
 
 ### text/vnd.a
 
-> **text/vnd.a**: `object`
+> **a**: `object`
 
 ### text/vnd.a.source
 
@@ -23232,7 +23232,7 @@
 
 ### text/vnd.abc
 
-> **text/vnd.abc**: `object`
+> **abc**: `object`
 
 ### text/vnd.abc.source
 
@@ -23240,7 +23240,7 @@
 
 ### text/vnd.ascii-art
 
-> **text/vnd.ascii-art**: `object`
+> **ascii-art**: `object`
 
 ### text/vnd.ascii-art.source
 
@@ -23248,7 +23248,7 @@
 
 ### text/vnd.curl
 
-> **text/vnd.curl**: `object`
+> **curl**: `object`
 
 ### text/vnd.curl.extensions
 
@@ -23260,7 +23260,7 @@
 
 ### text/vnd.curl.dcurl
 
-> **text/vnd.curl.dcurl**: `object`
+> **dcurl**: `object`
 
 ### text/vnd.curl.dcurl.extensions
 
@@ -23272,7 +23272,7 @@
 
 ### text/vnd.curl.mcurl
 
-> **text/vnd.curl.mcurl**: `object`
+> **mcurl**: `object`
 
 ### text/vnd.curl.mcurl.extensions
 
@@ -23284,7 +23284,7 @@
 
 ### text/vnd.curl.scurl
 
-> **text/vnd.curl.scurl**: `object`
+> **scurl**: `object`
 
 ### text/vnd.curl.scurl.extensions
 
@@ -23296,7 +23296,7 @@
 
 ### text/vnd.debian.copyright
 
-> **text/vnd.debian.copyright**: `object`
+> **copyright**: `object`
 
 ### text/vnd.debian.copyright.charset
 
@@ -23308,7 +23308,7 @@
 
 ### text/vnd.dmclientscript
 
-> **text/vnd.dmclientscript**: `object`
+> **dmclientscript**: `object`
 
 ### text/vnd.dmclientscript.source
 
@@ -23316,7 +23316,7 @@
 
 ### text/vnd.dvb.subtitle
 
-> **text/vnd.dvb.subtitle**: `object`
+> **subtitle**: `object`
 
 ### text/vnd.dvb.subtitle.extensions
 
@@ -23328,7 +23328,7 @@
 
 ### text/vnd.esmertec.theme-descriptor
 
-> **text/vnd.esmertec.theme-descriptor**: `object`
+> **theme-descriptor**: `object`
 
 ### text/vnd.esmertec.theme-descriptor.charset
 
@@ -23340,7 +23340,7 @@
 
 ### text/vnd.familysearch.gedcom
 
-> **text/vnd.familysearch.gedcom**: `object`
+> **gedcom**: `object`
 
 ### text/vnd.familysearch.gedcom.extensions
 
@@ -23352,7 +23352,7 @@
 
 ### text/vnd.ficlab.flt
 
-> **text/vnd.ficlab.flt**: `object`
+> **flt**: `object`
 
 ### text/vnd.ficlab.flt.source
 
@@ -23360,7 +23360,7 @@
 
 ### text/vnd.fly
 
-> **text/vnd.fly**: `object`
+> **fly**: `object`
 
 ### text/vnd.fly.extensions
 
@@ -23372,7 +23372,7 @@
 
 ### text/vnd.fmi.flexstor
 
-> **text/vnd.fmi.flexstor**: `object`
+> **flexstor**: `object`
 
 ### text/vnd.fmi.flexstor.extensions
 
@@ -23384,7 +23384,7 @@
 
 ### text/vnd.gml
 
-> **text/vnd.gml**: `object`
+> **gml**: `object`
 
 ### text/vnd.gml.source
 
@@ -23392,7 +23392,7 @@
 
 ### text/vnd.graphviz
 
-> **text/vnd.graphviz**: `object`
+> **graphviz**: `object`
 
 ### text/vnd.graphviz.extensions
 
@@ -23404,7 +23404,7 @@
 
 ### text/vnd.hans
 
-> **text/vnd.hans**: `object`
+> **hans**: `object`
 
 ### text/vnd.hans.source
 
@@ -23412,7 +23412,7 @@
 
 ### text/vnd.hgl
 
-> **text/vnd.hgl**: `object`
+> **hgl**: `object`
 
 ### text/vnd.hgl.source
 
@@ -23420,7 +23420,7 @@
 
 ### text/vnd.in3d.3dml
 
-> **text/vnd.in3d.3dml**: `object`
+> **3dml**: `object`
 
 ### text/vnd.in3d.3dml.extensions
 
@@ -23432,7 +23432,7 @@
 
 ### text/vnd.in3d.spot
 
-> **text/vnd.in3d.spot**: `object`
+> **spot**: `object`
 
 ### text/vnd.in3d.spot.extensions
 
@@ -23444,7 +23444,7 @@
 
 ### text/vnd.iptc.newsml
 
-> **text/vnd.iptc.newsml**: `object`
+> **newsml**: `object`
 
 ### text/vnd.iptc.newsml.source
 
@@ -23452,7 +23452,7 @@
 
 ### text/vnd.iptc.nitf
 
-> **text/vnd.iptc.nitf**: `object`
+> **nitf**: `object`
 
 ### text/vnd.iptc.nitf.source
 
@@ -23460,7 +23460,7 @@
 
 ### text/vnd.latex-z
 
-> **text/vnd.latex-z**: `object`
+> **latex-z**: `object`
 
 ### text/vnd.latex-z.source
 
@@ -23468,7 +23468,7 @@
 
 ### text/vnd.motorola.reflex
 
-> **text/vnd.motorola.reflex**: `object`
+> **reflex**: `object`
 
 ### text/vnd.motorola.reflex.source
 
@@ -23476,7 +23476,7 @@
 
 ### text/vnd.ms-mediapackage
 
-> **text/vnd.ms-mediapackage**: `object`
+> **ms-mediapackage**: `object`
 
 ### text/vnd.ms-mediapackage.source
 
@@ -23484,7 +23484,7 @@
 
 ### text/vnd.net2phone.commcenter.command
 
-> **text/vnd.net2phone.commcenter.command**: `object`
+> **command**: `object`
 
 ### text/vnd.net2phone.commcenter.command.source
 
@@ -23492,7 +23492,7 @@
 
 ### text/vnd.radisys.msml-basic-layout
 
-> **text/vnd.radisys.msml-basic-layout**: `object`
+> **msml-basic-layout**: `object`
 
 ### text/vnd.radisys.msml-basic-layout.source
 
@@ -23500,7 +23500,7 @@
 
 ### text/vnd.senx.warpscript
 
-> **text/vnd.senx.warpscript**: `object`
+> **warpscript**: `object`
 
 ### text/vnd.senx.warpscript.source
 
@@ -23508,7 +23508,7 @@
 
 ### text/vnd.si.uricatalogue
 
-> **text/vnd.si.uricatalogue**: `object`
+> **uricatalogue**: `object`
 
 ### text/vnd.si.uricatalogue.source
 
@@ -23516,7 +23516,7 @@
 
 ### text/vnd.sosi
 
-> **text/vnd.sosi**: `object`
+> **sosi**: `object`
 
 ### text/vnd.sosi.source
 
@@ -23524,7 +23524,7 @@
 
 ### text/vnd.sun.j2me.app-descriptor
 
-> **text/vnd.sun.j2me.app-descriptor**: `object`
+> **app-descriptor**: `object`
 
 ### text/vnd.sun.j2me.app-descriptor.charset
 
@@ -23540,7 +23540,7 @@
 
 ### text/vnd.trolltech.linguist
 
-> **text/vnd.trolltech.linguist**: `object`
+> **linguist**: `object`
 
 ### text/vnd.trolltech.linguist.charset
 
@@ -23552,7 +23552,7 @@
 
 ### text/vnd.wap.si
 
-> **text/vnd.wap.si**: `object`
+> **si**: `object`
 
 ### text/vnd.wap.si.source
 
@@ -23560,7 +23560,7 @@
 
 ### text/vnd.wap.sl
 
-> **text/vnd.wap.sl**: `object`
+> **sl**: `object`
 
 ### text/vnd.wap.sl.source
 
@@ -23568,7 +23568,7 @@
 
 ### text/vnd.wap.wml
 
-> **text/vnd.wap.wml**: `object`
+> **wml**: `object`
 
 ### text/vnd.wap.wml.extensions
 
@@ -23580,7 +23580,7 @@
 
 ### text/vnd.wap.wmlscript
 
-> **text/vnd.wap.wmlscript**: `object`
+> **wmlscript**: `object`
 
 ### text/vnd.wap.wmlscript.extensions
 
@@ -24080,7 +24080,7 @@
 
 ### video/iso.segment
 
-> **video/iso.segment**: `object`
+> **segment**: `object`
 
 ### video/iso.segment.extensions
 
@@ -24372,7 +24372,7 @@
 
 ### video/vnd.cctv
 
-> **video/vnd.cctv**: `object`
+> **cctv**: `object`
 
 ### video/vnd.cctv.source
 
@@ -24380,7 +24380,7 @@
 
 ### video/vnd.dece.hd
 
-> **video/vnd.dece.hd**: `object`
+> **hd**: `object`
 
 ### video/vnd.dece.hd.extensions
 
@@ -24392,7 +24392,7 @@
 
 ### video/vnd.dece.mobile
 
-> **video/vnd.dece.mobile**: `object`
+> **mobile**: `object`
 
 ### video/vnd.dece.mobile.extensions
 
@@ -24404,7 +24404,7 @@
 
 ### video/vnd.dece.mp4
 
-> **video/vnd.dece.mp4**: `object`
+> **mp4**: `object`
 
 ### video/vnd.dece.mp4.source
 
@@ -24412,7 +24412,7 @@
 
 ### video/vnd.dece.pd
 
-> **video/vnd.dece.pd**: `object`
+> **pd**: `object`
 
 ### video/vnd.dece.pd.extensions
 
@@ -24424,7 +24424,7 @@
 
 ### video/vnd.dece.sd
 
-> **video/vnd.dece.sd**: `object`
+> **sd**: `object`
 
 ### video/vnd.dece.sd.extensions
 
@@ -24436,7 +24436,7 @@
 
 ### video/vnd.dece.video
 
-> **video/vnd.dece.video**: `object`
+> **video**: `object`
 
 ### video/vnd.dece.video.extensions
 
@@ -24448,7 +24448,7 @@
 
 ### video/vnd.directv.mpeg
 
-> **video/vnd.directv.mpeg**: `object`
+> **mpeg**: `object`
 
 ### video/vnd.directv.mpeg.source
 
@@ -24456,7 +24456,7 @@
 
 ### video/vnd.directv.mpeg-tts
 
-> **video/vnd.directv.mpeg-tts**: `object`
+> **mpeg-tts**: `object`
 
 ### video/vnd.directv.mpeg-tts.source
 
@@ -24464,7 +24464,7 @@
 
 ### video/vnd.dlna.mpeg-tts
 
-> **video/vnd.dlna.mpeg-tts**: `object`
+> **mpeg-tts**: `object`
 
 ### video/vnd.dlna.mpeg-tts.source
 
@@ -24472,7 +24472,7 @@
 
 ### video/vnd.dvb.file
 
-> **video/vnd.dvb.file**: `object`
+> **file**: `object`
 
 ### video/vnd.dvb.file.extensions
 
@@ -24484,7 +24484,7 @@
 
 ### video/vnd.fvt
 
-> **video/vnd.fvt**: `object`
+> **fvt**: `object`
 
 ### video/vnd.fvt.extensions
 
@@ -24496,7 +24496,7 @@
 
 ### video/vnd.hns.video
 
-> **video/vnd.hns.video**: `object`
+> **video**: `object`
 
 ### video/vnd.hns.video.source
 
@@ -24504,7 +24504,7 @@
 
 ### video/vnd.iptvforum.1dparityfec-1010
 
-> **video/vnd.iptvforum.1dparityfec-1010**: `object`
+> **1dparityfec-1010**: `object`
 
 ### video/vnd.iptvforum.1dparityfec-1010.source
 
@@ -24512,7 +24512,7 @@
 
 ### video/vnd.iptvforum.1dparityfec-2005
 
-> **video/vnd.iptvforum.1dparityfec-2005**: `object`
+> **1dparityfec-2005**: `object`
 
 ### video/vnd.iptvforum.1dparityfec-2005.source
 
@@ -24520,7 +24520,7 @@
 
 ### video/vnd.iptvforum.2dparityfec-1010
 
-> **video/vnd.iptvforum.2dparityfec-1010**: `object`
+> **2dparityfec-1010**: `object`
 
 ### video/vnd.iptvforum.2dparityfec-1010.source
 
@@ -24528,7 +24528,7 @@
 
 ### video/vnd.iptvforum.2dparityfec-2005
 
-> **video/vnd.iptvforum.2dparityfec-2005**: `object`
+> **2dparityfec-2005**: `object`
 
 ### video/vnd.iptvforum.2dparityfec-2005.source
 
@@ -24536,7 +24536,7 @@
 
 ### video/vnd.iptvforum.ttsavc
 
-> **video/vnd.iptvforum.ttsavc**: `object`
+> **ttsavc**: `object`
 
 ### video/vnd.iptvforum.ttsavc.source
 
@@ -24544,7 +24544,7 @@
 
 ### video/vnd.iptvforum.ttsmpeg2
 
-> **video/vnd.iptvforum.ttsmpeg2**: `object`
+> **ttsmpeg2**: `object`
 
 ### video/vnd.iptvforum.ttsmpeg2.source
 
@@ -24552,7 +24552,7 @@
 
 ### video/vnd.motorola.video
 
-> **video/vnd.motorola.video**: `object`
+> **video**: `object`
 
 ### video/vnd.motorola.video.source
 
@@ -24560,7 +24560,7 @@
 
 ### video/vnd.motorola.videop
 
-> **video/vnd.motorola.videop**: `object`
+> **videop**: `object`
 
 ### video/vnd.motorola.videop.source
 
@@ -24568,7 +24568,7 @@
 
 ### video/vnd.mpegurl
 
-> **video/vnd.mpegurl**: `object`
+> **mpegurl**: `object`
 
 ### video/vnd.mpegurl.extensions
 
@@ -24580,7 +24580,7 @@
 
 ### video/vnd.ms-playready.media.pyv
 
-> **video/vnd.ms-playready.media.pyv**: `object`
+> **pyv**: `object`
 
 ### video/vnd.ms-playready.media.pyv.extensions
 
@@ -24592,7 +24592,7 @@
 
 ### video/vnd.nokia.interleaved-multimedia
 
-> **video/vnd.nokia.interleaved-multimedia**: `object`
+> **interleaved-multimedia**: `object`
 
 ### video/vnd.nokia.interleaved-multimedia.source
 
@@ -24600,7 +24600,7 @@
 
 ### video/vnd.nokia.mp4vr
 
-> **video/vnd.nokia.mp4vr**: `object`
+> **mp4vr**: `object`
 
 ### video/vnd.nokia.mp4vr.source
 
@@ -24608,7 +24608,7 @@
 
 ### video/vnd.nokia.videovoip
 
-> **video/vnd.nokia.videovoip**: `object`
+> **videovoip**: `object`
 
 ### video/vnd.nokia.videovoip.source
 
@@ -24616,7 +24616,7 @@
 
 ### video/vnd.objectvideo
 
-> **video/vnd.objectvideo**: `object`
+> **objectvideo**: `object`
 
 ### video/vnd.objectvideo.source
 
@@ -24624,7 +24624,7 @@
 
 ### video/vnd.radgamettools.bink
 
-> **video/vnd.radgamettools.bink**: `object`
+> **bink**: `object`
 
 ### video/vnd.radgamettools.bink.source
 
@@ -24632,7 +24632,7 @@
 
 ### video/vnd.radgamettools.smacker
 
-> **video/vnd.radgamettools.smacker**: `object`
+> **smacker**: `object`
 
 ### video/vnd.radgamettools.smacker.source
 
@@ -24640,7 +24640,7 @@
 
 ### video/vnd.sealed.mpeg1
 
-> **video/vnd.sealed.mpeg1**: `object`
+> **mpeg1**: `object`
 
 ### video/vnd.sealed.mpeg1.source
 
@@ -24648,7 +24648,7 @@
 
 ### video/vnd.sealed.mpeg4
 
-> **video/vnd.sealed.mpeg4**: `object`
+> **mpeg4**: `object`
 
 ### video/vnd.sealed.mpeg4.source
 
@@ -24656,7 +24656,7 @@
 
 ### video/vnd.sealed.swf
 
-> **video/vnd.sealed.swf**: `object`
+> **swf**: `object`
 
 ### video/vnd.sealed.swf.source
 
@@ -24664,7 +24664,7 @@
 
 ### video/vnd.sealedmedia.softseal.mov
 
-> **video/vnd.sealedmedia.softseal.mov**: `object`
+> **mov**: `object`
 
 ### video/vnd.sealedmedia.softseal.mov.source
 
@@ -24672,7 +24672,7 @@
 
 ### video/vnd.uvvu.mp4
 
-> **video/vnd.uvvu.mp4**: `object`
+> **mp4**: `object`
 
 ### video/vnd.uvvu.mp4.extensions
 
@@ -24684,7 +24684,7 @@
 
 ### video/vnd.vivo
 
-> **video/vnd.vivo**: `object`
+> **vivo**: `object`
 
 ### video/vnd.vivo.extensions
 
@@ -24696,7 +24696,7 @@
 
 ### video/vnd.youtube.yt
 
-> **video/vnd.youtube.yt**: `object`
+> **yt**: `object`
 
 ### video/vnd.youtube.yt.source
 
@@ -24954,6 +24954,6 @@
 
 > **compressible**: `boolean` = `true`
 
-## Source
+## Defined in
 
-[src/mime-db.js:1](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/mime-db.js#L1)
+[src/mime-db.js:1](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/mime-db.js#L1)

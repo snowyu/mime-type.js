@@ -8,6 +8,6 @@
 
 > `const` **mimeType**: [`MimeType`](../../index/classes/MimeType.md)
 
-## Source
+## Defined in
 
-[src/with-db.d.ts:3](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/with-db.d.ts#L3)
+[src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/with-db.js#L4)

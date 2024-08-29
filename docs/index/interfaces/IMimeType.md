@@ -12,9 +12,9 @@
 
 > `optional` **charset**: `string`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L10)
+[src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L10)
 
 ***
 
@@ -22,9 +22,9 @@
 
 > `optional` **compressible**: `boolean`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L11)
+[src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L11)
 
 ***
 
@@ -32,9 +32,9 @@
 
 > **extensions**: `string` \| `string`[]
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L12)
+[src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L12)
 
 ***
 
@@ -42,6 +42,6 @@
 
 > **source**: `string`
 
-#### Source
+#### Defined in
 
-[src/index.d.ts:9](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L9)
+[src/index.d.ts:9](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L9)

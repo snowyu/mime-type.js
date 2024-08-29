@@ -7,7 +7,7 @@
 ## Modules
 
 - [index](index/README.md)
-- [index](index/README-1.md)
+- [index](index/README.md)
 - [mime-db](mime-db/README.md)
 - [with-db](with-db/README.md)
-- [with-db](with-db/README-1.md)
+- [with-db](with-db/README.md)

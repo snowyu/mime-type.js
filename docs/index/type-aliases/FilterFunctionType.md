@@ -4,7 +4,7 @@
 
 [mime-type](../../modules.md) / [index](../README.md) / FilterFunctionType
 
-# Type alias: FilterFunctionType()
+# Type Alias: FilterFunctionType()
 
 > **FilterFunctionType**: (`type`, `mime`) => `number`
 
@@ -18,6 +18,6 @@
 
 `number`
 
-## Source
+## Defined in
 
-[src/index.d.ts:19](https://github.com/snowyu/mime-type.js/blob/506a27e6fa8f524713529ccf752c8cd017a98081/src/index.d.ts#L19)
+[src/index.d.ts:19](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L19)
