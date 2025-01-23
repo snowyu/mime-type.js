@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.0.1](https://github.com/snowyu/mime-type.js/compare/v5.0.0...v5.0.1) (2025-01-23)
+
+
+### Bug Fixes
+
+* can not using on broswser if no polyfill process ([f95519c](https://github.com/snowyu/mime-type.js/commit/f95519c7d0f59cc981e45696b6b0461d0cc9022d))
+
 ## [5.0.0](https://github.com/snowyu/mime-type.js/compare/v5.0.0-alpha.2...v5.0.0) (2024-08-29)
 
 ## [5.0.0-alpha.2](https://github.com/snowyu/mime-type.js/compare/v5.0.0-alpha.1...v5.0.0-alpha.2) (2024-06-08)
