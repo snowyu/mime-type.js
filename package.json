@@ -78,5 +78,15 @@
     "release": "npm run clean && npm run build && git add docs && git ci -m 'docs: update API docs' && npx commit-and-tag-version -s",
     "release.alpha": "npm run release -- --prerelease alpha",
     "test": "mocha"
+  },
+  "overrides": {
+    "micromatch@4": {
+      "picomatch": "4.0.2"
+    }
+  },
+  "pnpm": {
+    "overrides": {
+      "micromatch@4>picomatch": "4.0.2"
+    }
   }
 }
