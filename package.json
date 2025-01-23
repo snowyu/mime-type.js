@@ -30,26 +30,26 @@
   },
   "repository": "snowyu/mime-type.js",
   "dependencies": {
-    "micromatch": "^4.0.5",
-    "path.js": "^2.0.0",
-    "util-ex": "^2.0.0"
+    "picomatch": "^4.0.2",
+    "path.js": "^2.0.1",
+    "util-ex": "^2.1.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.18.1",
-    "@babel/cli": "^7.24.5",
-    "@babel/core": "^7.24.5",
-    "@babel/plugin-transform-modules-commonjs": "^7.24.1",
-    "@babel/register": "^7.23.7",
-    "chai": "~5.1.1",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-tsdoc": "^0.2.17",
-    "mocha": "~10.4.0",
-    "prettier": "^3.2.5",
-    "sinon": "~18.0.0",
-    "typedoc": "^0.26.6",
-    "typedoc-plugin-markdown": "^4.2.6",
-    "typescript": "^5.4.5"
+    "@antfu/eslint-config": "^3.16.0",
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
+    "@babel/register": "^7.25.9",
+    "chai": "~5.1.2",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-tsdoc": "^0.4.0",
+    "mocha": "~11.1.0",
+    "prettier": "^3.4.2",
+    "sinon": "~19.0.2",
+    "typedoc": "^0.27.6",
+    "typedoc-plugin-markdown": "^4.4.1",
+    "typescript": "^5.7.3"
   },
   "pre-commit": [
     "test"

@@ -1,6 +1,10 @@
-import { isMatch } from 'micromatch'
+import picomatch from 'picomatch/posix'
 import { defineProperty, isArray, isString, isFunction } from 'util-ex'
 import path from 'path.js'
+
+function isMatch(str, pattern, options) {
+  return picomatch(pattern, options)(str)
+}
 
 const extractTypeRegExp = /^\s*([^;\s]*)(?:;|\s|$)/
 const textTypeRegExp = /^text\//i
