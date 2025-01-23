@@ -1,12 +1,19 @@
 import { isMatch } from 'micromatch'
 import { defineProperty, isArray, isString, isFunction } from 'util-ex'
-import path from 'path.js'
 
 const extractTypeRegExp = /^\s*([^;\s]*)(?:;|\s|$)/
 const textTypeRegExp = /^text\//i
 const indexOf = Array.prototype.indexOf
 
 const refSources = ['nginx', 'apache', undefined, 'iana']
+
+
+const getFileExtension = (filename) => {
+  if (filename.indexOf('.') == -1) {
+    return ''
+  }
+  return filename.split('.').pop()
+}
 
 MimeType.prototype.dupDefault = 0;
 MimeType.prototype.dupSkip = 1;
@@ -138,7 +145,7 @@ MimeType.prototype.lookup = function(aPath) {
   var extension, result;
   if (aPath && isString(aPath)) {
     // get the extension ("ext" or ".ext" or full path)
-    extension = path.extname('x.' + aPath).toLowerCase().slice(1);
+    extension = getFileExtension('x.' + aPath).toLowerCase();
     if (extension) {
       if (/[*?!+|{]/.test(extension)) {
         result = Object.keys(this.types).filter((name) => isMatch(name, extension))
