@@ -1,4 +1,4 @@
-[**mime-type**](README.md) • **Docs**
+[**mime-type**](README.md)
 
 ***
 

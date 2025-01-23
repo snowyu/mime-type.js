@@ -1,4 +1,4 @@
-[**mime-type**](../../README.md) • **Docs**
+[**mime-type**](../../README.md)
 
 ***
 
@@ -8,6 +8,4 @@
 
 > `const` **mimeType**: [`MimeType`](../../index/classes/MimeType.md)
 
-## Defined in
-
-[src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/with-db.js#L4)
+Defined in: [src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/with-db.js#L4)

@@ -1,4 +1,4 @@
-[**mime-type**](../../README.md) • **Docs**
+[**mime-type**](../../README.md)
 
 ***
 
@@ -8,16 +8,18 @@
 
 > **FilterFunctionType**: (`type`, `mime`) => `number`
 
+Defined in: [src/index.d.ts:19](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L19)
+
 ## Parameters
 
-• **type**: `string`
+### type
 
-• **mime**: [`IMimeType`](../interfaces/IMimeType.md)
+`string`
+
+### mime
+
+[`IMimeType`](../interfaces/IMimeType.md)
 
 ## Returns
 
 `number`
-
-## Defined in
-
-[src/index.d.ts:19](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L19)

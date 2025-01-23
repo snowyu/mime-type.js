@@ -1,4 +1,4 @@
-[**mime-type**](../README.md) • **Docs**
+[**mime-type**](../README.md)
 
 ***
 
@@ -6,20 +6,18 @@
 
 # with-db
 
-## Index
-
-### Variables
+## Variables
 
 - [mimeType](variables/mimeType.md)
 
 ## References
 
-### MimeType
-
-Re-exports [MimeType](../index/classes/MimeType.md)
-
-***
-
 ### default
 
 Renames and re-exports [mimeType](variables/mimeType.md)
+
+***
+
+### MimeType
+
+Re-exports [MimeType](../index/classes/MimeType.md)

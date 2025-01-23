@@ -1,4 +1,4 @@
-[**mime-type**](../../README.md) • **Docs**
+[**mime-type**](../../README.md)
 
 ***
 
@@ -6,15 +6,15 @@
 
 # Enumeration: DuplicationProcessWay
 
+Defined in: [src/index.d.ts:1](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L1)
+
 ## Enumeration Members
 
 ### dupAppend
 
 > **dupAppend**: `number`
 
-#### Defined in
-
-[src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L5)
+Defined in: [src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L5)
 
 ***
 
@@ -22,9 +22,7 @@
 
 > **dupDefault**: `0`
 
-#### Defined in
-
-[src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L2)
+Defined in: [src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L2)
 
 ***
 
@@ -32,9 +30,7 @@
 
 > **dupOverwrite**: `number`
 
-#### Defined in
-
-[src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L4)
+Defined in: [src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L4)
 
 ***
 
@@ -42,6 +38,4 @@
 
 > **dupSkip**: `number`
 
-#### Defined in
-
-[src/index.d.ts:3](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L3)
+Defined in: [src/index.d.ts:3](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L3)

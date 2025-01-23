@@ -1,4 +1,4 @@
-[**mime-type**](../../README.md) • **Docs**
+[**mime-type**](../../README.md)
 
 ***
 
@@ -6,15 +6,15 @@
 
 # Interface: IMimeType
 
+Defined in: [src/index.d.ts:8](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L8)
+
 ## Properties
 
 ### charset?
 
 > `optional` **charset**: `string`
 
-#### Defined in
-
-[src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L10)
+Defined in: [src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L10)
 
 ***
 
@@ -22,9 +22,7 @@
 
 > `optional` **compressible**: `boolean`
 
-#### Defined in
-
-[src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L11)
+Defined in: [src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L11)
 
 ***
 
@@ -32,9 +30,7 @@
 
 > **extensions**: `string` \| `string`[]
 
-#### Defined in
-
-[src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L12)
+Defined in: [src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L12)
 
 ***
 
@@ -42,6 +38,4 @@
 
 > **source**: `string`
 
-#### Defined in
-
-[src/index.d.ts:9](https://github.com/snowyu/mime-type.js/blob/165ae58f987ddcdd31d0f3b887dfc0429f306bf9/src/index.d.ts#L9)
+Defined in: [src/index.d.ts:9](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L9)

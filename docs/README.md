@@ -1,4 +1,4 @@
-**mime-type** • [**Docs**](modules.md)
+**mime-type**
 
 ***
 

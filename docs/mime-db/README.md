@@ -1,4 +1,4 @@
-[**mime-type**](../README.md) • **Docs**
+[**mime-type**](../README.md)
 
 ***
 
@@ -6,9 +6,7 @@
 
 # mime-db
 
-## Index
-
-### Variables
+## Variables
 
 - [mimeDb](variables/mimeDb.md)
 
