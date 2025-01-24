@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.0.2](https://github.com/snowyu/mime-type.js/compare/v5.0.1...v5.0.2) (2025-01-24)
+
+
+### Bug Fixes
+
+* should check process whether exists first ([9760c90](https://github.com/snowyu/mime-type.js/commit/9760c907e1fdc320b5be12e0479a34e07e83ea04))
+
 ## [5.0.1](https://github.com/snowyu/mime-type.js/compare/v5.0.0...v5.0.1) (2025-01-23)
 
 
