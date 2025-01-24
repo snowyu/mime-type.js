@@ -11,6 +11,7 @@ const textTypeRegExp = /^text\//i
 const indexOf = Array.prototype.indexOf
 
 const refSources = ['nginx', 'apache', undefined, 'iana']
+const shouldDebug = typeof process === 'object' && process && process.env && process.env.DEBUG_MIME
 
 MimeType.prototype.dupDefault = 0;
 MimeType.prototype.dupSkip = 1;
@@ -245,7 +246,7 @@ MimeType.prototype.define = function(type, mime, dup) {
           from = refSources.indexOf(this[t].source);
           to = refSources.indexOf(mime.source);
           if (t !== 'application/octet-stream' && from > to || from === to && t.substr(0, 12) === 'application/') {
-            if (process && process.env && process.env.DEBUG_MIME) {
+            if (shouldDebug) {
               console.warn("defineMime(" + type + "): the " + extension + " extension is exists on\n" + t + " skipped it.");
             }
             continue;
