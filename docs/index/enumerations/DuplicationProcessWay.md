@@ -6,7 +6,7 @@
 
 # Enumeration: DuplicationProcessWay
 
-Defined in: [src/index.d.ts:1](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L1)
+Defined in: [src/index.d.ts:1](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.d.ts#L1)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [src/index.d.ts:1](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **dupAppend**: `number`
 
-Defined in: [src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L5)
+Defined in: [src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.d.ts#L5)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/index.d.ts:5](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **dupDefault**: `0`
 
-Defined in: [src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L2)
+Defined in: [src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.d.ts#L2)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/index.d.ts:2](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **dupOverwrite**: `number`
 
-Defined in: [src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L4)
+Defined in: [src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.d.ts#L4)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [src/index.d.ts:4](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **dupSkip**: `number`
 
-Defined in: [src/index.d.ts:3](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L3)
+Defined in: [src/index.d.ts:3](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.d.ts#L3)

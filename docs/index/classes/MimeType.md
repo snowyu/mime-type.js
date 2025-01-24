@@ -6,7 +6,7 @@
 
 # Class: MimeType
 
-Defined in: [src/index.js:39](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L39)
+Defined in: [src/index.js:40](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L40)
 
 Constructs a MimeType object to manage MIME types and their associated extensions.
 
@@ -38,7 +38,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 > **new MimeType**(`db`, `duplicationProcessWay`?): [`MimeType`](MimeType.md)
 
-Defined in: [src/index.js:39](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L39)
+Defined in: [src/index.js:40](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L40)
 
 Constructs a MimeType object to manage MIME types and their associated extensions.
 
@@ -80,7 +80,7 @@ A flag specifying how to handle duplicate MIME type entries.
 
 > **dup**: `number`
 
-Defined in: [src/index.js:59](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L59)
+Defined in: [src/index.js:60](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L60)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [src/index.js:59](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **dupAppend**: `number`
 
-Defined in: [src/index.js:18](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L18)
+Defined in: [src/index.js:19](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L19)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [src/index.js:18](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **dupDefault**: `number`
 
-Defined in: [src/index.js:15](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L15)
+Defined in: [src/index.js:16](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L16)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [src/index.js:15](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **dupOverwrite**: `number`
 
-Defined in: [src/index.js:17](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L17)
+Defined in: [src/index.js:18](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L18)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [src/index.js:17](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **dupSkip**: `number`
 
-Defined in: [src/index.js:16](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L16)
+Defined in: [src/index.js:17](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L17)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [src/index.js:16](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **exist**: (`v`) => `boolean`
 
-Defined in: [src/index.js:182](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L182)
+Defined in: [src/index.js:183](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L183)
 
 Determines whether an object has a property with the specified name.
 
@@ -142,7 +142,7 @@ A property name.
 
 > **charset**(`type`): `any`
 
-Defined in: [src/index.js:73](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L73)
+Defined in: [src/index.js:74](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L74)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [src/index.js:73](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **clear**(`filter`): `number`
 
-Defined in: [src/index.js:320](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L320)
+Defined in: [src/index.js:321](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L321)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: [src/index.js:320](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **contentType**(`str`): `any`
 
-Defined in: [src/index.js:98](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L98)
+Defined in: [src/index.js:99](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L99)
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: [src/index.js:98](https://github.com/snowyu/mime-type.js/blob/f95519
 
 > **define**(`type`, `mime`, `dup`): `any`[]
 
-Defined in: [src/index.js:206](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L206)
+Defined in: [src/index.js:207](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L207)
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: [src/index.js:206](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **delete**(`type`): `boolean`
 
-Defined in: [src/index.js:292](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L292)
+Defined in: [src/index.js:293](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L293)
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: [src/index.js:292](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **extension**(`type`): `any`
 
-Defined in: [src/index.js:122](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L122)
+Defined in: [src/index.js:123](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L123)
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: [src/index.js:122](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **glob**(`pattern`): `string`[]
 
-Defined in: [src/index.js:165](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L165)
+Defined in: [src/index.js:166](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L166)
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: [src/index.js:165](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **load**(`mimes`, `duplicationProcessWay`): `number`
 
-Defined in: [src/index.js:273](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L273)
+Defined in: [src/index.js:274](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L274)
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: [src/index.js:273](https://github.com/snowyu/mime-type.js/blob/f9551
 
 > **lookup**(`aPath`): `any`
 
-Defined in: [src/index.js:141](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.js#L141)
+Defined in: [src/index.js:142](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.js#L142)
 
 #### Parameters
 

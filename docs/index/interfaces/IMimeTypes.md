@@ -6,7 +6,7 @@
 
 # Interface: IMimeTypes
 
-Defined in: [src/index.d.ts:15](https://github.com/snowyu/mime-type.js/blob/f95519c7d0f59cc981e45696b6b0461d0cc9022d/src/index.d.ts#L15)
+Defined in: [src/index.d.ts:15](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/index.d.ts#L15)
 
 ## Indexable
 
