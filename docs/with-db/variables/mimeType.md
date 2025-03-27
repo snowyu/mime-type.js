@@ -8,4 +8,4 @@
 
 > `const` **mimeType**: [`MimeType`](../../index/classes/MimeType.md)
 
-Defined in: [src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/with-db.js#L4)
+Defined in: [src/with-db.js:4](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/with-db.js#L4)

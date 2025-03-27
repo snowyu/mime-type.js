@@ -8,7 +8,7 @@
 
 > `const` **mimeDb**: `object`
 
-Defined in: [src/mime-db.js:1](https://github.com/snowyu/mime-type.js/blob/9760c907e1fdc320b5be12e0479a34e07e83ea04/src/mime-db.js#L1)
+Defined in: [src/mime-db.js:1](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/mime-db.js#L1)
 
 ## Type declaration
 
