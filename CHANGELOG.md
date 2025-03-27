@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.0.3](https://github.com/snowyu/mime-type.js/compare/v5.0.2...v5.0.3) (2025-03-27)
+
+
+### Bug Fixes
+
+* lookup mime-db should get all mime-types, eg .xml ([6051314](https://github.com/snowyu/mime-type.js/commit/6051314f0c074925c9a87a8ec54912ea5d451445))
+
 ## [5.0.2](https://github.com/snowyu/mime-type.js/compare/v5.0.1...v5.0.2) (2025-01-24)
 
 
