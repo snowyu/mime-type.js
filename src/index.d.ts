@@ -19,6 +19,11 @@ export interface IMimeTypes {
 export type FilterFunctionType = (type: string, mime: IMimeType) => number;
 
 export class MimeType {
+  static readonly dupDefault: DuplicationProcessWay.dupDefault;
+  static readonly dupSkip: DuplicationProcessWay.dupSkip;
+  static readonly dupOverwrite: DuplicationProcessWay.dupOverwrite;
+  static readonly dupAppend: DuplicationProcessWay.dupAppend;
+
   /**
    * Uses a default strategy where:
    *   - If the existing MIME type is 'application/octet-stream', it is not overwritten.

@@ -13,10 +13,10 @@ const indexOf = Array.prototype.indexOf
 const refSources = ['nginx', 'apache', undefined, 'iana']
 const shouldDebug = typeof process === 'object' && process && process.env && process.env.DEBUG_MIME
 
-MimeType.prototype.dupDefault = 0;
-MimeType.prototype.dupSkip = 1;
-MimeType.prototype.dupOverwrite = 2;
-MimeType.prototype.dupAppend = 3;
+MimeType.dupDefault = MimeType.prototype.dupDefault = 0;
+MimeType.dupSkip = MimeType.prototype.dupSkip = 1;
+MimeType.dupOverwrite = MimeType.prototype.dupOverwrite = 2;
+MimeType.dupAppend = MimeType.prototype.dupAppend = 3;
 
 /**
  * Constructs a MimeType object to manage MIME types and their associated extensions.

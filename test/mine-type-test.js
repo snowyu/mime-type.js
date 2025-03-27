@@ -267,7 +267,7 @@ describe('mimeType', function () {
     })
 
     it('should return mime type for ".rtf"', function () {
-      assert.equal(mimeType.lookup('.rtf'), 'application/rtf')
+      assert.deepEqual(mimeType.lookup('.rtf'), ['application/rtf', 'text/rtf'])
     })
 
     it('should return mime type for ".txt"', function () {
@@ -275,17 +275,17 @@ describe('mimeType', function () {
     })
 
     it('should return mime type for ".xml"', function () {
-      assert.equal(mimeType.lookup('.xml'), 'application/xml')
+      assert.deepEqual(mimeType.lookup('.xml'), ['application/xml', 'text/xml'])
     })
 
     it('should work without the leading dot', function () {
       assert.equal(mimeType.lookup('html'), 'text/html')
-      assert.equal(mimeType.lookup('xml'), 'application/xml')
+      assert.deepEqual(mimeType.lookup('xml'), ['application/xml', 'text/xml'])
     })
 
     it('should be case insensitive', function () {
       assert.equal(mimeType.lookup('HTML'), 'text/html')
-      assert.equal(mimeType.lookup('.Xml'), 'application/xml')
+      assert.deepEqual(mimeType.lookup('.Xml'), ['application/xml', 'text/xml'])
     })
 
     it('should return undefined for unknown extension', function () {
@@ -332,6 +332,10 @@ describe('mimeType', function () {
 
     it('should return undefined for path without extension', function () {
       assert.strictEqual(mimeType.lookup('/path/to/json'), undefined)
+    })
+
+    it('should return multimime types', function () {
+      assert.deepEqual(mimeType.lookup('some.xml'), ['application/xml', 'text/xml'])
     })
 
     describe('path with dotfile', function () {
