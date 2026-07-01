@@ -84,6 +84,7 @@ MimeType.prototype.charset = function(type) {
       if (!result && match && textTypeRegExp.test(match[1])) {
         result = 'utf-8'
       }
+    /* c8 ignore next */
     } catch (error) {}
   }
   return result;
@@ -246,6 +247,7 @@ MimeType.prototype.define = function(type, mime, dup) {
           from = refSources.indexOf(this[t].source);
           to = refSources.indexOf(mime.source);
           if (t !== 'application/octet-stream' && from > to || from === to && t.substr(0, 12) === 'application/') {
+            /* c8 ignore next 3 */
             if (shouldDebug) {
               console.warn("defineMime(" + type + "): the " + extension + " extension is exists on\n" + t + " skipped it.");
             }

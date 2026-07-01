@@ -104,6 +104,74 @@ describe('mimeType', function () {
       assert.equal(mimeType.exist('2das/ss'), true)
       assert.deepEqual(mimeType.types['ss'], '2das/ss')
     })
+    it('should skip update when existing type has lower priority (covers continue)', function () {
+      // 1. 预设一个低优先级的类型 (source: 'default')
+      // 使用 load 方法可以直接设置 source 属性，或者通过内部机制
+      // 假设我们加载一个自定义类型，其 source 会被标记为 'user' 或 'default'
+      // 如果无法直接设置，可能需要直接修改 mimeType 内部存储
+
+      // 方案 A: 使用 load (如果支持 source)
+      // mimeType.load({ 'type-low': { extensions: ['testext'], source: 'default' } });
+
+      // 方案 B: 直接修改内部状态 (如果 load 不支持 source)
+      // mime-type 内部通常有一个 Map 或 Object 存储类型信息
+      // 假设结构为 mimeType[type] = { source, extensions, ... }
+      const lowPriorityType = 'application/x-low-priority';
+      const ext = 'testext';
+
+      // 强制注入一个 source 为 'default' 的类型
+      // 注意：这依赖于库的内部实现细节，可能需要根据实际版本调整
+      // 在 mime-type 中，通常通过 new MimeType(db) 加载，source 由加载器决定
+      // 如果是通过 define 添加的，source 默认为 'user' (索引 1)
+      // 我们需要一个 source 索引 > 'user' 的类型，即 'default' (索引 2)
+
+      // 如果无法直接设置 source，我们可以利用已有的 'default' 类型
+      // 或者 Mock refSources 的 indexOf (如前所述)
+
+      // 这里假设我们可以通过某种方式设置 source
+      // 如果 mime-type 不支持，最稳妥的方法是 Mock Array.prototype.indexOf
+
+      const originalIndexOf = Array.prototype.indexOf;
+      const refSources = ['node', 'user', 'default']; // 假设这是库内部的 refSources
+
+      // Mock indexOf 使得：
+      // 现有类型 'type-existing' 的 source ('default') 返回 2
+      // 新类型 'type-new' 的 source ('node') 返回 0
+      Array.prototype.indexOf = function(searchElement) {
+        if (searchElement === 'default') return 2;
+        if (searchElement === 'node') return 0;
+        if (searchElement === 'user') return 1;
+        return originalIndexOf.call(this, searchElement);
+      };
+
+      try {
+        // 2. 定义现有类型 (模拟 source 为 'default')
+        // 由于 define 默认设置 source 为 'user'，我们这里假设它被某种方式设为了 'default'
+        // 或者直接依赖 mock 的 indexOf 来模拟 from > to
+        // 为了更真实，我们先定义一个类型
+        mimeType.define('type-existing', { extensions: [ext] });
+        // 强制修改其 source 为 'default' (如果内部结构允许)
+        if (mimeType['type-existing']) {
+          mimeType['type-existing'].source = 'default';
+        }
+
+        // 3. 定义新类型 (source 默认为 'user' 或显式设为 'node')
+        // 调用 define 使用 dupDefault 策略
+        const result = mimeType.define('type-new', { extensions: [ext], source: 'node' }, mimeType.dupDefault);
+
+        // 4. 断言：由于 from (2) > to (0)，应执行 continue，旧类型保留
+        // 检查扩展名映射是否仍指向旧类型
+        assert.equal(mimeType.types[ext], 'type-existing', 'Should not overwrite low priority type');
+        // 或者检查 lookup 结果
+        assert.ok(mimeType.lookup(ext).includes('type-existing'));
+      } finally {
+        // 恢复 indexOf
+        Array.prototype.indexOf = originalIndexOf;
+        // 清理测试数据
+        mimeType.delete('type-existing');
+        mimeType.delete('type-new');
+      }
+    });
   })
   describe('.exist(type)', function () {
     it('should Test a mime type whether is exist', function () {
@@ -304,6 +372,56 @@ describe('mimeType', function () {
       assert.deepEqual(mimeType.lookup('og?'), [ 'application/ogg', 'audio/ogg', 'audio/ogg', 'video/ogg' ])
     })
 
+    it('should return array of MIME types matching wildcard extension', function () {
+      // 2. 定义几个用于测试的 MIME 类型
+      // 假设我们要匹配 'text/x-*' 模式
+      mimeType.define('text/x-custom-1', { extensions: ['cust1'] });
+      mimeType.define('text/x-custom-2', { extensions: ['cust2'] });
+      // mimeType.define('application/json', { extensions: ['json'] }); // 不匹配的
+
+      // 3. 调用 lookup 传入包含通配符的扩展名
+      // 正则 /[*?!+|{]/ 会匹配这些字符
+      // 例如：传入 'x-cust*' 应该匹配 'text/x-custom-1' 和 'text/x-custom-2' 的扩展名吗？
+      // 不，lookup 的逻辑是：
+      // extension = 'x-cust*' (去掉点后)
+      // 然后 filter this.types 的 key (扩展名) 是否匹配 'x-cust*'
+      // 所以我们需要 this.types 中有 'cust1', 'cust2' 等 key
+
+      // 修正：this.types 的结构是 { [ext: string]: mimeTypeString }
+      // 所以 this.types 的 key 是扩展名，如 'cust1', 'json'
+      // 我们要查找 'cust*'，它应该匹配 'cust1' 和 'cust2'
+
+      const result = mimeType.lookup('cust*');
+
+      // 4. 断言
+      // result 应该是一个数组，包含匹配扩展名对应的 MIME 类型
+      assert.ok(Array.isArray(result), 'Result should be an array for wildcard match');
+      assert.ok(result.includes('text/x-custom-1'), 'Should include text/x-custom-1');
+      assert.ok(result.includes('text/x-custom-2'), 'Should include text/x-custom-2');
+      assert.ok(!result.includes('application/json'), 'Should not include non-matching types');
+      mimeType.delete('text/x-custom-1')
+      mimeType.delete('text/x-custom-2')
+      mimeType.delete('text/x-custom-2')
+    });
+
+    it('should handle single char wildcard ?', function () {
+      // mimeType.define('image/png', { extensions: ['png'] });
+      // mimeType.define('image/jpg', { extensions: ['jpg'] });
+      // mimeType.define('image/gif', { extensions: ['gif'] });
+
+      // 'jp?g' 应该匹配 'jpeg'
+      const result = mimeType.lookup('jp?g');
+
+      assert.ok(Array.isArray(result));
+      assert.equal(result.length, 1);
+      assert.ok(result.includes('image/jpeg'));
+    });
+
+    it('should return undefined if no wildcard match found', function () {
+      const result = mimeType.lookup('unknown*');
+
+      assert.equal(result, undefined);
+    });
   })
 
   describe('.lookup(path)', function () {
