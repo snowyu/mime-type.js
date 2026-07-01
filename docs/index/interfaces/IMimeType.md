@@ -6,7 +6,7 @@
 
 # Interface: IMimeType
 
-Defined in: [src/index.d.ts:8](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/index.d.ts#L8)
+Defined in: [src/index.d.ts:8](https://github.com/snowyu/mime-type.js/blob/fcf25b975eed85bc0dd5225ef364eb53c84a2d99/src/index.d.ts#L8)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/index.d.ts:8](https://github.com/snowyu/mime-type.js/blob/60513
 
 > `optional` **charset**: `string`
 
-Defined in: [src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/index.d.ts#L10)
+Defined in: [src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/fcf25b975eed85bc0dd5225ef364eb53c84a2d99/src/index.d.ts#L10)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/index.d.ts:10](https://github.com/snowyu/mime-type.js/blob/6051
 
 > `optional` **compressible**: `boolean`
 
-Defined in: [src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/index.d.ts#L11)
+Defined in: [src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/fcf25b975eed85bc0dd5225ef364eb53c84a2d99/src/index.d.ts#L11)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/index.d.ts:11](https://github.com/snowyu/mime-type.js/blob/6051
 
 > **extensions**: `string` \| `string`[]
 
-Defined in: [src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/index.d.ts#L12)
+Defined in: [src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/fcf25b975eed85bc0dd5225ef364eb53c84a2d99/src/index.d.ts#L12)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [src/index.d.ts:12](https://github.com/snowyu/mime-type.js/blob/6051
 
 > **source**: `string`
 
-Defined in: [src/index.d.ts:9](https://github.com/snowyu/mime-type.js/blob/6051314f0c074925c9a87a8ec54912ea5d451445/src/index.d.ts#L9)
+Defined in: [src/index.d.ts:9](https://github.com/snowyu/mime-type.js/blob/fcf25b975eed85bc0dd5225ef364eb53c84a2d99/src/index.d.ts#L9)

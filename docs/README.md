@@ -7,12 +7,11 @@
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-version-image]][node-version-url]
-[![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-The custom more powerful mime-type utility and built-in [mime-db](https://github.com/jshttp/mime-db).
+The custom more powerful mime-type utility and built-in [mime-db](https://github.com/jshttp/mime-db) for Nodejs and Browser.
 
-fork from [mime-types](https://github.com/jshttp/mime-types), these features added:
+Compare With [mime-types](https://github.com/jshttp/mime-types), these features added:
 
 - you can load mime-types via `mime = require('mime-type/with-db')` directly
 - `mime = new Mime()` business, so you could do `lookup = mime.lookup.bind(mime)`.
@@ -209,6 +208,11 @@ See `mime.define`.
   * use micromatch instead of minimatch. It supports nodejs@8.6 above only.
 * 3.0.0: nodejs <  8.6
 
+## Credit
+
+* [mime-types](https://github.com/jshttp/mime-types)
+* [mime-db](https://github.com/jshttp/mime-db)
+
 ## License
 
 [MIT](_media/LICENSE)
@@ -217,8 +221,6 @@ See `mime.define`.
 [npm-url]: https://npmjs.org/package/mime-type
 [node-version-image]: https://img.shields.io/node/v/mime-type.svg
 [node-version-url]: http://nodejs.org/download/
-[travis-image]: https://img.shields.io/travis/snowyu/mime-type.js/master.svg
-[travis-url]: https://travis-ci.org/snowyu/mime-type.js
 [coveralls-image]: https://img.shields.io/coveralls/snowyu/mime-type.js/master.svg
 [coveralls-url]: https://coveralls.io/r/snowyu/mime-type.js
 [downloads-image]: https://img.shields.io/npm/dm/mime-type.svg
