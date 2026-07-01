@@ -30,9 +30,9 @@
   },
   "repository": "snowyu/mime-type.js",
   "dependencies": {
-    "picomatch": "^4.0.2",
     "path.js": "^2.0.1",
-    "util-ex": "^2.1.0"
+    "picomatch": "^4.0.4",
+    "util-ex": "^2.6.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
@@ -40,6 +40,7 @@
     "@babel/core": "^7.26.0",
     "@babel/plugin-transform-modules-commonjs": "^7.26.3",
     "@babel/register": "^7.25.9",
+    "c8": "^11.0.0",
     "chai": "~5.1.2",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
